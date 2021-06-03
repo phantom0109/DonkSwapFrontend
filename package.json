@@ -11,6 +11,7 @@
     "@pancakeswap-libs/pancake-swap-core": "^0.1.0",
     "@pancakeswap-libs/sdk": "1.0.1",
     "@pancakeswap-libs/uikit": "^0.23.0",
+    "mongodb": "^3.6.9",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
     "@reach/portal": "^0.10.3",
