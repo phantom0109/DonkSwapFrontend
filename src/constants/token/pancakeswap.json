@@ -1,0 +1,53 @@
+{
+  "name": "DonkSwap Menu",
+  "logoURI": "https://donkswap.finance/logo.png",
+  "keywords": ["donkswap", "donk", "swap"],
+  "timestamp": "2020-09-01T00:00:00+00:00",
+  "tokens": [
+    {
+      "address": "0xcEE96f45B1B55c7f836dE13Ab04Bf4Cb6a1bbED2",
+      "chainId": 97,
+      "name": "DONK",
+      "symbol": "DONK",
+      "decimals": 18,
+      "logoURI": "https://bscscan.com/token/images/donkeyking_32.png"
+    }, 
+    {
+      "address": "0x8babbb98678facc7342735486c851abd7a0d17ca",
+      "chainId": 97,
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://pancake.kiemtienonline360.com/images/coins/0x8babbb98678facc7342735486c851abd7a0d17ca.png"
+    },  
+     {
+      "address": "0x78867bbeef44f2326bf8ddd1941a4439382ef2a7",
+      "chainId": 97,
+      "name": "BUSD",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "logoURI": "https://pancake.kiemtienonline360.com/images/coins/0x78867bbeef44f2326bf8ddd1941a4439382ef2a7.png"
+    },
+    {
+      "address": "0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684",
+      "chainId": 97,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://pancake.kiemtienonline360.com/images/coins/0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684.png"
+    },
+    {
+      "address": "0x8a9424745056eb399fd19a0ec26a14316684e274",
+      "chainId": 97,
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://pancake.kiemtienonline360.com/images//coins/0x8a9424745056eb399fd19a0ec26a14316684e274.png"
+    }
+  ],
+  "version": {
+    "major": 85,
+    "minor": 0,
+    "patch": 0
+  }
+}
