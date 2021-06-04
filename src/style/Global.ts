@@ -115,7 +115,7 @@ justify-content: space-between;
 }
 .connect {
 border-radius: 50rem;
-background: #1e003e;
+background: #d4cfda;
 }
 .br-full {
 	border-radius: 50rem;
@@ -256,6 +256,18 @@ font-family: "Ubuntu Mono", sans-serif;
  * {
 	transition: all .2s ease;
   border-radius: 3px !important;
+}
+a:hover{
+color: rgb(140, 84, 187)
+}
+.MuiTypography-h6{
+font-weight: bolder !important;
+font-family: 'Poppins' !important;
+color: rgb(140, 84, 187);
+text-transform: uppercase;
+}
+.MuiToolbar-root {
+  padding-left: 16px !important;
 }
 .donkLogo {
 height: 9rem;

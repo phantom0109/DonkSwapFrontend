@@ -7,10 +7,12 @@ import { Menu, MenuItem, MenuButton } from '@szhsin/react-menu'
 import '@szhsin/react-menu/dist/index.css'
 
 const MenuLinks = [
-  ['Farms 👨‍🌾', '#soon'],
-  ['NFTs 🎨', '#soon'],
-  ['Pools 💦', '#soon'],
-  ['Lottery 🏆', '#soon'],
+  ['Swap', '#swap'],
+  ['Farms', '#soon'],
+  // ['NFTs (soon)', '#soon'],
+  ['Pools', '#soon'],
+  ['Lottery', '#soon'],
+  ['DonkSeal', '#donk-seal'],
 ]
 
 interface Props {
@@ -57,7 +59,9 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
     <div className="relative">
       <LogoIcon className="mobile-icon" />
       {/* @ts-ignore */}
-      <h1 className="desktop-icon">DonkSwap</h1>
+      <h1 className="desktop-icon pointer" onClick={() => (window.location.href = '/')}>
+        DonkSwap
+      </h1>
     </div>
   )
 
@@ -77,7 +81,16 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
       <FlexRow>
         <div className="md-up center pl-rem">
           {MenuLinks.map((d, x) => (
-            <a href={d[1]} key={x} className="self-center font-bold ml-rem" id={`menu-${x}`}>
+            <a
+              href={d[1]}
+              key={x}
+              className="self-center font-bold ml-rem"
+              id={`menu-${x}`}
+              style={{
+                fontWeight: 'bolder',
+                color: 'rgb(140, 84, 187)',
+              }}
+            >
               {d[0]}
             </a>
           ))}
@@ -86,8 +99,8 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
           <Menu menuButton={<div className="font-bold rounded-full pointer">Menu</div>}>
             {/* @ts-ignore */}
             {MenuLinks.map((d, x) => (
-              <MenuItem>
-                <a href={d[1]} key={x} className="font-bold">
+              <MenuItem key={x}>
+                <a href={d[1]} className="font-bold">
                   {d[0]}
                 </a>
               </MenuItem>

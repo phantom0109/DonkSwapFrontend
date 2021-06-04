@@ -37,7 +37,7 @@ const Icon: React.FC<SvgProps> = (props) => {
           />
           <ellipse cx={121.2} cy={114.5} rx={51.8} ry={27.3} transform="rotate(-25.1 121.2 114.5)" fill="#9d70c3" />
           <path d="M249.6 165.6c-.3.1-.5-.4-.3-.6" fill="#c9bdff" />
-          <ellipse cx={122.1} cy={101.2} rx={51.4} ry={27.1} transform="rotate(-25.1 122.1 101.2)" fill="#1e003e" />
+          <ellipse cx={122.1} cy={101.2} rx={51.4} ry={27.1} transform="rotate(-25.1 122.1 101.2)" fill="#d4cfda" />
           <path
             className="prefix__b193831a-2a5c-4a61-852b-d91cc7d8ec71"
             d="M133 57.9L128.3 69a.6.6 0 00.5.8l12.7 2.5c1.3.3.1 2-1.5 2.2l-16 2.3a3.1 3.1 0 00-1.7.8l-10.6 10.8c-1.2 1.2-3.3 1.2-2.8 0l4.5-10.8c.1-.5 0-.8-.5-1l-12.7-2.4c-1.3-.3-.2-2 1.5-2.2l16-2.3a3.1 3.1 0 001.7-.8l10.8-11.1c1.2-1.2 3.3-1.2 2.8 0z"

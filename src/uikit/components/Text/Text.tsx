@@ -18,7 +18,7 @@ const getFontSize = ({ fontSize, small }: TextProps) => {
 const Text = styled.div<TextProps>`
   color: ${getColor};
   font-size: ${getFontSize};
-  font-family: 'DM Sans', monospace;
+  font-family: 'Poppins', monospace;
   font-weight: ${({ bold }) => (bold ? 500 : 400)};
   line-height: 1.5;
   ${({ textTransform }) => textTransform && `text-transform: ${textTransform};`}

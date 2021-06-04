@@ -8,7 +8,10 @@ import { RedirectOldRemoveLiquidityPathStructure } from './RemoveLiquidity/redir
 import AddLiquidity from './AddLiquidity'
 import Pool from './Pool'
 import PoolFinder from './PoolFinder'
+import DonkSeal from './DonkSeal'
 import RemoveLiquidity from './RemoveLiquidity'
+import AddSeal from './AddSeal'
+import DeleteSeal from './DeleteSeal'
 import Swap from './Swap'
 import { RedirectPathToSwapOnly } from './Swap/redirects'
 import Menu from '../components/Menu'
@@ -53,25 +56,27 @@ const Marginer = styled.div`
   margin-top: 5rem;
 `
 
-
-export default function App() { 
-
+export default function App() {
   useGetDocumentTitlePrice()
 
   return (
     <Suspense fallback={null}>
       <HashRouter>
         <AppWrapper>
-<img src="https://www.donk.finance/assets/images/logo.png" className="donkLogo" />
+          <img src="https://www.donk.finance/assets/images/logo.png" className="donkLogo" />
           <Menu>
             <BodyWrapper>
               <Popups />
-            <div className="relative w-swap h-full">
-            <img src="/Strong+DonkeySwap.webp" style={{position: 'absolute', right: '-16rem', top: 45, transform: 'scaleX(-1)'}} />
-            <img src="/Strong+DonkeySwap.webp" style={{position: 'absolute', left: '-16rem', top: 45}} />
-            </div>
+              <div className="relative h-full w-swap" id="donkLogo">
+                <img
+                  src="/Strong+DonkeySwap.webp"
+                  style={{ position: 'absolute', right: '-16rem', top: 45, transform: 'scaleX(-1)' }}
+                />
+                <img src="/Strong+DonkeySwap.webp" style={{ position: 'absolute', left: '-16rem', top: 45 }} />
+              </div>
               <Web3ReactManager>
                 <Switch>
+                  <Route exact path="/donk-seal" component={DonkSeal} />
                   <Route exact strict path="/swap" component={Swap} />
                   <Route exact strict path="/find" component={PoolFinder} />
                   <Route exact strict path="/pool" component={Pool} />
@@ -80,6 +85,8 @@ export default function App() {
                   <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} />
                   <Route exact path="/add/:currencyIdA/:currencyIdB" component={RedirectDuplicateTokenIds} />
                   <Route exact strict path="/remove/:tokens" component={RedirectOldRemoveLiquidityPathStructure} />
+                  <Route exact strict path="/add-seal" component={AddSeal} />
+                  <Route exact strict path="/delete-seal" component={DeleteSeal} />
                   <Route component={RedirectPathToSwapOnly} />
                 </Switch>
               </Web3ReactManager>
