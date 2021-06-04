@@ -61,7 +61,7 @@ export default function DonkSeal() {
                   Action: (props) => {
                     return (
                       <>
-                        {!xs && props.data.name && (
+                        {!xs && props.data.coinName && (
                           <Button onClick={(event?: any) => props.action.onClick(event, props.data)}>SWAP</Button>
                         )}
                       </>
