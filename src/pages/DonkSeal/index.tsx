@@ -71,7 +71,7 @@ export default function DonkSeal() {
                 columns={[
                   {
                     title: 'Name',
-                    field: 'name',
+                    field: 'coinName',
                     render: (rD) => (
                       <div
                         style={{
@@ -82,9 +82,14 @@ export default function DonkSeal() {
                         }}
                       >
                         {/*@ts-ignore */}
-                        <img src={rD.logo} style={{ width: 50, borderRadius: '50%' }} />
-                        {/* @ts-ignore */}
-                        <strong className="ml-rem">{rD?.name}</strong>
+                        <img src={rD.coinLogo} style={{ width: 50, borderRadius: '50%' }} />
+                        <strong className="ml-rem">
+                          {/* @ts-ignore */}
+                          <a href={rD?.coinWebsite}>
+                            {/* @ts-ignore */}
+                            {rD?.coinName}
+                          </a>
+                        </strong>
                       </div>
                     ),
                   },
@@ -120,7 +125,7 @@ export default function DonkSeal() {
                     onClick: (event, data) => {
                       event.preventDefault()
                       // @ts-ignore
-                      window.location.href = `/#/swap?inputCurrency=${data?.address}`
+                      window.location.href = `/#/swap?inputCurrency=${data?.coinAddress}`
                     },
                   },
                 ]}
