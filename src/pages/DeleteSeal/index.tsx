@@ -370,7 +370,7 @@ const DeleteSeal = () => {
             <input type="password" placeholder="Secret" {...register('Password', { required: true })} />
             <Button type="submit">DELETE COIN</Button>
           </form>
-          {status !== 'Success' && (
+          {status === 'Success' && (
             <>
               <br />
               <pre
