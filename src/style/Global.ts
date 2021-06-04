@@ -260,6 +260,10 @@ font-family: "Ubuntu Mono", sans-serif;
 a:hover{
 color: rgb(140, 84, 187)
 }
+ 
+a{
+color: rgb(140, 84, 187)
+}
 .MuiTypography-h6{
 font-weight: bolder !important;
 font-family: 'Poppins' !important;
