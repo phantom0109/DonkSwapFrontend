@@ -115,7 +115,7 @@ justify-content: space-between;
 }
 .connect {
 border-radius: 50rem;
-background: #d4cfda;
+background: #b695d3;
 }
 .br-full {
 	border-radius: 50rem;
