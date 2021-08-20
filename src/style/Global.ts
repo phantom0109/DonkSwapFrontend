@@ -67,7 +67,7 @@ const GlobalStyle = createGlobalStyle`
 	 width: 55vw;
 }
 .text-cream {
-	color: #e3e3e3;
+	color: #000000;
 } 
 .max-h{
 	max-height: 100% !important;
