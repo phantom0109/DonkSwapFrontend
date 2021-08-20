@@ -1,10 +1,10 @@
-import JSBI from 'jsbi'
+import JSBI from 'jsbi';
 
 // exports for external consumption
-export type BigintIsh = JSBI | bigint | string
+export type BigintIsh = JSBI | bigint | string;
 
 export enum ChainId {
-  MAINNET = 97,
+  MAINNET = 56,
   BSCTESTNET = 97
 }
 
@@ -19,9 +19,9 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0xc0B7011fcD67D6F298656f740b6F33d9FCB0baB0'
+export const FACTORY_ADDRESS = '0x04D6b20f805e2bd537DDe84482983AabF59536FF'
 
-export const INIT_CODE_HASH = '0x22664cde4bec0d000b6a8d60dcf2775f4b05ca414feab3572a543c0b050542b9'
+export const INIT_CODE_HASH = '0x459ecd9951ca9e8fb3c808861a5edccb1e68df35278b65d3b2db0b65d5ae472a'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 

@@ -17,7 +17,7 @@ const Menu: React.FC = (props) => {
   const { isDark, toggleTheme } = useTheme()
   // const priceData = useGetPriceData()
   const cakePriceUsd = undefined
-  const profile = useGetLocalProfile()
+  // const profile = useGetLocalProfile()
 
   return (
     <UikitMenu
@@ -31,7 +31,7 @@ const Menu: React.FC = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
-      profile={profile}
+      // profile={profile}
       {...props}
     />
   )

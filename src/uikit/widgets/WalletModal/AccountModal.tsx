@@ -17,13 +17,13 @@ interface Props {
 const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null }) => (
   <Modal title="Your wallet" onDismiss={onDismiss}>
     <div className="flex-row mb-rem">{account && <ProfileHover address={account || ""} />}</div>
-    {/* <Text
+    <Text
       fontSize="20px"
       bold
       style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" }}
     >
       {account}
-    </Text> */}
+    </Text>
     <Flex mb="32px">
       <LinkExternal small href={`https://testnet.bscscan.com/address/${account}`} mr="16px">
         View on BSCSCan

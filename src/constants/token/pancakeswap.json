@@ -3,51 +3,115 @@
   "logoURI": "https://donkswap.finance/logo.png",
   "keywords": ["donkswap", "donk", "swap"],
   "timestamp": "2020-09-01T00:00:00+00:00",
+  "version": {
+    "major": 2,
+    "minor": 10,
+    "patch": 0
+  },
   "tokens": [
     {
-      "address": "0xcEE96f45B1B55c7f836dE13Ab04Bf4Cb6a1bbED2",
-      "chainId": 97,
+      "address": "0x1f82a9b541fe4c322b5cd81dcb066620d57de35c", 
+      "chainId": 56,
       "name": "DONK",
       "symbol": "DONK",
       "decimals": 18,
       "logoURI": "https://bscscan.com/token/images/donkeyking_32.png"
     }, 
     {
-      "address": "0x8babbb98678facc7342735486c851abd7a0d17ca",
-      "chainId": 97,
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://pancake.kiemtienonline360.com/images/coins/0x8babbb98678facc7342735486c851abd7a0d17ca.png"
-    },  
-     {
-      "address": "0x78867bbeef44f2326bf8ddd1941a4439382ef2a7",
-      "chainId": 97,
-      "name": "BUSD",
-      "symbol": "BUSD",
-      "decimals": 18,
-      "logoURI": "https://pancake.kiemtienonline360.com/images/coins/0x78867bbeef44f2326bf8ddd1941a4439382ef2a7.png"
+      "logoURI": "https://swap.shibanova.io/images/coins/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
     },
     {
-      "address": "0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684",
-      "chainId": 97,
+      "name": "Polygon Token",
+      "symbol": "MATIC",
+      "address": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://swap.shibanova.io/images/coins/0xcc42724c6683b7e57334c4e856f4c9965ed682bd.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+    },
+    {
+      "name": "Ethereum Token",
+      "symbol": "ETH",
+      "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+    },
+    {
+      "name": "BTCB Token",
+      "symbol": "BTCB",
+      "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
+    },
+    {
       "name": "Tether USD",
       "symbol": "USDT",
+      "address": "0x55d398326f99059ff775485246999027b3197955",
+      "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://pancake.kiemtienonline360.com/images/coins/0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684.png"
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
     },
     {
-      "address": "0x8a9424745056eb399fd19a0ec26a14316684e274",
-      "chainId": 97,
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
+      "name": "Cardano",
+      "symbol": "ADA",
+      "address": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+      "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://pancake.kiemtienonline360.com/images//coins/0x8a9424745056eb399fd19a0ec26a14316684e274.png"
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x3ee2200efb3400fabb9aacf31297cbdd1d435d47.png"
+    },
+    {
+      "name": "DAI",
+      "symbol": "DAI",
+      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
+    },
+    {
+      "name": "PolkaDot",
+      "symbol": "DOT",
+      "address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x7083609fce4d1d8dc0c979aab8c869ea2c873402.png"
+    },
+    {
+      "name": "ChainLink",
+      "symbol": "LINK",
+      "address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png"
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
     }
-  ],
-  "version": {
-    "major": 85,
-    "minor": 0,
-    "patch": 0
-  }
+  ]
 }

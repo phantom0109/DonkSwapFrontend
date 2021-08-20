@@ -31,9 +31,9 @@ export default function DonkSeal() {
         console.error('error', error)
         setData([
           {
-            _id: '0xcEE96f45B1B55c7f836dE13Ab04Bf4Cb6a1bbED2',
+            _id: '0x1f82a9b541fe4c322b5cd81dcb066620d57de35c',
             coinName: 'DONK',
-            coinAddress: '0xcEE96f45B1B55c7f836dE13Ab04Bf4Cb6a1bbED2',
+            coinAddress: '0x1f82a9b541fe4c322b5cd81dcb066620d57de35c',
             coinLogo:
               'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x1F82a9b541FE4C322B5cd81DCB066620D57de35C/logo.png',
             coinWebsite: 'https://donk.finance',

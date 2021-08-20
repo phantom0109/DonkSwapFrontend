@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   body {
-    // background-color:#9de6c5;
+    background-color:#9d70c3;
     background-image: url("/donk_sky.webp");
     background-repeat: no-repeat;
     background-size: cover;
