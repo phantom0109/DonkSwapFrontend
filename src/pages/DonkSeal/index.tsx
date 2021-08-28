@@ -30,10 +30,11 @@ export default function DonkSeal() {
       .catch(function (error) {
         console.error('error', error)
         setData([
+         
           {
-            _id: '0x1f82a9b541fe4c322b5cd81dcb066620d57de35c',
-            coinName: 'DONK',
-            coinAddress: '0x1f82a9b541fe4c322b5cd81dcb066620d57de35c',
+            _id: '0x85d9badf5c27abc5c78006d1b7f644839a3374cf',
+            coinName: 'DonkSwap Token (DST)',
+            coinAddress: '0x85d9badf5c27abc5c78006d1b7f644839a3374cf',
             coinLogo:
               'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x1F82a9b541FE4C322B5cd81DCB066620D57de35C/logo.png',
             coinWebsite: 'https://donk.finance',

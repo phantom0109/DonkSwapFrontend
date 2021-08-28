@@ -14,7 +14,15 @@
       "chainId": 56,
       "name": "DONK",
       "symbol": "DONK",
-      "decimals": 18,
+      "decimals": 9,
+      "logoURI": "https://bscscan.com/token/images/donkeyking_32.png"
+    }, 
+    {
+      "address": "0x85d9badf5c27abc5c78006d1b7f644839a3374cf", 
+      "chainId": 56,
+      "name": "DonkSwap Token",
+      "symbol": "DST",
+      "decimals": 9,
       "logoURI": "https://bscscan.com/token/images/donkeyking_32.png"
     }, 
     {

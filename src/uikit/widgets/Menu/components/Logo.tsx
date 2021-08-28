@@ -8,11 +8,13 @@ import '@szhsin/react-menu/dist/index.css'
 
 const MenuLinks = [
   ['Swap', '#swap'],
+  ['NEW TOKEN', 'https://swap.donkswap.com'],
   ['Farms', '#soon'],
   // ['NFTs (soon)', '#soon'],
-  ['Pools', '#soon'],
-  ['Lottery', '#soon'],
+  // ['Pools', '#soon'],
+  // ['Lottery', '#soon'],
   ['DonkSeal', '#donk-seal'],
+  ['Link Tree', 'https://linktr.ee/DonkeyKingFinance'],
 ]
 
 interface Props {
