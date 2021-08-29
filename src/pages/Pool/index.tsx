@@ -115,7 +115,7 @@ export default function Pool() {
               <div>
                 <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
                   {TranslateString(106, "Don't see a pool you joined?")}{' '}
-                  <StyledInternalLink id="import-pool-link" to="/find">
+                  <StyledInternalLink style ={{color:"purple"}} id="import-pool-link" to="/find">
                     {TranslateString(108, 'Import it.')}
                   </StyledInternalLink>
                 </Text>

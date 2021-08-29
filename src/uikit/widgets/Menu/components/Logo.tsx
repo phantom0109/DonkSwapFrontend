@@ -8,13 +8,13 @@ import '@szhsin/react-menu/dist/index.css'
 
 const MenuLinks = [
   ['Swap', '#swap'],
-  ['NEW TOKEN', 'https://swap.donkswap.com'],
+  ['New Token', 'https://swap.donkswap.com'],
   ['Farms', '#soon'],
   // ['NFTs (soon)', '#soon'],
   // ['Pools', '#soon'],
   // ['Lottery', '#soon'],
   ['DonkSeal', '#donk-seal'],
-  ['Link Tree', 'https://linktr.ee/DonkeyKingFinance'],
+  ['LinkTree', 'https://linktr.ee/DonkeyKingFinance'],
 ]
 
 interface Props {
@@ -25,6 +25,7 @@ interface Props {
 }
 const FlexRow = styled.div`
   display: flex;
+  
   flex-direction: row;
   width: 100%;
   margin-left: 1rem;
@@ -35,6 +36,7 @@ const FlexRow = styled.div`
 
 const StyledLink = styled(Link)`
   display: flex;
+  
   align-items: center;
   .mobile-icon {
     width: 32px;

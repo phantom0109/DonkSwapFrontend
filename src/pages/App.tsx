@@ -22,6 +22,8 @@ const AppWrapper = styled.div`
   flex-flow: column;
   align-items: flex-start;
   overflow-x: hidden;
+  background: linear-gradient(90deg, #15012e 0%, #360451 10%, #3f067d 50%, #360451 90%, #1d012e 100%);
+  // background: linear-gradient(#8314be, #3c02e6 100%);
 `
 
 const BodyWrapper = styled.div`
@@ -38,13 +40,14 @@ const BodyWrapper = styled.div`
   background-repeat: no-repeat;
   background-position: bottom 24px center;
   background-size: 90%;
+  
 
   ${({ theme }) => theme.mediaQueries.xs} {
     background-size: auto;
   }
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/arch-light.svg');
+    // background-image: url('/images/arch-light.svg');
     background-repeat: no-repeat;
     background-position: center 420px, 10% 230px, 90% 230px;
     background-size: contain, 266px, 266px;
