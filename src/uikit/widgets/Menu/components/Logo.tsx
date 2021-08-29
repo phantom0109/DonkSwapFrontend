@@ -8,7 +8,7 @@ import '@szhsin/react-menu/dist/index.css'
 
 const MenuLinks = [
   ['Swap', '#swap'],
-  ['New Token', 'https://swap.donkswap.com'],
+  ['New Token', 'https://donktokenswap.com/'],
   ['Farms', '#soon'],
   // ['NFTs (soon)', '#soon'],
   // ['Pools', '#soon'],
