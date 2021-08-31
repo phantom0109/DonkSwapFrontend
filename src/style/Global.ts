@@ -11,9 +11,7 @@ const GlobalStyle = createGlobalStyle`
       max-width: 100%;
     }
   }
-[title^='Donk'] {
-    display: none;
-}
+
 #swap-tabs{
     background: white;
 }

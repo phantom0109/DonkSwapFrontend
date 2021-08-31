@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 
 const useGetDocumentTitlePrice = () => {
 
-  const cakePriceUsd = `Elon's Favorite Swap`;
+  const cakePriceUsd = `The Official Rug-Proof BSC Exchange`;
 
   useEffect(() => {
     document.title = `DonkSwap - ${cakePriceUsd}`

@@ -22,7 +22,7 @@ export function isAddress(value: any): string | false {
 // }
 
 export function getBscScanLink(data: string, type: 'transaction' | 'token' | 'address'): string {
-  const prefix = `https://testnet.bscscan.com`
+  const prefix = `https://bscscan.com`
 
   switch (type) {
     case 'transaction': {
