@@ -32,9 +32,9 @@ export default function DonkSeal() {
         setData([
          
           {
-            _id: '0x85d9badf5c27abc5c78006d1b7f644839a3374cf',
+            _id: '0x3969Fe107bAe2537cb58047159a83C33dfbD73f9',
             coinName: 'DonkSwap Token (DST)',
-            coinAddress: '0x85d9badf5c27abc5c78006d1b7f644839a3374cf',
+            coinAddress: '0x3969Fe107bAe2537cb58047159a83C33dfbD73f9',
             coinLogo:
               'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x1F82a9b541FE4C322B5cd81DCB066620D57de35C/logo.png',
             coinWebsite: 'https://donk.finance',
