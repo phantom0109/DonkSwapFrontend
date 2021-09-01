@@ -27,13 +27,38 @@
       "logoURI": "https://swap.shibanova.io/images/coins/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
     },
     {
-      "name": "Polygon Token",
-      "symbol": "MATIC",
-      "address": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+      "name": "BubbleGum Token",
+      "symbol": "BUBBLEGUM",
+      "address": "0x58bfc98f3974aef4fed9a0168b97cccd3512cb4a",
       "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://swap.shibanova.io/images/coins/0xcc42724c6683b7e57334c4e856f4c9965ed682bd.png"
+      "decimals": 9,
+      "logoURI": "https://DONKSWAP.COM/images/coins/bubblegum.png"
     },
+    {
+      "name": "Farmageddon Token",
+      "symbol": "FG",
+      "address": "0x4492ca0aff6d603e18aea5075b49a5ff76b9ea06",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://DONKSWAP.COM/images/coins/fg.png"
+    },
+    {
+      "name": "Newb Token",
+      "symbol": "NEWB",
+      "address": "0x982c05a6c9ce6107ccbc325ec3123f2d558a4904",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://DONKSWAP.COM/images/coins/newb.png"
+    },
+    {
+      "name": "InfiniteOne Token",
+      "symbol": "IF1",
+      "address": "0xfcac1a3ede7b55cc51e3ebff2885a67fbfe01a1a",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://DONKSWAP.COM/images/coins/if1.png"
+    },
+
     {
       "name": "BUSD Token",
       "symbol": "BUSD",
@@ -65,54 +90,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
-    },
-    {
-      "name": "Cardano",
-      "symbol": "ADA",
-      "address": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x3ee2200efb3400fabb9aacf31297cbdd1d435d47.png"
-    },
-    {
-      "name": "DAI",
-      "symbol": "DAI",
-      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
-    },
-    {
-      "name": "PolkaDot",
-      "symbol": "DOT",
-      "address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x7083609fce4d1d8dc0c979aab8c869ea2c873402.png"
-    },
-    {
-      "name": "ChainLink",
-      "symbol": "LINK",
-      "address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png"
-    },
-    {
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
-    },
-    {
-      "name": "PancakeSwap Token",
-      "symbol": "CAKE",
-      "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
     }
   ]
 }
