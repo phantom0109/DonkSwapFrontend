@@ -295,6 +295,32 @@ padding-right: 40px;
   } 
   }
 
+  .space-between{
+    justify-content: space-between;
+  }
+
+  .space-evenly{
+    justify-content: space-evenly;
+  }
+
+  .center {
+    justify-content: center;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .mb-1 {
+    margin-bottom: 5px;
+  }
+
+  .mt-2 {
+    margin-top: 10px;
+  }
+  .padding-10 {
+    padding: 10px;
+  }
 `
 
 export default GlobalStyle

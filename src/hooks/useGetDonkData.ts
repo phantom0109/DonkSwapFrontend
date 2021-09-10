@@ -1,22 +1,19 @@
 import { useEffect, useState } from 'react'
 
 type ApiResponse = {
-  updated_at: string
-  data: {
-    [key: string]: {
-      name: string
-      symbol: string
-      price: string
-      price_BNB: string
-    }
-  }
+  circulatingSupply: string
+  burned: string
+  totalBNBInPool: string
+  liquidityPoolUSD: string
+  marketcapUSD: string
+  skPrice: string
 }
 
-const api = 'https://api.pancakeswap.info/api/tokens'
+const api = 'https://us-central1-donkswap-api.cloudfunctions.net/getDonkData'
 
-const useGetPriceData = () => {
+const useGetDonkData = () => {
+  const [data, setData] = useState<ApiResponse | null>(null)
   const FAST_INTERVAL = 60000
-  const [data, setData] = useState<ApiResponse | null>(null)  
   const [fast, setFast] = useState<number>(0)
 
   useEffect(() => {
@@ -39,9 +36,9 @@ const useGetPriceData = () => {
     }
 
     fetchData()
-  }, [])
+  }, [fast])
 
   return data
 }
 
-export default useGetPriceData
+export default useGetDonkData

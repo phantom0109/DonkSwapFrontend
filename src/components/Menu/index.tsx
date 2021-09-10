@@ -5,6 +5,7 @@ import { allLanguages } from 'constants/localisation/languageCodes'
 import { LanguageContext } from 'hooks/LanguageContext'
 import useTheme from 'hooks/useTheme'
 // import useGetPriceData from 'hooks/useGetPriceData'
+import useGetDonkData from 'hooks/useGetDonkData'
 import useGetLocalProfile from 'hooks/useGetLocalProfile'
 import useAuth from 'hooks/useAuth'
 import links from './config'
@@ -15,7 +16,9 @@ const Menu: React.FC = (props) => {
   const { login, logout } = useAuth()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
   const { isDark, toggleTheme } = useTheme()
-  // const priceData = useGetPriceData()
+  const donkData = useGetDonkData();
+
+  console.log(donkData);
   const cakePriceUsd = undefined
   // const profile = useGetLocalProfile()
 

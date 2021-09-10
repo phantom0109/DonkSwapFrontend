@@ -1,5 +1,6 @@
 import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { ArrowDown } from 'react-feather'
+import styled from 'styled-components'
 import { CardBody, ArrowDownIcon, Button, IconButton, Text } from '../../uikit'
 import { ThemeContext } from 'styled-components'
 import AddressInputPanel from 'components/AddressInputPanel'
@@ -16,6 +17,7 @@ import TradePrice from 'components/swap/TradePrice'
 import TokenWarningModal from 'components/TokenWarningModal'
 import SyrupWarningModal from 'components/SyrupWarningModal'
 import ProgressSteps from 'components/ProgressSteps'
+import { isMobile } from 'react-device-detect'
 
 import { INITIAL_ALLOWED_SLIPPAGE } from 'constants/index'
 import { useActiveWeb3React } from 'hooks'
@@ -26,8 +28,10 @@ import useWrapCallback, { WrapType } from 'hooks/useWrapCallback'
 import { Field } from 'state/swap/actions'
 import { useDefaultsFromURLSearch, useDerivedSwapInfo, useSwapActionHandlers, useSwapState } from 'state/swap/hooks'
 import { useExpertModeManager, useUserDeadline, useUserSlippageTolerance } from 'state/user/hooks'
+import useGetDonkData from '../../hooks/useGetDonkData';
 import { LinkStyledButton } from 'components/Shared'
 import { maxAmountSpend } from 'utils/maxAmountSpend'
+import { convertNumberToShortString } from 'utils/convertNumberToSmall';
 import { computeTradePriceBreakdown, warningSeverity } from 'utils/prices'
 import Loader from 'components/Loader'
 import useI18n from 'hooks/useI18n'
@@ -35,6 +39,12 @@ import PageHeader from 'components/PageHeader'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { CurrencyAmount, JSBI, Token, Trade } from '../../sdk'
 import AppBody from '../AppBody'
+import { Spinner } from '../../components/Shared';
+
+const CustomLightSpinner = styled(Spinner) <{ size: string }>`
+  height: ${({ size }) => size};
+  width: ${({ size }) => size};
+`
 
 const Swap = () => {
   const loadedUrlParams = useDefaultsFromURLSearch()
@@ -46,6 +56,7 @@ const Swap = () => {
     useCurrency(loadedUrlParams?.outputCurrencyId),
   ]
   const [dismissTokenWarning, setDismissTokenWarning] = useState<boolean>(false)
+  const donkData = useGetDonkData();
   const [isSyrup, setIsSyrup] = useState<boolean>(false)
   const [syrupTransactionType, setSyrupTransactionType] = useState<string>('')
   const urlLoadedTokens: Token[] = useMemo(
@@ -83,13 +94,13 @@ const Swap = () => {
 
   const parsedAmounts = showWrap
     ? {
-        [Field.INPUT]: parsedAmount,
-        [Field.OUTPUT]: parsedAmount,
-      }
+      [Field.INPUT]: parsedAmount,
+      [Field.OUTPUT]: parsedAmount,
+    }
     : {
-        [Field.INPUT]: independentField === Field.INPUT ? parsedAmount : trade?.inputAmount,
-        [Field.OUTPUT]: independentField === Field.OUTPUT ? parsedAmount : trade?.outputAmount,
-      }
+      [Field.INPUT]: independentField === Field.INPUT ? parsedAmount : trade?.inputAmount,
+      [Field.OUTPUT]: independentField === Field.OUTPUT ? parsedAmount : trade?.outputAmount,
+    }
 
   const { onSwitchTokens, onCurrencySelection, onUserInput, onChangeRecipient } = useSwapActionHandlers()
   const isValid = !swapInputError
@@ -466,6 +477,39 @@ const Swap = () => {
               {showApproveFlow && <ProgressSteps steps={[approval === ApprovalState.APPROVED]} />}
               {isExpertMode && swapErrorMessage ? <SwapCallbackError error={swapErrorMessage} /> : null}
             </BottomGrouping>
+          </CardBody>
+        </Wrapper>
+      </AppBody>
+      <AppBody mt='10px'>
+        <Wrapper>
+          <CardBody className='padding-10'>
+            <AutoRow className={isMobile ? 'space-evenly': 'space-between'}>
+              <AutoColumn>
+                <AutoRow className='center bold mb-1'>
+                  {donkData ? convertNumberToShortString(parseInt(parseFloat(donkData?.circulatingSupply).toFixed(0))) :
+                    <CustomLightSpinner src="/images/blue-loader.svg" alt="loader" size="25px" />}
+                </AutoRow>
+                <AutoRow className='center bold'>
+                  {isMobile ? 'Circulating Supply' : 'Circulating' }
+                </AutoRow>
+              </AutoColumn>
+              <AutoColumn>
+                <AutoRow className='center bold mb-1'>
+                  {donkData ? '$' + donkData?.skPrice :
+                    <CustomLightSpinner src="/images/blue-loader.svg" alt="loader" size="25px" />}
+                </AutoRow>
+                <AutoRow className='center bold'>
+                  $DST Price
+                </AutoRow>
+              </AutoColumn>
+              <AutoColumn>
+                <AutoRow className={isMobile ? 'center bold mb-1 mt-2' : 'center bold mb-1'}>
+                  {donkData ? '$' + parseInt(parseFloat(donkData?.marketcapUSD).toFixed(0)).toLocaleString('en') :
+                    <CustomLightSpinner src="/images/blue-loader.svg" alt="loader" size="25px" />}
+                </AutoRow>
+                <AutoRow className='center bold'>Market Cap</AutoRow>
+              </AutoColumn>
+            </AutoRow>
           </CardBody>
         </Wrapper>
       </AppBody>
