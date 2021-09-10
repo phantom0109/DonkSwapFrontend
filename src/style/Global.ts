@@ -316,7 +316,7 @@ padding-right: 40px;
   }
 
   .mt-2 {
-    margin-top: 10px;
+    margin-top: 10px !important;
   }
   .padding-10 {
     padding: 10px;
