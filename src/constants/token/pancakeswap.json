@@ -19,28 +19,12 @@
       "logoURI": "https://bscscan.com/token/images/donkeyking_32.png"
     },
     {
-      "name": "",
-      "symbol": "",
-      "address": "",
-      "chainId": ,
-      "decimals": ,
-      "logoURI": ""
-    },
-    {
       "name": "Farmageddon Token",
       "symbol": "FG",
       "address": "0x4492ca0aff6d603e18aea5075b49a5ff76b9ea06",
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://DONKSWAP.COM/images/coins/fg.png"
-    },
-    {
-      "name": "",
-      "symbol": "",
-      "address": "",
-      "chainId": ,
-      "decimals": ,
-      "logoURI": ""
     },
     {
       "name": "InfiniteOne Token",
@@ -58,7 +42,7 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://DONKSWAP.COM/images/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
-    },     
+    },  
     {
       "name": "Wrapped BNB",
       "symbol": "WBNB",
