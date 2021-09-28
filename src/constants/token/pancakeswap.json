@@ -19,12 +19,12 @@
       "logoURI": "https://bscscan.com/token/images/donkeyking_32.png"
     },
     {
-      "name": "BubbleGum Token",
-      "symbol": "BUBBLEGUM",
-      "address": "0x58bfc98f3974aef4fed9a0168b97cccd3512cb4a",
-      "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://DONKSWAP.COM/images/coins/bubblegum.png"
+      "name": "",
+      "symbol": "",
+      "address": "",
+      "chainId": ,
+      "decimals": ,
+      "logoURI": ""
     },
     {
       "name": "Farmageddon Token",
@@ -35,12 +35,12 @@
       "logoURI": "https://DONKSWAP.COM/images/coins/fg.png"
     },
     {
-      "name": "Newb Token",
-      "symbol": "NEWB",
-      "address": "0x982c05a6c9ce6107ccbc325ec3123f2d558a4904",
-      "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://DONKSWAP.COM/images/coins/newb.png"
+      "name": "",
+      "symbol": "",
+      "address": "",
+      "chainId": ,
+      "decimals": ,
+      "logoURI": ""
     },
     {
       "name": "InfiniteOne Token",
