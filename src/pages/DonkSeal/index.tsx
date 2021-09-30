@@ -46,7 +46,7 @@ export default function DonkSeal() {
             coinLogo:
               'https://i.imgur.com/5AGI34Z.png',
             coinWebsite: 'https://farmageddon.farm',
-          }
+          },
           {
             _id: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
             coinName: 'InfiniteOne  (IF1)',
@@ -54,7 +54,7 @@ export default function DonkSeal() {
             coinLogo:
               'https://hosting.renderforestsites.com/13950379/628732/media/2090f945c1e38fd1d23fc19cf794db6c.png',
             coinWebsite: 'https://infiniteone.io/',
-          }
+          },
         ])
       })
   }, [])
