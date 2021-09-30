@@ -39,6 +39,14 @@ export default function DonkSeal() {
               'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x1F82a9b541FE4C322B5cd81DCB066620D57de35C/logo.png',
             coinWebsite: 'https://donk.finance',
           },
+          {
+            _id: '0x4492cA0AFF6D603e18Aea5075B49A5ff76b9Ea06',
+            coinName: 'Farmageddon  (FG)',
+            coinAddress: '0x4492cA0AFF6D603e18Aea5075B49A5ff76b9Ea06',
+            coinLogo:
+              'https://i.imgur.com/5AGI34Z.png',
+            coinWebsite: 'https://farmageddon.farm',
+          }
         ])
       })
   }, [])
