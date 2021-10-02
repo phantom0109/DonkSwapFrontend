@@ -48,6 +48,14 @@ export default function DonkSeal() {
             coinWebsite: 'https://farmageddon.farm',
           },
           {
+            _id: '0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48',
+            coinName: 'Fertilizer   (FRT)',
+            coinAddress: '0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48',
+            coinLogo:
+              '[url=https://ibb.co/4JWr54X][img]https://i.ibb.co/4JWr54X/photo1633193176.jpg[/img][/url]',
+            coinWebsite: 'https://farmageddon.farm',
+          },
+           {
             _id: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
             coinName: 'InfiniteOne  (IF1)',
             coinAddress: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
