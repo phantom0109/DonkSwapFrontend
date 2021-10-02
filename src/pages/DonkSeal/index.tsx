@@ -52,7 +52,7 @@ export default function DonkSeal() {
             coinName: 'Fertilizer   (FRT)',
             coinAddress: '0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48',
             coinLogo:
-              '[url=https://ibb.co/4JWr54X][img]https://i.ibb.co/4JWr54X/photo1633193176.jpg[/img][/url]',
+              'https://i.ibb.co/6NYCfDT/photo1633193176.jpg',
             coinWebsite: 'https://farmageddon.farm',
           },
            {
