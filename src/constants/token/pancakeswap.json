@@ -27,6 +27,14 @@
       "logoURI": "https://DONKSWAP.COM/images/coins/fg.png"
     },
     {
+      "name": "FERTILIZER TOKEN",
+      "symbol": "FRT",
+      "address": "0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/6NYCfDT/photo1633193176.jpg"
+    },
+    {
       "name": "InfiniteOne Token",
       "symbol": "IF1",
       "address": "0xfcac1a3ede7b55cc51e3ebff2885a67fbfe01a1a",
