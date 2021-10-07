@@ -33,6 +33,8 @@ const AddSeal = () => {
         coinAddress: data.Address,
         coinLogo: data.Logo,
         coinWebsite: data.Website,
+        auditLogo: data.Logo,
+        auditFile: data.Website,
         hash: data.Password,
       },
     }
