@@ -82,7 +82,7 @@ export default function DonkSeal() {
             auditFile: '',
             auditLogo: '',
           },
-          },
+        
         ])
       })
   }, [])
