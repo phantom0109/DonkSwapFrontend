@@ -71,7 +71,7 @@ export default function DonkSeal() {
             coinWebsite: 'https://infiniteone.io/',
             auditFile: '',
             auditLogo: '',
-            {
+           {
             _id: '0x33837Ad88d3488020F140996dcBD44E7eebe8fD4',
             coinName: 'Pecunia  (PEC)',
             coinAddress: '0x33837Ad88d3488020F140996dcBD44E7eebe8fD4',
