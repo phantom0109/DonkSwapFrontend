@@ -40,7 +40,7 @@ export default function DonkSeal() {
               'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x1F82a9b541FE4C322B5cd81DCB066620D57de35C/logo.png',
             coinWebsite: 'https://donk.finance',
             auditFile: 'https://donkswap.com/flypaperaudit.pdf',
-            auditLogo: 'https://donkswap.com/images/flylogo.png',
+            auditLogo: 'https://i.ibb.co/HVwMv7H/logo.png',
           },
           {
             _id: '0x4492cA0AFF6D603e18Aea5075B49A5ff76b9Ea06',
