@@ -39,8 +39,8 @@ export default function DonkSeal() {
             coinLogo:
               'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x1F82a9b541FE4C322B5cd81DCB066620D57de35C/logo.png',
             coinWebsite: 'https://donk.finance',
-            auditFile: 'https://donkswap.com/flypaperaudit.pdf',
-            auditLogo: 'https://i.ibb.co/6WP1kML/flylogo.png',
+            auditFile: 'https://github.com/Watchtower-WTW/Public_Audits/blob/main/DONKSWAP%20Smart%20Contract%20Security%20Audit%20(1).pdf',
+            auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
           },
           {
             _id: '0x4492cA0AFF6D603e18Aea5075B49A5ff76b9Ea06',
