@@ -42,7 +42,14 @@
       "decimals": 9,
       "logoURI": "https://DONKSWAP.COM/images/coins/if1.png"
     },
-
+    {
+      "name": "Pecunia Token",
+      "symbol": "PEC",
+      "address": "0x33837Ad88d3488020F140996dcBD44E7eebe8fD",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/hVJ3CGD/Pecunia.jpg"
+    },
     {
       "name": "BUSD Token",
       "symbol": "BUSD",
