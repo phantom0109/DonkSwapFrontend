@@ -66,7 +66,7 @@ export default function App() {
     <Suspense fallback={null}>
       <HashRouter>
         <AppWrapper>
-          <img src="https://www.donk.finance/assets/images/logo.png" className="donkLogo" />
+          <img src="https://um2110-t.renderforest.com/u14686203/visuals/thumb_03d8574d-7b0c-4a87-8a81-680f80a6d7f2.jpg" />
           <Menu>
             <BodyWrapper>
               <Popups />
