@@ -69,8 +69,8 @@ export default function DonkSeal() {
             coinLogo:
               'https://hosting.renderforestsites.com/13950379/628732/media/2090f945c1e38fd1d23fc19cf794db6c.png',
             coinWebsite: 'https://infiniteone.io/',
-            auditFile: '',
-            auditLogo: '',
+            auditFile: 'https://github.com/ScientificChickenSander/EggChainCertifiedAudits/blob/main/EggChainAudit-InfiniteOne-14092021.pdf',
+            auditLogo: 'https://i.ibb.co/9W1CdQm/Egg-C-Audit-Logo.png',
            },
            {
             _id: '0x33837Ad88d3488020F140996dcBD44E7eebe8fD4',
