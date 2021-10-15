@@ -49,8 +49,8 @@ export default function DonkSeal() {
             coinLogo:
               'https://i.imgur.com/5AGI34Z.png',
             coinWebsite: 'https://farmageddon.farm',
-            auditFile: '',
-            auditLogo: '',
+            auditFile: 'https://github.com/ScientificChickenSander/EggChainCertifiedAudits/blob/main/EggChainAudit-Farmageddon-02092021.pdf',
+            auditLogo: 'https://i.ibb.co/9W1CdQm/Egg-C-Audit-Logo.png',
           },
           {
             _id: '0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48',
@@ -80,7 +80,7 @@ export default function DonkSeal() {
               'https://i.ibb.co/hVJ3CGD/Pecunia.jpg',
             coinWebsite: 'https://www.pecuniacrypto.com/',
             auditFile: '',
-            auditLogo: '',
+            auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
           },
         
         ])
