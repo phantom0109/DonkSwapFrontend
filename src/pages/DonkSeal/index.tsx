@@ -49,8 +49,8 @@ export default function DonkSeal() {
             coinLogo:
               'https://i.imgur.com/5AGI34Z.png',
             coinWebsite: 'https://farmageddon.farm',
-            auditFile: 'https://github.com/ScientificChickenSander/EggChainCertifiedAudits/blob/main/EggChainAudit-Farmageddon-02092021.pdf',
-            auditLogo: 'https://i.ibb.co/9W1CdQm/Egg-C-Audit-Logo.png',
+            auditFile: 'https://8cbbe279-3c83-4cff-a3ee-23bb45499061.usrfiles.com/ugd/8cbbe2_311364b869d6495c9e1b4ae03c2d2618.pdf',
+            auditLogo: 'https://i.ibb.co/6WP1kML/flylogo.png',
           },
           {
             _id: '0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48',
