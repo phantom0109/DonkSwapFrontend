@@ -50,6 +50,14 @@
       "logoURI": "https://i.ibb.co/hVJ3CGD/Pecunia.jpg"
     },
     {
+      "name": "CryoGen Token",
+      "symbol": "CRYOGEN",
+      "address": "0x6a73a99fac60c265863307c5a40abf32f0a040ac",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/GHM8K8F/Cryogen.png"
+    },
+    {
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
