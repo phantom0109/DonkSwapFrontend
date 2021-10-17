@@ -82,7 +82,16 @@ export default function DonkSeal() {
             auditFile: '',
             auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
           },
-        
+           {
+            _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
+            coinName: 'CryoGen  (CRYOGEN)',
+            coinAddress: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
+            coinLogo:
+              'https://i.ibb.co/GHM8K8F/Cryogen.png',
+            coinWebsite: 'https://cryogen.life/',
+            auditFile: '',
+            auditLogo: '',
+          },
         ])
       })
   }, [])
