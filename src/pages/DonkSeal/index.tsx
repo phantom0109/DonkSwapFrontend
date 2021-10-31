@@ -90,7 +90,7 @@ export default function DonkSeal() {
               'https://i.ibb.co/GHM8K8F/Cryogen.png',
             coinWebsite: 'https://cryogen.life/',
             auditFile: '',
-            auditLogo: '',
+            auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
           },
         ])
       })
