@@ -70,13 +70,13 @@ export default function App() {
           <Menu>
             <BodyWrapper>
               <Popups />
-              <div className="relative h-full w-swap" id="donkLogo">
+              {/* <div className="relative h-full w-swap" id="donkLogo">
                 <img
                   src="/Strong+DonkeySwap.webp"
                   style={{ position: 'absolute', right: '-16rem', top: 45, transform: 'scaleX(-1)' }}
                 />
                 <img src="/Strong+DonkeySwap.webp" style={{ position: 'absolute', left: '-16rem', top: 45 }} />
-              </div>
+              </div> */}
               <Web3ReactManager>
                 <Switch>
                   <Route exact path="/donk-seal" component={DonkSeal} />
