@@ -8,12 +8,12 @@ import '@szhsin/react-menu/dist/index.css'
 
 const MenuLinks = [
   ['Swap', '#swap'],
-  ['Donkey Mines', '#soon'],
-  ['Casino', '#soon'],
+  ['DonkSeal', '#donk-seal'],
+  ['Donkey King Casino', '#soon'],
   // ['NFTs (soon)', '#soon'],
   // ['Pools', '#soon'],
   // ['Lottery', '#soon'],
-  ['DonkSeal', '#donk-seal'],
+  ['Donkey Mines', 'soon'],
   ['LinkTree', 'https://linktr.ee/DonkeyKingFinance'],
 ]
 
