@@ -24,8 +24,8 @@ export default function Home() {
                     <div className="col-lg-8">
                         <div className="header-hero-content text-center">
                             <h3 className="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Donkey King Finance (DonkSwap Token)</h3>
-                            <h2 className="header-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">"The Earth is not flat, it’s a hollow globe & Donkey King lives there!" <br /> -Elon Musk</h2>
-                            <p className="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">We heard you, Elon Musk. Thus the time has come for all to be introduced to Donkey King Finance ($DST) — a passive income generating, deflationary DeFi token.</p>
+                            <h2 className="header-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">DonkSwap - Ending Rug-Pulls One Safe Project at a Time! <br /> - Aaron Reading (CEO - Donkey King Finance)</h2>
+                            <p className="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">The time has come for all to be introduced to DonkSwap Token ($DST) — a passive income generating, deflationary DeFi token.</p>
                             <a href="https://t.me/donkeykingfinanceofficial" className="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">Join us on Telegram</a> <a href="#team" className="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">How to buy $DST</a>
                         </div> 
                     </div>
