@@ -516,12 +516,12 @@ const Swap = () => {
           </CardBody>
         </Wrapper>
       </AppBody>
-      <AppBody mt='10px'>
+      <AppBody mt='10px' ht='fit-content'>
         <Wrapper>
           <CardBody className='padding-10'>
-            <AutoRow className={isMobile ? 'space-evenly': 'space-between'}>
+            <AutoRow className={isMobile ? 'space-evenly': 'space-between'} display='block'>
               <AutoColumn>
-                <AutoRow className='center bold mb-1'>
+                <AutoRow className='center bold mb-1' >
                   {chartData ? (
                     <PriceChart chartData={chartData} />
                   ) :

@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 import { Box } from 'rebass/styled-components'
 
-const Row = styled(Box)<{ align?: string; padding?: string; border?: string; borderRadius?: string }>`
+const Row = styled(Box)<{ align?: string; padding?: string; border?: string; borderRadius?: string; display?: string}>`
   width: 100%;
-  display: flex;
+  display: ${({display}) => (display || 'flex')};
   padding: 0;
   align-items: ${({ align }) => (align || 'center')};
   padding: ${({ padding }) => padding};
@@ -20,7 +20,7 @@ export const RowFlat = styled.div`
   align-items: flex-end;
 `
 
-export const AutoRow = styled(Row)<{ gap?: string; justify?: string }>`
+export const AutoRow = styled(Row)<{ gap?: string; justify?: string}>`
   flex-wrap: wrap;
   margin: ${({ gap }) => gap && `-${gap}`};
   justify-content: ${({ justify }) => justify && justify};
