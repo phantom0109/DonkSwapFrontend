@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
 import Popups from '../components/Popups'
 import Web3ReactManager from '../components/Web3ReactManager'
@@ -65,7 +65,7 @@ export default function App() {
 
   return (
     <Suspense fallback={null}>
-      <BrowserRouter>
+      <HashRouter>
         <AppWrapper>
           <img src="" />
           <Menu>
@@ -99,7 +99,7 @@ export default function App() {
             </BodyWrapper>
           </Menu>
         </AppWrapper>
-      </BrowserRouter>
+      </HashRouter>
     </Suspense>
   )
 }
