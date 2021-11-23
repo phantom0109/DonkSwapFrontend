@@ -29,6 +29,7 @@ import { Field } from 'state/swap/actions'
 import { useDefaultsFromURLSearch, useDerivedSwapInfo, useSwapActionHandlers, useSwapState } from 'state/swap/hooks'
 import { useExpertModeManager, useUserDeadline, useUserSlippageTolerance } from 'state/user/hooks'
 import useGetDonkData from '../../hooks/useGetDonkData';
+import useGetChartData from '../../hooks/useGetChartData';
 import { LinkStyledButton } from 'components/Shared'
 import { maxAmountSpend } from 'utils/maxAmountSpend'
 import { convertNumberToShortString } from 'utils/convertNumberToSmall';
@@ -40,6 +41,7 @@ import ConnectWalletButton from 'components/ConnectWalletButton'
 import { CurrencyAmount, JSBI, Token, Trade } from '../../sdk'
 import AppBody from '../AppBody'
 import { Spinner } from '../../components/Shared';
+import { PriceChart } from 'components/PriceChart'
 
 const CustomLightSpinner = styled(Spinner) <{ size: string }>`
   height: ${({ size }) => size};
@@ -57,6 +59,7 @@ const Swap = () => {
   ]
   const [dismissTokenWarning, setDismissTokenWarning] = useState<boolean>(false)
   const donkData = useGetDonkData();
+  const chartData = useGetChartData();
   const [isSyrup, setIsSyrup] = useState<boolean>(false)
   const [syrupTransactionType, setSyrupTransactionType] = useState<string>('')
   const urlLoadedTokens: Token[] = useMemo(
@@ -509,6 +512,22 @@ const Swap = () => {
                 </AutoRow>
                 <AutoRow className='center bold'>Market Cap</AutoRow>
               </AutoColumn>
+            </AutoRow>
+          </CardBody>
+        </Wrapper>
+      </AppBody>
+      <AppBody mt='10px'>
+        <Wrapper>
+          <CardBody className='padding-10'>
+            <AutoRow className={isMobile ? 'space-evenly': 'space-between'}>
+              <AutoColumn>
+                <AutoRow className='center bold mb-1'>
+                  {chartData ? (
+                    <PriceChart chartData={chartData} />
+                  ) :
+                    <CustomLightSpinner src="/images/blue-loader.svg" alt="loader" size="25px" />}
+                </AutoRow>
+              </AutoColumn>              
             </AutoRow>
           </CardBody>
         </Wrapper>
