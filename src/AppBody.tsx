@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Card } from '../uikit'
+import { Card } from './uikit'
 
 interface interfaceMax {
   max?: boolean
