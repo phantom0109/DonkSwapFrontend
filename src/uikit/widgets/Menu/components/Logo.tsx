@@ -7,7 +7,7 @@ import { Menu, MenuItem, MenuButton } from '@szhsin/react-menu'
 import '@szhsin/react-menu/dist/index.css'
 
 const MenuLinks = [
-  ['Home', 'https://donkswaphomepage.netlify.app/'],
+  ['Home', 'https://www.donkswap.com'],
   ['Swap', '#swap'],
   ['DonkSeal', '#donk-seal'],
   ['Donkey King Casino', '#soon'],
