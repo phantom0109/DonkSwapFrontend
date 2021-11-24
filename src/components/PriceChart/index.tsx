@@ -22,7 +22,7 @@ export function PriceChart({ chartData }) {
           sparkline: {
               enabled: false
           },
-          background: '#1d2b72'
+          background: '#54237d'
       },
       dataLabels: {
           enabled: false

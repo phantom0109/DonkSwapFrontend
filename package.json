@@ -109,7 +109,8 @@
     "qs": "^6.9.4",
     "serve": "^11.3.0",
     "start-server-and-test": "^1.11.0",
-    "tsdx": "^0.12.3"
+    "tsdx": "^0.12.3",
+    "webpack": "^4.44.0"
   },
   "resolutions": {
     "@walletconnect/web3-provider": "1.1.1-alpha.0"
