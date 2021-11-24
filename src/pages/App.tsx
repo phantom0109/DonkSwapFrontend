@@ -16,6 +16,8 @@ import Swap from './Swap'
 import { RedirectPathToSwapOnly } from './Swap/redirects'
 import Menu from '../components/Menu'
 import useGetDocumentTitlePrice from '../hooks/useGetDocumentTitlePrice'
+import Casino from './ComingSoonCasino'
+import Mine from './ComingSoonMine'
 
 const AppWrapper = styled.div`
   display: flex;
@@ -80,6 +82,8 @@ export default function App() {
               <Web3ReactManager>
                 <Switch>
                   <Route exact path="/donk-seal" component={DonkSeal} />
+                  <Route exact path="/casino" component={Casino}/>
+                  <Route exact path="/mine" component={Mine}/>
                   <Route exact strict path="/swap" component={Swap} />
                   <Route exact strict path="/find" component={PoolFinder} />
                   <Route exact strict path="/pool" component={Pool} />
