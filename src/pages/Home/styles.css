@@ -665,22 +665,8 @@ footer section .social-item-two ul li a {
     }
 }
 
-.copyrights {
-    background-color: #9d70c3;
-    text-align: center;
-    padding: 10px 0
-}
 
-.copyrights p {
-    font-size: 1rem
-}
 
-.video-responsive {
-   width: 50%;
-}
-
-.video-responsive iframe {
-    height: 100%;
-    width: 100%;
-    position: absolute;
+.icon{
+    margin-left: 10px;
 }

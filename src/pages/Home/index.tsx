@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./styles.css";
 import { CSSTransition } from "react-transition-group";
 import { HashLink } from 'react-router-hash-link';
+import { SocialIcon } from "react-social-icons";
 
 
 const Header = () => {
@@ -195,20 +196,30 @@ export const HomePage = () => {
                 <section className="col">
                     <div className="exec-bio">
                         <div className="heading-two">Meet The Team</div>
-                        <h3 className="heading-three">Aaron Reading - CEO</h3>
+                        <h3 className="heading-three">
+                            Aaron Reading - CEO
+                            <a target="_blank" href="https://www.linkedin.com/in/aaron-reading-0913ab101">
+                                <SocialIcon network="linkedin" fgColor="transparent" bgColor="white" style={{ height: 25, width: 25 }} className="icon" />
+                            </a>
+                        </h3>
                         <p>
                             Aaron Reading, Chief Executive Officer of Donkey King Finance, took over for the original founders after they stepped down for personal reasons. He came with over 10 years of experience building successful businesses and sales teams. Additionally, he has more than 3 years of experience investing in crypto currency projects. His drive to succeed stems from his passion to help as many people as possible reach success.
-                            <a target="_blank" href="https://www.linkedin.com/in/aaron-reading-0913ab101"><i className='bx bxl-linkedin-square' ></i></a>
+
                         </p>
                         <br /><br /><br />
-                        <h3 className="heading-three">Michael Cope - COO</h3>
+                        <h3 className="heading-three">
+                            Michael Cope - COO
+                            <a target="_blank" href="https://www.linkedin.com/in/michael-cope-b4a239a1">
+                                <SocialIcon network="linkedin" fgColor="transparent" bgColor="white" style={{ height: 25, width: 25 }} className="icon" />
+                            </a>
+                        </h3>
                         <p>
                             Michael Cope is the Chief Operating Officer of Donkey King Finance. He has over 10 years
                             of experience in sales, marketing and managing teams. Michael was an integral part of
                             the takeover that kept Donkey King Finance afloat. He strongly believes in providing a
                             safe place to invest in defi crypto projects as well as preserving the integrity of the
                             space. With nearly 15 years of investing experience, Michael strongly believes he has
-                            the knowledge to help grow this project to greater heights. <a target="_blank" href="https://www.linkedin.com/in/michael-cope-b4a239a1"><i className='bx bxl-linkedin-square' ></i></a>
+                            the knowledge to help grow this project to greater heights.
                         </p>
                     </div>
                 </section>
