@@ -12,4 +12,6 @@
   .vid-container {
       width: 80vw;
       height: 85vh;
+      display: block;
+      text-align: center;
   }
