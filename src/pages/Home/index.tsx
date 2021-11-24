@@ -83,7 +83,7 @@ export const HomePage = () => {
                     <div>
                         <div className="heading-two">About</div>
                         <p>
-                            Launched on September 1, 2021, DonkSwap is a global Binance Smart Chain exchange
+                            Launched on September 1, 2021, DonkSwap is a global Binance Smart Chain (BSC) exchange
                             headquartered in the United States of America. To date, DonkSwap has processed more than
                             $40,000 in transactions and has over 2,000 customers spanning from all around the world.
                             DonkSwap is a subsidiary of Donkey King Finance.
