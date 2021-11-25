@@ -98,7 +98,7 @@ p {
 
 .Nav a:hover {
     transform: scale(1.1);
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -665,8 +665,32 @@ footer section .social-item-two ul li a {
     }
 }
 
+.copyrights {
+    background-color: #9d70c3;
+    text-align: center;
+    padding: 10px 0
+}
 
+.copyrights p {
+    font-size: 1rem
+}
 
-.icon{
+.icon {
     margin-left: 10px;
+}
+
+.video-responsive {
+    position: relative;
+    height: 100%;
+}
+
+.video-responsive iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.vid-container {
+    width: 80vw;
+    height: 85vh;
 }
