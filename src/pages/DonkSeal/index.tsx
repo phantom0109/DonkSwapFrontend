@@ -62,7 +62,7 @@ export default function DonkSeal() {
             auditFile: 'https://8cbbe279-3c83-4cff-a3ee-23bb45499061.usrfiles.com/ugd/8cbbe2_311364b869d6495c9e1b4ae03c2d2618.pdf',
             auditLogo: 'https://i.ibb.co/6WP1kML/flylogo.png',
           },
-           {
+          {
             _id: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
             coinName: 'InfiniteOne  (IF1)',
             coinAddress: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
@@ -72,16 +72,6 @@ export default function DonkSeal() {
             auditFile: 'https://github.com/ScientificChickenSander/EggChainCertifiedAudits/blob/main/EggChainAudit-InfiniteOne-14092021.pdf',
             auditLogo: 'https://i.ibb.co/9W1CdQm/Egg-C-Audit-Logo.png',
            },
-           {
-            _id: '0x33837Ad88d3488020F140996dcBD44E7eebe8fD4',
-            coinName: 'Pecunia  (PEC)',
-            coinAddress: '0x33837Ad88d3488020F140996dcBD44E7eebe8fD4',
-            coinLogo:
-              'https://i.ibb.co/hVJ3CGD/Pecunia.jpg',
-            coinWebsite: 'https://www.pecuniacrypto.com/',
-            auditFile: '',
-            auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
-          },
            {
             _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
             coinName: 'CryoGen  (CRYOGEN)',
