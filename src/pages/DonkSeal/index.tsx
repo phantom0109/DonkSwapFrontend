@@ -73,16 +73,6 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/9W1CdQm/Egg-C-Audit-Logo.png',
            },
            {
-            _id: '0x33837Ad88d3488020F140996dcBD44E7eebe8fD4',
-            coinName: 'Pecunia  (PEC)',
-            coinAddress: '0x33837Ad88d3488020F140996dcBD44E7eebe8fD4',
-            coinLogo:
-              'https://i.ibb.co/hVJ3CGD/Pecunia.jpg',
-            coinWebsite: 'https://www.pecuniacrypto.com/',
-            auditFile: '',
-            auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
-          },
-           {
             _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
             coinName: 'CryoGen  (CRYOGEN)',
             coinAddress: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
