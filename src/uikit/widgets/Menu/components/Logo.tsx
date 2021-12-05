@@ -8,8 +8,8 @@ import '@szhsin/react-menu/dist/index.css'
 
 const MenuLinks = [
   ['Home', 'https://donkswaphomepage.netlify.app/'],
-  ['Swap', '#swap'],
   ['DonkSeal', '#donk-seal'],
+  ['Swap', '#swap'],
   ['Donkey King Casino', '#soon'],
   // ['NFTs (soon)', '#soon'],
   // ['Pools', '#soon'],
