@@ -3,6 +3,7 @@ import EmbedCasino from "./embedCasino";
 
 export default function Casino() {
   return (
+    <>
     <div className="vid-container">
       <EmbedCasino embedId="h-vkM3ONxTA" />
     </div>
@@ -14,5 +15,6 @@ export default function Casino() {
     <div className="vid-container">
       <EmbedCasino embedId="nam7L4Z-hUc" />
     </div>
+    </>
   );
 }
