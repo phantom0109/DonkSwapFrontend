@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
-const embedCasino = ({ embedId }) => (
+const embedCasino = ({ embedId }) => 
+(
   <div className="video-responsive">
     <iframe
       className="vid-iframe"
