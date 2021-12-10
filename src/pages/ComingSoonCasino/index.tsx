@@ -8,13 +8,11 @@ export default function Casino() {
     </div>
   );
   (
-  return (
     <div className="vid-container">
       <EmbedCasino embedId="GaUw4aCw3QU" />
     </div>
   );
   (
-  return (
     <div className="vid-container">
       <EmbedCasino embedId="nam7L4Z-hUc" />
     </div>
