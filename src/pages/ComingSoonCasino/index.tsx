@@ -6,13 +6,11 @@ export default function Casino() {
     <div className="vid-container">
       <EmbedCasino embedId="h-vkM3ONxTA" />
     </div>
-  );
-  (
+
     <div className="vid-container">
       <EmbedCasino embedId="GaUw4aCw3QU" />
     </div>
-  );
-  (
+
     <div className="vid-container">
       <EmbedCasino embedId="nam7L4Z-hUc" />
     </div>
