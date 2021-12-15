@@ -38,12 +38,13 @@ const Input = styled.input<InputProps>`
   border-radius: 4px;
   color:#141414;
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   border: 1px solid #000;
   height: ${getHeight};
   outline: 0;
   padding: 0 16px;
   width: 100%;
+  color: white;
 
   &::placeholder {
     color: ${({ theme }) => theme.colors.textSubtle};

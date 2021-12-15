@@ -30,6 +30,7 @@ const StyledBreadcrumbs = styled.ul`
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  
 
   ${space}
 `;

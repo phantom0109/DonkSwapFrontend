@@ -57,6 +57,7 @@ const StyledMenuButton = styled.button<BaseButtonProps>`
   outline: 0;
   transition: background-color 0.2s, opacity 0.2s;
   background: radial-gradient(circle at 60% 60%,#9d70c3 -76%,#9d70c3 139%);
+  
 
   &:hover:not(:disabled):not(.donkswap-button--disabled):not(.donkswap-button--disabled):not(:active) {
     opacity: 0.65;

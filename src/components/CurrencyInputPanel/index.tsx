@@ -23,7 +23,7 @@ const CurrencySelect = styled.button<{ selected: boolean }>`
   height: 34px;
   font-size: 16px;
   font-weight: 700;
-  background-color: transparent;
+  background-color: #323232de;
   color: ${({ selected, theme }) => (selected ? theme.colors.text : '#FFFFFF')};
   border-radius: 12px;
   outline: none;
@@ -31,6 +31,8 @@ const CurrencySelect = styled.button<{ selected: boolean }>`
   user-select: none;
   border: none;
   padding: 0 0.5rem;
+  
+  box-shadow: 2px 2px 10px #0b0b0bb9;
   :focus,
   :hover {
     background-color: ${({ theme }) => darken(0.05, theme.colors.input)};
@@ -60,7 +62,8 @@ const InputPanel = styled.div<{ hideInput?: boolean }>`
   position: relative;
   border-radius: ${({ hideInput }) => (hideInput ? '4px' : '4px')};
   background-color: ${({ theme }) => theme.colors.background};
-  z-index: 1;
+  box-shadow: inset -3px -3px 10px 2px rgba(0, 0, 0, 0.444);
+  // z-index: 1;
 `
 const Container = styled.div<{ hideInput: boolean }>`
   border-radius: 4px;
@@ -113,7 +116,7 @@ export default function CurrencyInputPanel({
         {!hideInput && (
           <LabelRow>
             <RowBetween>
-              <Text fontSize="14px">{translatedLabel}</Text>
+              <Text fontSize="16px">{translatedLabel}</Text>
               {account && (
                 <Text onClick={onMax} fontSize="14px" style={{ display: 'inline', cursor: 'pointer' }}>
                   {!hideBalance && !!currency && selectedCurrencyBalance

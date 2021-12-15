@@ -20,10 +20,10 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   position: fixed;
   top: ${({ showMenu }) => (showMenu ? 0 : `-${MENU_HEIGHT}px`)};
   left: 0;
-  background: #fff;
+  background-color: white;
   transition: top 0.2s;
   display: flex;
-  border-bottom: 2px solid #8585851a;
+  // border-bottom: 0.5px solid white;
   justify-content: space-between;
   align-items: center;
   color:black;
@@ -33,6 +33,8 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   height: ${MENU_HEIGHT}px;
   z-index: 20;
   transform: translate3d(0, 0, 0);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.396);
+  // border-top-right-radius: 0px;
 `
 const BodyWrapper = styled.div`
   position: relative;

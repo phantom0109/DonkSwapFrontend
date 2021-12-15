@@ -43,7 +43,8 @@ const getOpacity = ({ $isLoading = false }: TransientButtonProps) => {
   return $isLoading ? ".5" : "1";
 };
 
-const StyledButton = styled.button<BaseButtonProps>`
+// this controls the slippage tool and swap direction arrow
+const StyledButton = styled.button<BaseButtonProps>` 
   align-items: center;
   border: 0;
   border-radius: 50rem;
@@ -53,7 +54,7 @@ const StyledButton = styled.button<BaseButtonProps>`
   font-family: inherit;
   background: radial-gradient(circle at 60% 60%,#9d70c3 -76%,#9d70c3 139%);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 200;
   justify-content: center;
   letter-spacing: 0.03em;
   line-height: 1;
