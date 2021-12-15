@@ -16,7 +16,13 @@ import Swap from './Swap'
 import { RedirectPathToSwapOnly } from './Swap/redirects'
 import Menu from '../components/Menu'
 import useGetDocumentTitlePrice from '../hooks/useGetDocumentTitlePrice'
+
 import background_logo from 'src/uikit/widgets/Menu/icons/images/donk_transparent.png'
+
+import Casino from './ComingSoonCasino'
+import Mine from './ComingSoonMine'
+import { HomePage } from './Home'
+
 
 const AppWrapper = styled.div`
   display: flex;
@@ -100,7 +106,10 @@ export default function App() {
               </div>
               <Web3ReactManager>
                 <Switch>
+                  <Route exact path="/home" component={HomePage} />
                   <Route exact path="/donk-seal" component={DonkSeal} />
+                  <Route exact path="/casino" component={Casino} />
+                  <Route exact path="/mine" component={Mine} />
                   <Route exact strict path="/swap" component={Swap} />
                   <Route exact strict path="/find" component={PoolFinder} />
                   <Route exact strict path="/pool" component={Pool} />
@@ -118,6 +127,9 @@ export default function App() {
             </BodyWrapper>
           </Menu>
         </AppWrapper>
+        <div className="copyrights">
+          <p className="col">Copyright &copy; 2021. All Rights Reserved: Donkey King Finance</p>
+        </div>
       </HashRouter>
     </Suspense>
   )

@@ -72,6 +72,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://DONKSWAP.COM/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
+    },
+    {
+      "name": "pecun",
+      "symbol": "pec",
+      "address": "0x33837ad88d3488020f140996dcbd44e7eebe8fd4",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/N7gwsp8/pecunia-coin.png"
     }
-  ]
+ ]
 }
