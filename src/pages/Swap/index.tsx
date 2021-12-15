@@ -272,6 +272,21 @@ const Swap = () => {
 
   return (
     <>
+
+      <div className="relative h-full w-swap" id="donkLogo">
+        <img
+          src="/og.png"
+          style={{ width: '120px', height: '120px', position: 'absolute', right: '5rem', top: -30, transform: 'scaleX(-1)' }}
+        />
+      </div>
+      <h3 id="dex-title-under-logo" style={{ fontSize: '30px' }}>Donkey King Finance</h3>
+      <div className="relative h-full w-swap" id="donkLogo">
+        <img
+          src="/Strong+DonkeySwap.webp"
+          style={{ position: 'absolute', right: '-16rem', top: 45, transform: 'scaleX(-1)' }}
+        />
+        <img src="/Strong+DonkeySwap.webp" style={{ position: 'absolute', left: '-16rem', top: 45 }} />
+      </div>
       <TokenWarningModal
         isOpen={urlLoadedTokens.length > 0 && !dismissTokenWarning}
         tokens={urlLoadedTokens}
@@ -328,10 +343,10 @@ const Swap = () => {
                         setApprovalSubmitted(false) // reset 2 step UI for approvals
                         onSwitchTokens()
                       }}
-                      style={{ borderRadius: '50%', backgroundColor: 'none !important' }}
+                      style={{ borderRadius: '8px', backgroundColor: 'none !important', boxShadow: '5px 5px 8px rgba(0, 0, 0, 0.396)' }}
                       scale="sm"
                     >
-                      <ArrowDownIcon color="primary" width="24px" />
+                      <ArrowDownIcon color="primary" width="20px" />
                     </IconButton>
                   </ArrowWrapper>
                   {recipient === null && !showWrap && isExpertMode ? (
@@ -486,14 +501,14 @@ const Swap = () => {
       <AppBody mt='10px'>
         <Wrapper>
           <CardBody className='padding-10'>
-            <AutoRow className={isMobile ? 'space-evenly': 'space-between'}>
+            <AutoRow className={isMobile ? 'space-evenly' : 'space-between'}>
               <AutoColumn>
                 <AutoRow className='center bold mb-1'>
                   {donkData ? convertNumberToShortString(parseInt(parseFloat(donkData?.circulatingSupply).toFixed(0))) :
                     <CustomLightSpinner src="/images/blue-loader.svg" alt="loader" size="25px" />}
                 </AutoRow>
                 <AutoRow className='center bold'>
-                  {isMobile ? 'Circulating Supply' : 'Circulating' }
+                  {isMobile ? 'Circulating Supply' : 'Circulating'}
                 </AutoRow>
               </AutoColumn>
               <AutoColumn>
@@ -519,7 +534,7 @@ const Swap = () => {
       <AppBody mt='10px' ht='fit-content'>
         <Wrapper>
           <CardBody className='padding-10'>
-            <AutoRow className={isMobile ? 'space-evenly': 'space-between'} display='block'>
+            <AutoRow className={isMobile ? 'space-evenly' : 'space-between'} display='block'>
               <AutoColumn>
                 <AutoRow className='center bold mb-1' >
                   {chartData ? (
@@ -527,7 +542,7 @@ const Swap = () => {
                   ) :
                     <CustomLightSpinner src="/images/blue-loader.svg" alt="loader" size="25px" />}
                 </AutoRow>
-              </AutoColumn>              
+              </AutoColumn>
             </AutoRow>
           </CardBody>
         </Wrapper>

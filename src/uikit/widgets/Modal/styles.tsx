@@ -25,7 +25,7 @@ export const ModalBody = styled(Flex)`
 
 export const ModalCloseButton: React.FC<{ onDismiss: ModalProps['onDismiss'] }> = ({ onDismiss }) => {
   return (
-    <IconButton variant="text" onClick={onDismiss} aria-label="Close the dialog">
+    <IconButton variant="text" onClick={onDismiss} aria-label="Close the dialog" id="close-btn"> 
       <CloseIcon color="primary" />
     </IconButton>
   )
@@ -40,9 +40,8 @@ export const ModalBackButton: React.FC<{ onBack: ModalProps['onBack'] }> = ({ on
 }
 
 export const ModalContainer = styled(Box)<{ minWidth: string }>`
-  background:#fff;
-  border: 0;
-  border: 1px solid #777777 !important;
+  background-color: #212529f6;
+  border: none;
   border-radius: 10px;
   width: 100%;
   z-index: ${({ theme }) => theme.zIndices.modal};
