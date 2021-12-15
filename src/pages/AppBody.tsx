@@ -13,8 +13,12 @@ export const BodyWrapper = styled(Card)<interfaceMax>`
   max-width: ${(props) => (props.max ? '1200px' : '436px')};
   width: 100%;
   z-index: 5;
-  margin-top: ${props => props.mt ? props.mt : 0};
-  height: ${props => props.ht ? props.ht : '100%'};
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.705);
+  border-radius: 15px;
+  background-color: #212529f6;
+  margin-top: 80px;
+  top: 5px;
+  margin: 10px;
 `
 
 /**

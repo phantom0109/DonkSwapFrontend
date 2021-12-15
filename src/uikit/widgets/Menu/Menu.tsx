@@ -20,7 +20,7 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   position: fixed;
   top: ${({ showMenu }) => (showMenu ? 0 : `-${MENU_HEIGHT}px`)};
   left: 0;
-  background: #fff;
+  background-color: white;
   transition: top 0.2s;
   display: flex;
   border-bottom: 2px solid #8585851a;
@@ -33,6 +33,7 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   height: ${MENU_HEIGHT}px;
   z-index: 20;
   transform: translate3d(0, 0, 0);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.396);
 `
 const BodyWrapper = styled.div`
   position: relative;

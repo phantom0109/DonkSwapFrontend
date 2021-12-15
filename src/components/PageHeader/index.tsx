@@ -13,7 +13,7 @@ interface PageHeaderProps {
 }
 
 const StyledPageHeader = styled.div`
-  border-bottom: 1px solid #eee;
+border-bottom: 0.5px solid rgba(183, 183, 183, 0.416);
   padding: 24px;
 `
 
@@ -30,9 +30,9 @@ const PageHeader = ({ title, description, children, swap = true }: PageHeaderPro
     <StyledPageHeader>
       <Flex alignItems="center">
         <Details>
-          <Heading mb="8px">{title}</Heading>
+          <Heading mb="8px" style={{ color: 'rgb(183, 183, 183)' }}>{title}</Heading>
           {description && (
-            <Text color="textSubtle" bold fontSize="14px">
+            <Text color="textSubtle" bold fontSize="12px" style={{ color: 'grey' }}>
               {description}
             </Text>
           )}

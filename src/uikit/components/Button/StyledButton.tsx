@@ -53,7 +53,7 @@ const StyledButton = styled.button<BaseButtonProps>`
   font-family: inherit;
   background: radial-gradient(circle at 60% 60%,#9d70c3 -76%,#9d70c3 139%);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 200;
   justify-content: center;
   letter-spacing: 0.03em;
   line-height: 1;

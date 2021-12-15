@@ -75,7 +75,7 @@ const SlippageToleranceSettings = ({ translateString }: SlippageToleranceSetting
 
   return (
     <Box mb="16px">
-      <Flex alignItems="center" mb="8px">
+      <Flex alignItems="center" mb="5px">
         <Text bold>{translateString(88, 'Slippage tolerance')}</Text>
         <QuestionHelper
           text={translateString(
