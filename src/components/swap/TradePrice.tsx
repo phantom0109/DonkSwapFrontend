@@ -18,12 +18,12 @@ export default function TradePrice({ price, showInverted, setShowInverted }: Tra
     : `${price?.baseCurrency?.symbol} per ${price?.quoteCurrency?.symbol}`
 
   return (
-    <Text fontSize="14px" style={{ justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+    <Text fontSize="13px" style={{ justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
       {show ? (
         <>
           {formattedPrice ?? '-'} {label}
-          <StyledBalanceMaxMini onClick={() => setShowInverted(!showInverted)}>
-            <SyncAltIcon width="20px" color="primary" />
+          <StyledBalanceMaxMini onClick={() => setShowInverted(!showInverted)} >
+            <SyncAltIcon style={{width:"22px", height:"22px", background: '#9d70c3', borderRadius:'50%'}}/>
           </StyledBalanceMaxMini>
         </>
       ) : (

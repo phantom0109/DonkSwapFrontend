@@ -5,7 +5,8 @@ import { ButtonMenu, ButtonMenuItem } from '../../uikit'
 import useI18n from 'hooks/useI18n'
 
 const StyledNav = styled.div`
-  margin-bottom: 40px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 `
 
 function Nav({ activeIndex = 0 }: { activeIndex?: number }) {
@@ -23,7 +24,7 @@ function Nav({ activeIndex = 0 }: { activeIndex?: number }) {
           id="pool-nav-link"
           as="a"
           target="_new"
-          href="https://www.binance.org/en/bridge?utm_source=PancakeSwap"
+          href="https://www.binance.org/en/bridge?utm_source=BinanceChain"
         >
           Bridge
         </ButtonMenuItem>

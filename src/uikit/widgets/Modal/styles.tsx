@@ -12,21 +12,25 @@ export const ModalHeader = styled.div<{ background?: string }>`
   border-bottom: 0.5px solid ${({ theme }) => theme.colors.borderColor};
   display: flex;
   padding: 12px 24px;
+
 `
 
 export const ModalTitle = styled(Flex)`
   align-items: center;
   flex: 1;
+  // background-color: #212529f6;
 `
 
 export const ModalBody = styled(Flex)`
   flex-direction: column;
+  // background-color: #212529f6;
+
 `
 
 export const ModalCloseButton: React.FC<{ onDismiss: ModalProps['onDismiss'] }> = ({ onDismiss }) => {
   return (
-    <IconButton variant="text" onClick={onDismiss} aria-label="Close the dialog">
-      <CloseIcon color="primary" />
+    <IconButton variant="text" onClick={onDismiss} aria-label="Close the dialog" id="close-btn"> 
+      <CloseIcon color="primary"/>
     </IconButton>
   )
 }
@@ -40,9 +44,8 @@ export const ModalBackButton: React.FC<{ onBack: ModalProps['onBack'] }> = ({ on
 }
 
 export const ModalContainer = styled(Box)<{ minWidth: string }>`
-  background:#fff;
-  border: 0;
-  border: 1px solid #777777 !important;
+  background-color: #212529f6;
+  border: none;
   border-radius: 10px;
   width: 100%;
   z-index: ${({ theme }) => theme.zIndices.modal};

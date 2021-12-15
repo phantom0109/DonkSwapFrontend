@@ -47,6 +47,7 @@ export const Input = styled.input<InputProps>`
   position: absolute;
   width: 100%;
   z-index: 3;
+  
 
   &:checked + ${Handle} {
     left: ${getScale("checkedLeft")};

@@ -62,7 +62,7 @@ export default function DonkSeal() {
             auditFile: 'https://8cbbe279-3c83-4cff-a3ee-23bb45499061.usrfiles.com/ugd/8cbbe2_311364b869d6495c9e1b4ae03c2d2618.pdf',
             auditLogo: 'https://i.ibb.co/6WP1kML/flylogo.png',
           },
-           {
+          {
             _id: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
             coinName: 'InfiniteOne  (IF1)',
             coinAddress: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',

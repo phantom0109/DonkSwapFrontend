@@ -18,6 +18,7 @@ const PopoverContainer = styled.div<{ show: boolean }>`
   box-shadow: 0 4px 8px 0 ${transparentize(0.9, '#2F80ED')};
   color: ${({ theme }) => theme.colors.textSubtle};
   border-radius: 8px;
+
 `
 
 const ReferenceElement = styled.div`

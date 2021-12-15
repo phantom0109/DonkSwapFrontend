@@ -321,17 +321,17 @@ const Swap = () => {
               />
               <AutoColumn justify="space-between">
                 <AutoRow justify={isExpertMode ? 'space-between' : 'center'} style={{ padding: '0 1rem' }}>
-                  <ArrowWrapper clickable>
+                  <ArrowWrapper clickable >
                     <IconButton
                       variant="tertiary"
                       onClick={() => {
                         setApprovalSubmitted(false) // reset 2 step UI for approvals
                         onSwitchTokens()
                       }}
-                      style={{ borderRadius: '50%', backgroundColor: 'none !important' }}
+                      style={{ borderRadius: '8px', backgroundColor: 'none !important', boxShadow: '5px 5px 8px rgba(0, 0, 0, 0.396)' }}
                       scale="sm"
                     >
-                      <ArrowDownIcon color="primary" width="24px" />
+                      <ArrowDownIcon color="primary" width="20px" />
                     </IconButton>
                   </ArrowWrapper>
                   {recipient === null && !showWrap && isExpertMode ? (

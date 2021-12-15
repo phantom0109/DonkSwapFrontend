@@ -30,6 +30,8 @@ const ResetCSS = createGlobalStyle`
   body {
     line-height: 1;
     font-size: 16px;
+    font-weight: 200;
+
   }
   ol,
   ul {
@@ -97,6 +99,7 @@ const ResetCSS = createGlobalStyle`
     -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
     width: 100%; /* Specific width is required for Firefox. */
     background: transparent; /* Otherwise white in Chrome */
+    
   }
   input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
@@ -111,7 +114,9 @@ const ResetCSS = createGlobalStyle`
     background: transparent; 
     border-color: transparent;
     color: transparent;
+    
   }  
+
 `
 
 export default ResetCSS

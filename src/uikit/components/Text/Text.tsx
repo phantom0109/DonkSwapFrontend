@@ -16,10 +16,10 @@ const getFontSize = ({ fontSize, small }: TextProps) => {
 }
 
 const Text = styled.div<TextProps>`
-  color: ${getColor};
+  color: rgb(214, 214, 214);
   font-size: ${getFontSize};
   font-family: 'Poppins', monospace;
-  font-weight: ${({ bold }) => (bold ? 500 : 400)};
+  font-weight: 500;
   line-height: 1.5;
   ${({ textTransform }) => textTransform && `text-transform: ${textTransform};`}
   ${space}
