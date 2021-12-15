@@ -10,15 +10,12 @@ const RISKY_SLIPPAGE_HIGH = 500
 
 const Option = styled.div`
   padding: 0 4px;
-
-  
 `
 
 const Options = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-
 
   ${Option}:first-child {
     padding-left: 0;
@@ -30,7 +27,6 @@ const Options = styled.div`
 
   ${({ theme }) => theme.mediaQueries.sm} {
     flex-direction: row;
-  
   }
 `
 
@@ -79,7 +75,7 @@ const SlippageToleranceSettings = ({ translateString }: SlippageToleranceSetting
 
   return (
     <Box mb="16px">
-      <Flex alignItems="center" mb="5px">
+      <Flex alignItems="center" mb="8px">
         <Text bold>{translateString(88, 'Slippage tolerance')}</Text>
         <QuestionHelper
           text={translateString(

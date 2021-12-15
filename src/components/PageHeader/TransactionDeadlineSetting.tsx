@@ -10,7 +10,6 @@ const Field = styled.div`
 
   & > ${Input} {
     max-width: 100px;
-    border: 1px solid lightgrey;
   }
 `
 

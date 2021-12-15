@@ -14,11 +14,9 @@ const StyledDialogOverlay = styled(AnimatedDialogOverlay)`
     background-color: transparent;
     overflow: hidden;
     display: flex;
-    top: 80px;
-    border: none;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.1);
   }
 `
 
@@ -32,8 +30,8 @@ const StyledDialogContent = styled(({ minHeight, maxHeight, mobile, isOpen, ...r
 })`
   &[data-reach-dialog-content] {
     margin: 0 0 2rem 0;
-    // border: 1px solid #797979;
-    background-color: #212529f6;
+    border: 1px solid #797979;
+    background: '#fff';
     box-shadow: 0 4px 8px 0 ${transparentize(0.95, '#d4cfda')};
     padding: 0px;
     border-radius: 10px;
@@ -91,7 +89,7 @@ export default function Modal({
         ({ item, key, props }) =>
           item && (
             <StyledDialogOverlay key={key} style={props} onDismiss={onDismiss} initialFocusRef={initialFocusRef}>
-              <StyledDialogContent id="coin-search-box"
+              <StyledDialogContent
                 aria-label="dialog content"
                 minHeight={minHeight}
                 maxHeight={maxHeight}

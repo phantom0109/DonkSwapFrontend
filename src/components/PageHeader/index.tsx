@@ -13,9 +13,8 @@ interface PageHeaderProps {
 }
 
 const StyledPageHeader = styled.div`
-  border-bottom: 0.5px solid rgba(183, 183, 183, 0.416);
+  border-bottom: 1px solid #eee;
   padding: 24px;
-
 `
 
 const Details = styled.div`
@@ -31,9 +30,9 @@ const PageHeader = ({ title, description, children, swap = true }: PageHeaderPro
     <StyledPageHeader>
       <Flex alignItems="center">
         <Details>
-          <Heading mb="8px" style={{color: 'rgb(183, 183, 183)'}}>{title}</Heading>
+          <Heading mb="8px">{title}</Heading>
           {description && (
-            <Text color="textSubtle" bold fontSize="12px" style={{color: 'grey'}}>
+            <Text color="textSubtle" bold fontSize="14px">
               {description}
             </Text>
           )}
@@ -44,7 +43,6 @@ const PageHeader = ({ title, description, children, swap = true }: PageHeaderPro
             style={{ background: 'transparent' }}
             onClick={onPresentSettings}
             title={TranslateString(1200, 'Settings')}
-        
           >
             <TuneIcon width="24px" color="currentColor" />
           </IconButton>

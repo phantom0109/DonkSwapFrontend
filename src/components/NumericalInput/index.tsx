@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import { escapeRegExp } from '../../utils'
 
 const StyledInput = styled.input<{ error?: boolean; fontSize?: string; align?: string }>`
-  // color: ${({ error, theme }) => (error ? theme.colors.failure : theme.colors.text)};
+  color: ${({ error, theme }) => (error ? theme.colors.failure : theme.colors.text)};
   width: 0;
   position: relative;
-  font-weight: 300;
+  font-weight: 500;
   outline: none;
   border: none;
   flex: 1 1 auto;
@@ -18,10 +18,6 @@ const StyledInput = styled.input<{ error?: boolean; fontSize?: string; align?: s
   text-overflow: ellipsis;
   padding: 0px;
   -webkit-appearance: textfield;
-  color: rgb(183, 183, 183);
-  font-weight: 300;
- 
-
 
   ::-webkit-search-decoration {
     -webkit-appearance: none;
@@ -37,8 +33,7 @@ const StyledInput = styled.input<{ error?: boolean; fontSize?: string; align?: s
   }
 
   ::placeholder {
-    color: rgb(183, 183, 183);
-    font-weight: 300;
+    color: ${({ theme }) => theme.colors.textSubtle};
   }
 `
 
