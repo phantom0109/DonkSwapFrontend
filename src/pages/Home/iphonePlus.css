@@ -1,0 +1,636 @@
+@media only screen and (max-width: 414px) {
+
+    #first-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        border-radius: 30% 0 40% 0;
+        background-color: #8f54a015;
+        justify-content: space-evenly;
+    }
+    .slogan-container{
+        position: absolute;
+        top: 5.5rem;
+        left: 0rem;
+        width: 50%;
+        letter-spacing: 0.1rem;
+        line-height: 2.3rem;
+        margin-left: 2rem;
+    }
+    .slogan-container h4{
+        font-size: 1.3rem;
+    }
+    .sub-slogan-container{
+        position: absolute;
+        top: 11.5rem;
+        left: 0rem;
+        margin-left: 2rem;
+        width: 40%;
+        color:#8f54a0;
+        letter-spacing: 0.02rem;
+        font-size: 0.5rem;
+        line-height: 1.2rem;
+    }
+    .donkey-logo{
+        position: absolute;
+        top: 5rem;
+        width: 13rem;
+        height: 13rem;
+        z-index: 1;
+        animation: logomove 3s linear infinite;
+    }
+
+    .quickgo-button-container{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-shrink: 0; 
+        margin-left: 6rem;
+        top: 18rem;
+    }
+    .quickgo-button-hugger{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .quickgo-btn{
+        width: 90px;
+        height: 37px;
+        font-weight: 100;
+        color: white;
+        border-radius: 10px;
+        background-color: rgb(73, 73, 73);
+        box-shadow: inset -1px -1px 5px 8px rgba(255, 255, 255, 0.081);
+        cursor: pointer;
+        font-size: 0.69rem;
+    }
+    .social-link-container{
+        position: absolute;
+        left: 14rem;
+        width: 27%;
+        height: 90%;
+        left: 17rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        padding:8px;
+        box-shadow: 7px 7px 1px rgba(41, 41, 41, 0.341);
+        border-radius: 30px;
+        background-color: rgb(57, 57, 57);
+    }
+    .ace-logo{
+        position: absolute;
+        width: 18rem;
+        height: 18rem;
+        right: -3rem;
+        top: 2rem;
+        opacity: 0.1;
+        z-index: -2;
+    }
+    .social-link-hugger{
+        width: 2.0rem;
+        height: 2.0rem;
+        border-radius: 50%;
+        background-color: rgb(40, 40, 40);
+        box-shadow:  2.5px 2.5px 1px #ac75bb; 
+        cursor:pointer;
+        padding-top: 6px;
+        padding-left: 5px;
+    }
+    .telegram{
+        width: 18px;
+        height: 18px;
+        cursor:pointer;
+    }
+    .twitter{
+        width: 18px;
+        height: 18px;
+        margin-left: 2px;
+        cursor:pointer;
+    }
+    .reddit{
+        width: 18px;
+        height: 18px;
+        margin-left: 1px;
+        cursor:pointer;
+    }
+    .instagram{
+        width: 18px;
+        height: 18px;
+        margin-left: 2px;
+        cursor:pointer;
+    }
+    .youtube{
+        width: 18px;
+        height: 18px;
+        margin-left: 2px;
+        cursor:pointer;
+    }
+    .linkedin{
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        cursor:pointer;
+    }
+    .github{
+        width: 18px;
+        height: 18px;
+        margin-left: 2px;
+        cursor:pointer;
+    }
+    
+    /*=====================================*/
+    /*=====================================*/
+    /*=====================================*/
+    #second-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .wave4{
+        position: absolute;
+        z-index: 0;
+        bottom: 0;
+        width: 100%;
+        display: none;
+    }
+    .ticker-opacity{
+        font-size: 7rem;
+        opacity: 0.2;
+        top: 2rem;
+    }
+    .poker-chips{
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        opacity: 0.2;
+        z-index: 0;
+        top: 8rem;
+        right: 0rem;
+    }
+    .why-donk{
+
+        position: absolute;
+        width: 80px;
+        text-align: center;
+        position: relative;
+        bottom: 90px;
+        font-weight: 400;
+        font-size: 2.7rem;
+        top: -3rem;
+        margin-right: 8rem;
+    }
+    /*=====================================*/
+    /*=====================================*/
+    /*=====================================*/
+    #third-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #b695d3;;
+    }
+    .wave2{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: -1;
+        display: none;
+    }
+    .wave3{
+        display: none;
+        position: absolute;
+        height: 100%;
+        z-index: 0;
+        left: 50%;
+    }
+    .wave5{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        width: 100%;
+    }
+    .right-of-third-box{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: none;
+        padding: 2rem;
+        z-index: 1;
+    }
+    .why-container{
+        width: 9.5rem;
+        height: 35vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 20px;
+        background-color: rgb(57, 57, 57);
+        z-index: 0;
+        margin-top: 1rem;
+        margin-bottom: 20rem;
+    }
+    .card-chips{
+        position: absolute;
+        width: 40rem;
+        height: 40rem;
+        opacity: 0.9;
+        bottom: 22rem;
+        left: 5rem;
+        z-index: 0;
+    }
+    .right-of-third-box{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #b695d301;
+        align-items: center;
+        padding: 2rem;
+        z-index: 1;
+    }
+    .right-of-third-box-hugger{
+        position: absolute;
+        width: 20rem;
+        height: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 1;
+        bottom: 13rem;
+        font-size: 0.8rem;
+    }
+    .right-of-third-box-title-container{
+        position: absolute;
+        width: 100%;
+        height: 5.5rem;
+        line-height: 1.2;
+        bottom: 7.8rem;
+    }
+    .right-of-third-box-value-container{
+        text-align: left;
+        width: 100%;
+        height: 17rem;
+        font-weight: 300;
+        letter-spacing: 1.2px;
+        line-height: 1.3;
+        color: white;
+        z-index: 1;
+    }
+    .getSwap-btn{
+        position: absolute;
+        bottom: 2.1rem;
+        right: 14.5rem;
+        background: #944fd1;
+        padding: 10px 5px;
+        width: 140px;
+        border: none;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        color: white;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.396);
+        cursor: pointer;
+        z-index: 1;
+    }
+    .headerOne{
+        letter-spacing: 1.2px;
+        color: white; 
+        font-size:1.4rem;
+        font-weight: 300;
+    }
+    .headerTwo{
+        letter-spacing: 1px;
+        color: #944fd1;
+        font-size:1.2rem;
+        font-weight: 650;
+    }
+    /*=====================================*/
+    /*=====================================*/
+    /*=====================================*/
+    #fourth-box{
+        position: relative;
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .blob2{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    display: none;
+    }
+    .left-of-fourth-box{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .tokenomics-title{
+        position: absolute;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color:#8f54a0;
+        top: 10rem;
+        left: 0rem;
+    }
+    .tokenomics-title-opacity{
+        position: absolute;
+        font-size: 3.2rem;
+        opacity: 0.1;
+        top: 11rem;
+        left: 1rem;
+        font-weight: 200;
+        z-index: -1;
+        margin-left: 2rem;
+        display: none;
+    }
+    .tokenomics-content-container{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        padding: 5rem;
+        line-height: 2;
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+        top: 9.5rem;
+        left: -2.0rem;
+    }
+    .tokenomics-list-heading-container{
+        width: 20rem;
+        text-align: center;
+    }
+    .tokenomics-bullet-title{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color:#8f54a0;
+    }
+    .tokenomics-list-container{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        line-height: 1.5;
+        width: 20rem;
+        text-align: center;
+    }
+    .fourth-box-slogan-headline-overlay{
+        position: relative;
+        opacity: 0.1;
+        z-index: 0;
+        top: 6.5rem;
+        right: -1rem;
+    }
+    .fourth-box-slogan-container{
+        position: absolute;
+        text-align: center;
+        width: 25rem;
+        height: 20rem;
+        display: flex;
+        flex-shrink: 1;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: left;
+        font-weight: 400;
+        font-size: 1.8rem;
+        letter-spacing: 1.2px;
+        line-height: 1.3;
+        color: white;
+        z-index: 1;
+        bottom: 10rem;
+        left: 2.5rem;
+    }
+    /*=====================================*/
+    /*=====================================*/
+    /*=====================================*/
+    #security-section{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 100vh;
+    }
+    .left-side-of-security-section{
+        width: 50%;
+        height: 100vh;
+    }
+    .strongDonkey{
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        top: 9rem;
+        left: 7rem;
+        animation: logomove 4s linear infinite;
+    }
+    .blob3{
+        position: absolute;
+        z-index: -1;
+        bottom: 33rem;
+        right: 12rem;
+        top: 9rem;
+        left: 1.5rem;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .safe-secure-container{
+        width: 35rem;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 25rem;
+        margin-right: 3.5rem;
+    }
+    .safe-secure-title{
+        font-size: 1.8rem;
+        font-weight: 550;
+        color:#8f54a0;
+        
+    }
+    .safe-secure-content-hugger{
+        width: 20rem;
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 2;
+        margin-right: 10rem;
+    }
+    /*=====================================*/
+    /*=====================================*/
+    /*=====================================*/
+    #fifth-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .coming-soon-hugger{
+        width: 100vw;
+        height: 0;
+        position: absolute;
+        bottom: 50rem;
+    }
+    .casino-section-title{
+        color: white;
+        font-size: 2rem;
+    }
+    .casino-end-title{
+        margin-top: 15rem;;
+        margin-top: 10px;
+        font-size: 1.8rem;
+    }
+    .video-hugger{
+        position: absolute;
+        width: 20rem;
+        height: 16rem;
+        top: 1.5rem;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(40, 40, 40);
+        z-index: 1;
+    }
+    .casino-vid{
+        width: 18rem;
+        height: 35rem;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .casino-link{
+        position:absolute;
+        top: 25rem;
+    }
+    /*=====================================*/
+    /*=====================================*/
+    /*=====================================*/
+    #sixth-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .team-header-container{
+        width: 100%;
+        font-size: 1.7rem;
+        font-weight: 700;
+        color:white;
+    }
+    .left-of-sixth-box{
+        position: absolute;
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow-y: scroll;
+        position:absolute;
+        top: 5rem;
+    }
+    .profile-hugger{
+        margin-top: 1rem;
+        width: 16rem;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 15px;
+
+    }
+    .profile-pic-container{
+        width: 9rem;
+        height: 9rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 50%;
+        background-color: rgb(57, 57, 57);
+    }
+    .dev-pics{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+    }
+    .dev-content-container{
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        font-size: 15px;
+        line-height: 1.3;
+        color: white;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(57, 57, 57);
+        padding: 10px;
+        z-index: 1;
+    }
+    .dev-content-container p{
+
+        font-size: 0.68rem;
+    }
+    
+}
