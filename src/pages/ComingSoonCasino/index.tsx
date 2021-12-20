@@ -1,20 +1,32 @@
-import "./styles.css";
-import EmbedCasino from "./embedCasino";
+import "./comingsooncasino.css";
+import casinoGameOne from './video/Casino_Slots1.mp4'
+import casinoGameThree from './video/Casino _Slots3.mp4'
 
-export default function Casino() {
+
+
+
+const Casino = (props) => {
+
+
   return (
-    <>
-    <div className="vid-container">
-      <EmbedCasino embedId="h-vkM3ONxTA" />
-    </div>
+    <div>
+      <div className="vid-container">
+        <div className="vid-hugger">
+          <video loop autoPlay muted className="casino-vid"> 
+            <source src={(casinoGameOne)} type="video/mp4" />
+          </video>
+          <a href="https://www.youtube.com/watch?v=GaUw4aCw3QU" target="_blank">See it on youtube..</a>
+        </div>
 
-    <div className="vid-container">
-      <EmbedCasino embedId="GaUw4aCw3QU" />
-    </div>
+        <div className="vid-hugger">
+          <video loop autoPlay muted className="casino-vid">
+            <source src={(casinoGameThree)} type="video/mp4" />
+          </video>
+          <a href="https://www.youtube.com/watch?v=nam7L4Z-hUc&t=3s" target="_blank">See it on youtube..</a>
+        </div>
 
-    <div className="vid-container">
-      <EmbedCasino embedId="nam7L4Z-hUc" />
+      </div>
     </div>
-    </>
   );
 }
+export default Casino;

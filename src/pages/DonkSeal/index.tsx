@@ -15,7 +15,7 @@ export default function DonkSeal() {
   //   }
   const theme = useTheme()
   const sm = useMediaQuery(theme.breakpoints.down(576))
-  const xs = useMediaQuery(theme.breakpoints.down(396))
+  const xs = useMediaQuery(theme.breakpoints.down(300))
   React.useEffect(() => {
     const options = {
       method: 'GET',
@@ -31,7 +31,7 @@ export default function DonkSeal() {
       .catch(function (error) {
         console.error('error', error)
         setData([
-         
+
           {
             _id: '0x3969Fe107bAe2537cb58047159a83C33dfbD73f9',
             coinName: 'DonkSwap Token (DST)',
@@ -62,7 +62,7 @@ export default function DonkSeal() {
             auditFile: 'https://8cbbe279-3c83-4cff-a3ee-23bb45499061.usrfiles.com/ugd/8cbbe2_311364b869d6495c9e1b4ae03c2d2618.pdf',
             auditLogo: 'https://i.ibb.co/6WP1kML/flylogo.png',
           },
-           {
+          {
             _id: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
             coinName: 'InfiniteOne  (IF1)',
             coinAddress: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
@@ -71,8 +71,8 @@ export default function DonkSeal() {
             coinWebsite: 'https://infiniteone.io/',
             auditFile: 'https://github.com/ScientificChickenSander/EggChainCertifiedAudits/blob/main/EggChainAudit-InfiniteOne-14092021.pdf',
             auditLogo: 'https://i.ibb.co/9W1CdQm/Egg-C-Audit-Logo.png',
-           },
-           {
+          },
+          {
             _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
             coinName: 'CryoGen  (CRYOGEN)',
             coinAddress: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
@@ -98,7 +98,7 @@ export default function DonkSeal() {
       <AppBody max>
         <CardBody>
           <AutoColumn gap="md">
-            <div style={{ maxWidth: '100%' }}>
+            <div style={{ maxWidth: '100%',overflow: 'scroll'}} >
               <MaterialTable
                 components={{
                   Container: (props) => <Paper {...props} elevation={0} />,
@@ -125,9 +125,9 @@ export default function DonkSeal() {
                           justifyContent: 'flex-start',
                         }}
                       >
-                       {/*@ts-ignore */}
-                       <img src={rD.coinLogo} style={{ width: 50, borderRadius: '50%' }} />
-                      
+                        {/*@ts-ignore */}
+                        <img src={rD.coinLogo} style={{ width: 50, borderRadius: '50%' }} />
+
                         <strong className="ml-rem">
                           {/* @ts-ignore */}
                           <a href={rD?.coinWebsite}>
@@ -135,9 +135,9 @@ export default function DonkSeal() {
                             {rD?.coinName}
                           </a>
                         </strong>
-                        
+
                       </div>
-                      
+
                     ),
                   },
                   //   {
@@ -153,8 +153,8 @@ export default function DonkSeal() {
                   //     render: (rowData) => <>{addComm(rowData.csupply)}</>,
                   //     hidden: matches,
                   //   },
-               
-               
+
+
                   {
                     title: 'Audit',
                     field: 'audit',
@@ -171,11 +171,11 @@ export default function DonkSeal() {
                         <a href={rD?.auditFile}>
                           {/* @ts-ignore */}
                           <img src={rD?.auditLogo} style={{ width: 50, borderRadius: '50%' }} />
-                        </a> 
+                        </a>
                       </div>
                     ),
                   },
-                ]} 
+                ]}
 
                 //@ts-ignore
                 data={Data}

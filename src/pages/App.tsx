@@ -18,14 +18,13 @@ import Menu from '../components/Menu'
 import useGetDocumentTitlePrice from '../hooks/useGetDocumentTitlePrice'
 import Casino from './ComingSoonCasino'
 import Mine from './ComingSoonMine'
-import { HomePage } from './Home'
-import background_logo from 'src/uikit/widgets/Menu/icons/images/donk_transparent.png'
+import HomePage from './Home'
 
 const AppWrapper = styled.div`
   display: flex;
   flex-flow: column;
   align-items: flex-start;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   background: #232526;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -38,8 +37,8 @@ const BodyWrapper = styled.div`
   padding: 32px 16px;
   align-items: center;
   flex: 1;
-  overflow-y: auto;
-  overflow-x: hidden;
+  // overflow-y: auto;
+  // overflow-x: hidden;
   z-index: 1;
   justify-content: center;
   background-repeat: no-repeat;
@@ -71,7 +70,6 @@ export default function App() {
     <Suspense fallback={null}>
       <HashRouter>
         <AppWrapper>
-          <img src="" />
           <Menu>
             <BodyWrapper>
               <Popups />

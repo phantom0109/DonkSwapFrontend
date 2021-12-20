@@ -68,6 +68,7 @@ const ResetCSS = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
   }
 
   /* Number */
