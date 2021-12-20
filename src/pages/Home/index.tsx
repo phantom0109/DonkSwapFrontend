@@ -157,7 +157,7 @@ const HomePage = (props) => {
                         <h4>Be in the <span style={{ color: '#fdc921' }}>Money</span> with Donkey King Finance!</h4>
                     </div>
                     <div className="sub-slogan-container">
-                        <p><b>DonkSwap</b>
+                        <p><b>DonkSwap </b>
                             <em style={{ color: 'white' }}>
                                 is a global Binance Smart Chain (BSC) exchange with a vision to end rug-pulls and create a safe space to invest in BSC projects. DonkSwap Token ($DST) is the official currency of DonkSwap.
                             </em>
