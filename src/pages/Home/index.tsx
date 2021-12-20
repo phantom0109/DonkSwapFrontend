@@ -318,7 +318,7 @@ const HomePage = (props) => {
                         <div className="safe-secure-content-hugger">
                             <h3 className="safe-secure-title">Strong, Safe & Secure</h3>
                             <p>The $DST smart contract has been fully audited by one of the top specialized teams and its LP (Liquidity Pool)
-                                tokens have been burnt. Which eliminates many risks for our community!</p>
+                                tokens have been locked for one year. Locking the LP tokens eliminates many risks for our community!</p>
                             <a href="https://github.com/Watchtower-WTW/Public_Audits/blob/main/DONKSWAP%20Smart%20Contract%20Security%20Audit%20(2).pdf">
                                 See our security audit here..
                             </a>
