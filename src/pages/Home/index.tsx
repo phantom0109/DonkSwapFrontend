@@ -339,7 +339,7 @@ const HomePage = (props) => {
                                 <source src={(casinoGameTwo)} type="video/mp4" />
                             </video>
                         </div>
-                        <a className="casino-link" href="/#/casino" style={{ color: 'white', zIndex: '1', marginTop: '-50px' }}>See More...</a>
+                        <a className="casino-link" href="/#/casino" style={{ color: 'white', marginTop: '-50px' }}>See More...</a>
                     </div>
                     <h3 className="casino-end-title">The Official BSC Casino</h3>
                 </div>
