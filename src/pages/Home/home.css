@@ -1279,6 +1279,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         flex-shrink: 0; 
+        margin-top: 25px;
         margin-right: 6rem;
     }
     .quickgo-button-hugger{
@@ -2160,7 +2161,6 @@
         font-size: 0.65rem;
         line-height: 1.2rem;
         margin-left: 60px;
-        /* padding: 0; */
     }
     .quickgo-button-container{
         width: 100%;
@@ -2171,6 +2171,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         flex-shrink: 0; 
+        margin-top: 40px;
         margin-right: 2rem;
     }
     .quickgo-button-hugger{
@@ -2432,10 +2433,10 @@
     }
     .strongDonkey{
         position: absolute;
-        width: 10rem;
-        height: 10rem;
-        top: 9rem;
-        left: 7rem;
+        width: 15rem;
+        height: 15rem;
+        top: 3rem;
+        left: 5rem;
         animation: logomove 4s linear infinite;
     }
     .blob3{
@@ -2574,27 +2575,26 @@
     /*=====================================*/
     /*=====================================*/
     /*=====================================*/
-    #sixth-box{
-        overflow-y: scroll;
-    }
+  
     .team-header-container{
         width: 100%;
         font-size: 1.7rem;
         font-weight: 700;
         color:white;
+        margin-left: 0.9rem;
+
     }
     .left-of-sixth-box{
         position: absolute;
         width: 100vw;
-        height: fit-content;
-        display: flex;
+        height: 80%;
+        display: block;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         overflow-y: scroll;
         position:absolute;
-        top: 5rem;
-        
+        top: 5rem;      
     }
     .profile-hugger{
         margin-top: 1rem;
@@ -2639,6 +2639,8 @@
         background-color: rgb(57, 57, 57);
         padding: 10px;
         z-index: 1;
+        margin-left: 38%;
+
     }
     .dev-content-container p{
 
@@ -2669,7 +2671,7 @@
     }
     .quickgo-button-container{
         width: 100%;
-        height: 40%;
+        height: 35%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2886,7 +2888,7 @@
         font-weight: 700;
         color:#8f54a0;
         top: 10rem;
-        left: -1.5rem;
+        left: -1.4rem;
     }
     .tokenomics-title-opacity{
         position: absolute;
@@ -2896,7 +2898,7 @@
         left: 1rem;
         font-weight: 200;
         z-index: -1;
-        margin-left: 1.5rem;
+        margin-left: 1.2rem;
     }
     .tokenomics-bullet-title{
         font-size: 0.9rem;
@@ -2912,7 +2914,7 @@
         letter-spacing: 2px;
         font-size: 0.75rem;
         top: 9.8rem;
-        left: -3rem;
+        left: -3.2rem;
     }
     .tokenomics-list-heading-container{
         width: 20rem;
@@ -2946,10 +2948,10 @@
     }
     .strongDonkey{
         position: absolute;
-        width: 10rem;
-        height: 10rem;
-        top: 9rem;
-        left: 7rem;
+        width: 12rem;
+        height: 12rem;
+        top: 4.5rem;
+        left: 5.9rem;
         animation: logomove 4s linear infinite;
     }
     .blob3{
@@ -3088,27 +3090,17 @@
     /*=====================================*/
     /*=====================================*/
     /*=====================================*/
-    #sixth-box{
-        overflow-y: scroll;
-    }
-    .team-header-container{
-        width: 100%;
-        font-size: 1.7rem;
-        font-weight: 700;
-        color:white;
-    }
     .left-of-sixth-box{
         position: absolute;
         width: 100vw;
-        height: fit-content;
-        display: flex;
+        height: 90%;
+        display: block;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         overflow-y: scroll;
         position:absolute;
-        top: 5rem;
-        
+        top: 5rem;      
     }
     .profile-hugger{
         margin-top: 1rem;
@@ -3153,6 +3145,7 @@
         background-color: rgb(57, 57, 57);
         padding: 10px;
         z-index: 1;
+        margin-left: 4.2rem;
     }
     .dev-content-container p{
 
