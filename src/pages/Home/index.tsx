@@ -153,9 +153,9 @@ const HomePage = (props) => {
                         <h4>Be in the <span style={{ color: '#fdc921' }}>Money</span> with Donkey King Finance!</h4>
                     </div>
                     <div className="sub-slogan-container">
-                        <p><b>DonkSwap ($DST) </b>
+                        <p><b>DonkSwap </b>
                             <em style={{ color: 'white' }}>
-                                is a global Binance $mart Chain exchange with a vision to <br></br> end rug-pulls and create a safe space to invest in BSC projects.
+                                is a global Binance Smart Chain (BSC) exchange with a vision to end rug-pulls and create a safe space to invest in BSC projects. DonkSwap Token ($DST) is the official currency of DonkSwap.
                             </em>
                         </p>
                     </div>
@@ -244,16 +244,16 @@ const HomePage = (props) => {
                             <h4 className="headerTwo">Decentralized Exchange</h4>
                         </div>
                         <div className="right-of-third-box-value-container">
-                            DonkSwap is one of the first of its' kind. Our
+                            DonkSwap is one of the first of its kind. Our
                             vision is to provide transparency at its
-                            highest level welcoming new comers and
+                            highest level welcoming newcomers and
                             veterans seeking a reliable source to
                             exchange and swap their tokens by
                             providing an environment of fully audited
                             projects. Get reliable information of each
                             project listed and their development team
                             as well as links to the financial audit,
-                            charts, website, and any other pertinent
+                            charts, website and any other pertinent
                             information that is needed to make an
                             informed investment.
                             <br></br>
@@ -271,8 +271,8 @@ const HomePage = (props) => {
             <section id="fourth-box">
                 <img src={(blob2)} alt="blob2" className="blob2" />
                 <div className="fourth-box-slogan-container">
-                    <h3 className="fourth-box-slogan-headline-overlay">Are you with #DonkNation Yet?</h3>
-                    <h3 className="fourth-box-slogan-headline">Are you with #DonkNation Yet?</h3>
+                    <h3 className="fourth-box-slogan-headline-overlay">Are you with #DonkNation yet?</h3>
+                    <h3 className="fourth-box-slogan-headline">Are you with #DonkNation yet?</h3>
                 </div>
                 <div className="left-of-fourth-box">
                     <div className="tokenomics-container">
@@ -280,19 +280,19 @@ const HomePage = (props) => {
                         <h3 className="tokenomics-title-opacity">Tokenomics</h3>
                         <div className="tokenomics-content-container">
                             <p className="tokenomics-list-heading-container">
-                                There's generally a 6% fee on every transaction and transfer. However, of that 6% fee..
+                                There is a 6% fee on every transaction and transfer. However, of that 6% fee..
                             </p>
                             <div className="tokenomics-list-container">
                                 <h3 className="tokenomics-bullet-title"> 2% gets redistributed to all holders</h3>
-                                Provides our community a benefit of holding $DST as a long term investment.
+                                Provides our community a benefit to holding $DST as a long term investment.
                                 <br></br>
                                 <br></br>
                                 <h3 className="tokenomics-bullet-title">  2% goes back into liquidity</h3>
-                                Gives additional tokens for new investors who want to invest to help support the sustainability of our exchange.
+                                Provides additional tokens for new investors who want to invest to help support the sustainability of our exchange.
                                 <br></br>
                                 <br></br>
                                 <h3 className="tokenomics-bullet-title"> 2% is sent to a burn wallet</h3>
-                                Burning helps decrease total circulating supply which in turn increases the price of <b>$DST.</b>
+                                Burning helps decrease the total circulating supply which in turn increases the price of <b>$DST.</b>
                             </div>
                         </div>
                     </div>
@@ -348,7 +348,7 @@ const HomePage = (props) => {
                 <img src={(layeredWavesOne)} alt="layedwaves" className="layered-wave-one" />
                 <div className="left-of-sixth-box">
                     <div className="team-header-container">
-                        <h3 className="team-title">Meet the team</h3>
+                        <h3 className="team-title">Meet the Team</h3>
                     </div>
                     <div className="profile-hugger" id="CEO">
                         <div className="dev-content-container">
