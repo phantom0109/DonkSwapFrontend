@@ -1,3 +1,6 @@
+/*============ LAPTOP 1440PX ====================*/
+/*============ LAPTOP 1440PX ====================*/
+/*============ LAPTOP 1440PX ====================*/
 
 .wave2{
     position: absolute;
@@ -969,9 +972,9 @@
 }
 
 
-/*=====================================*/
-/*=====================================*/
-/*=====================================*/
+/*============ DESKTOP AND ABOVE ====================*/
+/*============ DESKTOP AND ABOVE ====================*/
+/*============ DESKTOP AND ABOVE ====================*/
 
 @media only screen and (min-width: 1900px) {
 
@@ -1244,12 +1247,9 @@
 }
 
 
-
-
-/*=====================================*/
-/*=====================================*/
-/*=====================================*/
-
+/*============ IPAD PRO ====================*/
+/*============ IPAD PRO ====================*/
+/*============ IPAD PRO ====================*/
 
 @media only screen and (max-width: 1024px) {
 
@@ -1637,6 +1637,9 @@
     }
 }
 
+/*============ IPAD  ====================*/
+/*============ IPAD ====================*/
+/*============ IPAD  ====================*/
 
 @media only screen and (max-width: 768px) {
 
@@ -1810,7 +1813,6 @@
         right: 25rem;
     }
     .why-donk{
-
         width: 80px;
         text-align: center;
         position: relative;
@@ -2139,11 +2141,13 @@
     .dev-content-container p{
         font-size: 0.5rem;
     }
-    
 }
 
+/*============ IPHONE 6/7/8 + PORTRAIT ====================*/
+/*============ IPHONE 6/7/8 + PORTRAIT ====================*/
+/*============ IPHONE 6/7/8 + PORTRAIT ====================*/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px)  { 
 
     .slogan-container{
         width: 90%;
@@ -2240,7 +2244,6 @@
         align-items: center;
         color:#8f54a0;
         text-align: center;
-
     }
     .poker-chips{
         position: absolute;
@@ -2259,14 +2262,14 @@
     }
     .why-donk{
         position:absolute;
-        width: 80px;
+        width: 100%;
         text-align: center;
         position: relative;
         bottom: 90px;
         font-weight: 400;
-        font-size: 2.7rem;
+        font-size: 2.6rem;
         top: -3rem;
-        margin-right: 10rem;
+        left: 4.3rem;
     }
 
 /*=====================================*/
@@ -2323,12 +2326,13 @@
     .right-of-third-box-value-container{
         text-align: left;
         width: 100%;
-        height: 12rem;
+        height: 13rem;
         font-weight: 500;
         letter-spacing: 1.2px;
         line-height: 1.3;
         color: white;
         z-index: 1;
+        font-size: 0.80rem;
     }
     .getSwap-btn{
         position: absolute;
@@ -2344,6 +2348,15 @@
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.396);
         cursor: pointer;
         z-index: 1;
+    }
+    .headerOne{
+        position:absolute;
+        top: 6rem;
+    }
+    .headerTwo{
+        position:absolute;
+        top: 9rem;
+        font-size: 1.7rem;
     }
 
     /*=====================================*/
@@ -2372,14 +2385,14 @@
         font-size: 2.8rem;
         font-weight: 700;
         color:#8f54a0;
-        top: 10rem;
+        top: 4rem;
         left: 0rem;
     }
     .tokenomics-title-opacity{
         position: absolute;
         font-size: 3.2rem;
         opacity: 0.1;
-        top: 11rem;
+        top: 5rem;
         left: 1rem;
         font-weight: 200;
         z-index: -1;
@@ -2398,7 +2411,7 @@
         line-height: 2;
         letter-spacing: 2px;
         font-size: 0.75rem;
-        top: 9.8rem;
+        top: 5.8rem;
         left: -2rem;
     }
     .tokenomics-list-heading-container{
@@ -2415,6 +2428,27 @@
         width: 20rem;
         text-align: center;
         font-size: 0.75rem;
+    }
+    .fourth-box-slogan-container{
+        position: absolute;
+        text-align: center;
+        width: 25rem;
+        height: 20rem;
+        display: flex;
+        flex-shrink: 1;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: left;
+        font-weight: 400;
+        font-size: 2rem;
+        letter-spacing: 1.2px;
+        line-height: 1.3;
+        color: white;
+        z-index: 1;
+        top: -5rem;
+        right: -3rem;
+        display: none;
     }
 
     /*=====================================*/
@@ -2497,12 +2531,15 @@
     }
     .casino-section-title{
         color: white;
-        font-size: 2rem;
+        font-size: 1.7rem;
+        margin-left: 20px;
     }
     .casino-end-title{
-        margin-top: 15rem;;
-        margin-top: 10px;
+        position: absolute;
+        margin-top: 0.1rem;
         font-size: 1.8rem;
+        width: 100%;
+        left: 0rem;
     }
     .video-hugger{
         position: absolute;
@@ -2575,7 +2612,7 @@
     /*=====================================*/
     /*=====================================*/
     /*=====================================*/
-  
+
     .team-header-container{
         width: 100%;
         font-size: 1.7rem;
@@ -2648,6 +2685,11 @@
     }
 }
 
+
+
+/*============ IPHONE 6/7/8 Regular PORTRAIT ====================*/
+/*============ IPHONE 6/7/8 Regular PORTRAIT ====================*/
+/*============ IPHONE 6/7/8 Regular PORTRAIT ====================*/
 
 @media only screen and (max-width: 400px) {
 
@@ -2765,14 +2807,13 @@
     }
     .why-donk{
         position:absolute;
-        width: 80px;
+        width: 100%;
         text-align: center;
         position: relative;
         bottom: 90px;
         font-weight: 400;
-        font-size: 2.7rem;
+        font-size: 2.4rem;
         top: -3rem;
-        margin-right: 10rem;
     }
 
 /*=====================================*/
@@ -2847,7 +2888,7 @@
     }
     .getSwap-btn{
         position: absolute;
-        bottom: 7.0rem;
+        bottom: 4.5rem;
         left: 1.5rem;
         background: #753fa4;
         padding: 10px 5px;
@@ -3015,8 +3056,8 @@
         font-size: 2rem;
     }
     .casino-end-title{
-        margin-top: 15rem;;
-        margin-top: 10px;
+        margin-top: -0.5rem;
+
         font-size: 1.8rem;
     }
     .video-hugger{
@@ -3150,5 +3191,1567 @@
     .dev-content-container p{
 
         font-size: 0.68rem;
+    }
+}
+
+/*============ IPHONE X LandScape ====================*/
+/*============ IPHONE X LandScape ====================*/
+
+@media only screen 
+and (max-width: 812px)
+and (orientation:landscape) {
+
+    .slogan-container{
+        width: 90%;
+        letter-spacing: 0.1rem;
+        line-height: 2.3rem;
+        margin-top: 7rem;
+        margin-left: 1.5rem;
+    }
+    .sub-slogan-container{
+        width: 100%;
+        color:#8f54a0;
+        letter-spacing: 0.02rem;
+        font-size: 0.65rem;
+        line-height: 1.2rem;
+        margin-left: 70px;
+    }
+    .quickgo-button-container{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-shrink: 0; 
+        margin-top: 0px;
+        margin-right: -2rem;
+    }
+    .quickgo-btn{
+        width: 95px;
+        height: 37px;
+        font-weight: 100;
+        color: white;
+        border-radius: 10px;
+        background-color: rgb(73, 73, 73);
+        box-shadow: inset -1px -1px 5px 8px rgba(255, 255, 255, 0.081);
+        cursor: pointer;
+        font-size: 0.72rem;
+    }
+    .social-link-container{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        padding: 10px;
+        box-shadow: 7px 7px 1px rgba(41, 41, 41, 0.341);
+        border-radius: 30px;
+        background-color: rgb(57, 57, 57);
+    }
+    .ace-logo{
+        position: absolute;
+        width: 20rem;
+        height: 20rem;
+        right: 3rem;
+        top: 5rem;
+        opacity: 0.1;
+        z-index: -2;
+    }
+    .donkey-logo{
+        position: absolute;
+        top: 9rem;
+        width: 13rem;
+        height: 13rem;
+        z-index: 1;
+        animation: logomove 3s linear infinite;
+    }
+    #second-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .poker-chips{
+        position: absolute;
+        width: 15rem;
+        height: 15rem;
+        opacity: 0.2;
+        z-index: 0;
+        top: 3rem;
+        right: 0rem;
+    }
+    .ticker-opacity{
+        position: absolute;
+        top: -10rem;
+        font-size: 6rem;
+        opacity: 0.2;
+    }
+    .why-donk{
+        position:absolute;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        bottom: 90px;
+        font-weight: 400;
+        font-size: 2.6rem;
+        top: -3rem;
+        left: 4.3rem;
+    }
+
+    #third-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #8962aa;;
+    }
+    .card-chips{
+        position: absolute;
+        width: 60rem;
+        height: 60rem;
+        opacity: 0.0;
+        bottom: 0.1rem;
+        left: 5.5rem;
+        z-index: -1;
+    }
+    .right-of-third-box{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 2rem;
+        z-index: 1;
+    }
+    .why-container{
+        position: absolute;
+        width: 9.5rem;
+        height: 35vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 20px;
+        background-color: rgb(57, 57, 57);
+        z-index: 1;
+        top: 1rem;
+        margin-bottom: 20rem;
+        display:none;
+    }
+    .right-of-third-box-value-container{
+        position:absolute;
+        top: 40rem;
+        left: 2.5rem;
+        text-align: center;
+        width: 100%;
+        height: 10rem;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        line-height: 1.3;
+        color: white;
+        z-index: 1;
+        font-size: 0.80rem;
+    }
+    .getSwap-btn{
+        position: absolute;
+        bottom: 1.3rem;
+        left: 23rem;
+        background: #753fa4;
+        padding: 10px 5px;
+        width: 140px;
+        border: none;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        color: white;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.396);
+        cursor: pointer;
+        z-index: 1;
+    }
+    .headerOne{
+        position:absolute;
+        top: 36rem;
+        left: 8rem;
+        font-size: 1.5rem;
+    }
+    .headerTwo{
+        position:absolute;
+        top: 37.9rem;
+        font-size: 1.2rem;
+        left: 8rem;
+    }
+
+    #fourth-box{
+        position: relative;
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .blob2{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        width: 100%;
+        display: none;
+    }
+    .tokenomics-title{
+        position: absolute;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color:#8f54a0;
+        top: 0.5rem;
+        left: 0rem;
+    }
+    .tokenomics-title-opacity{
+        position: absolute;
+        font-size: 3.2rem;
+        opacity: 0.1;
+        top: 1rem;
+        left: 1rem;
+        font-weight: 200;
+        z-index: -1;
+        margin-left: 2.5rem;
+    }
+    .tokenomics-bullet-title{
+        font-size: 0.9rem;
+        font-weight: 700;
+        color:#8f54a0;
+    }
+    .tokenomics-content-container{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        padding: 5rem;
+        line-height: 2;
+        letter-spacing: 2px;
+        font-size: 0.55rem;
+        top: 0.8rem;
+        left: -2rem;
+    }
+    .tokenomics-list-heading-container{
+        width: 20rem;
+        text-align: center;
+        font-size: 0.55rem;
+    }
+    .tokenomics-list-container{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        line-height: 1.5;
+        width: 20rem;
+        text-align: center;
+        font-size: 0.50rem;
+    }
+
+    #security-section{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 100vh;
+    }
+    .left-side-of-security-section{
+        width: 50%;
+        height: 100vh;
+    }
+    .strongDonkey{
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        top: 5rem;
+        left: 5rem;
+        animation: logomove 4s linear infinite;
+    }
+    .blob3{
+        position: absolute;
+        z-index: -1;
+        bottom: 33rem;
+        right: 12rem;
+        top: -2rem;
+        left: -15rem;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .safe-secure-container{
+        width: 35rem;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 0.55rem;
+        margin-top: 10rem;
+        margin-right: 3.5rem;
+    }
+    .safe-secure-title{
+        font-size: 1.8rem;
+        font-weight: 550;
+        color:#8f54a0;
+        
+    }
+    .safe-secure-content-hugger{
+        width: 20rem;
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 2;
+        margin-right: 10rem;
+    }
+
+
+    #fifth-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .coming-soon-hugger{
+        width: 100vw;
+        height: 0;
+        position: absolute;
+        bottom: 35rem;
+    }
+    .casino-section-title{
+        color: white;
+        font-size: 1.7rem;
+        margin-left: 20px;
+    }
+    .casino-end-title{
+        position: absolute;
+        margin-top: 0.1rem;
+        font-size: 1.8rem;
+        width: 100%;
+        left: 0rem;
+    }
+    .video-hugger{
+        position: absolute;
+        width: 20rem;
+        height: 16rem;
+        top: 1.5rem;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(40, 40, 40);
+        z-index: 1;
+    }
+    .casino-vid{
+        width: 18rem;
+        height: 35rem;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .casino-link{
+        position:absolute;
+        top: 25rem;
+    }
+    .cardArt{
+        position: absolute;
+        width: 90rem;
+        height: 90rem;
+        bottom: -60rem;
+        right: 0rem;
+    }
+    .video-hugger{
+        position: absolute;
+        width: 20rem;
+        height: 16rem;
+        top: 1.5rem;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(40, 40, 40);
+        z-index: 1;
+    }
+    .casino-vid{
+        width: 18rem;
+        height: 35rem;
+        cursor: pointer;
+        z-index: 1;
+        display: none;
+    }
+    .casino-link{
+        position:absolute;
+        top: 13rem;
+        width: 120px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #9e64d1;
+        border:none;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px black;
+        font-size: 0.85rem;
+    }
+
+
+    .team-header-container{
+        width: 100%;
+        font-size: 1.0rem;
+        font-weight: 700;
+        color:white;
+        margin-left: 0.5rem;
+        opacity: 0.0;
+
+    }
+    .left-of-sixth-box{
+        position: absolute;
+        width: 80vw;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        position:absolute;
+        padding-right: 12rem;
+        top: 9rem;      
+    }
+    .profile-hugger{
+        margin-top: 1rem;
+        width: 16rem;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 8px;
+    }
+    .profile-pic-container{
+        width: 6rem;
+        height: 6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 50%;
+        background-color: rgb(57, 57, 57);
+    }
+    .dev-pics{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
+    .dev-content-container{
+        width: 12rem;
+        height: 20rem;
+        display: flex;
+        font-size: 0.6rem;
+        line-height: 1.3;
+        color: white;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(57, 57, 57);
+        z-index: 1;
+        margin-left: 38%;
+
+    }
+    .dev-content-container p{
+
+        padding-top: 25px;
+        font-size: 0.5rem;
+    }
+}
+/*============ IPHONE 6/7/8 LandScape ====================*/
+/*============ IPHONE 6/7/8 LandScape ====================*/
+/*============ IPHONE 6/7/8 LandScape ====================*/
+
+@media only screen 
+and (max-width: 667px)
+and (orientation:landscape) {
+
+    .slogan-container{
+        width: 90%;
+        letter-spacing: 0.1rem;
+        line-height: 2.3rem;
+        margin-top: 7rem;
+        margin-left: 1.5rem;
+    }
+    .sub-slogan-container{
+        width: 100%;
+        color:#8f54a0;
+        letter-spacing: 0.02rem;
+        font-size: 0.65rem;
+        line-height: 1.2rem;
+        margin-left: 70px;
+    }
+    .quickgo-button-container{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-shrink: 0; 
+        margin-top: 0px;
+        margin-right: -2rem;
+    }
+    .quickgo-btn{
+        width: 95px;
+        height: 37px;
+        font-weight: 100;
+        color: white;
+        border-radius: 10px;
+        background-color: rgb(73, 73, 73);
+        box-shadow: inset -1px -1px 5px 8px rgba(255, 255, 255, 0.081);
+        cursor: pointer;
+        font-size: 0.72rem;
+    }
+    .social-link-container{
+        width: 70%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        padding: 10px;
+        box-shadow: 7px 7px 1px rgba(41, 41, 41, 0.341);
+        border-radius: 30px;
+        background-color: rgb(57, 57, 57);
+    }
+    .ace-logo{
+        position: absolute;
+        width: 20rem;
+        height: 20rem;
+        right: 3rem;
+        top: -0.9rem;
+        opacity: 0.1;
+        z-index: -2;
+    }
+    .donkey-logo{
+        position: absolute;
+        top: 3rem;
+        width: 13rem;
+        height: 13rem;
+        z-index: 1;
+        animation: logomove 3s linear infinite;
+    }
+    #second-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .poker-chips{
+        position: absolute;
+        width: 15rem;
+        height: 15rem;
+        opacity: 0.2;
+        z-index: 0;
+        top: 3rem;
+        right: 0rem;
+    }
+    .ticker-opacity{
+        position: absolute;
+        top: -6rem;
+        font-size: 6rem;
+        opacity: 0.2;
+    }
+    .why-donk{
+        position:absolute;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        bottom: 90px;
+        font-weight: 400;
+        font-size: 2.6rem;
+        top: -0.5rem;
+        left: 4.3rem;
+    }
+
+    #third-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #8962aa;;
+    }
+    .card-chips{
+        position: absolute;
+        width: 60rem;
+        height: 60rem;
+        opacity: 0.0;
+        bottom: 0.1rem;
+        left: 5.5rem;
+        z-index: -1;
+    }
+    .right-of-third-box{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 2rem;
+        z-index: 1;
+    }
+    .why-container{
+        position: absolute;
+        width: 9.5rem;
+        height: 35vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 20px;
+        background-color: rgb(57, 57, 57);
+        z-index: 1;
+        top: 1rem;
+        margin-bottom: 20rem;
+        display:none;
+    }
+    .right-of-third-box-value-container{
+        position:absolute;
+        top: 29rem;
+        left: 2.5rem;
+        text-align: center;
+        width: 100%;
+        height: 10rem;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        line-height: 1.3;
+        color: white;
+        z-index: 1;
+        font-size: 0.60rem;
+    }
+    .getSwap-btn{
+        position: absolute;
+        bottom: 1.3rem;
+        left: 19rem;
+        background: #753fa4;
+        padding: 10px 5px;
+        width: 140px;
+        border: none;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        color: white;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.396);
+        cursor: pointer;
+        z-index: 1;
+        font-weight: 200;
+    }
+    .headerOne{
+        position:absolute;
+        top: 25.59rem;
+        left: 8rem;
+        font-size: 1.0rem;
+        font-weight: 500;
+    }
+    .headerTwo{
+        position:absolute;
+        top: 26.9rem;
+        font-size: 0.8rem;
+        left: 8rem;
+    }
+
+    #fourth-box{
+        position: relative;
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .blob2{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        width: 100%;
+        display: none;
+    }
+    .tokenomics-title{
+        position: absolute;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color:#8f54a0;
+        top: 0.5rem;
+        left: 0rem;
+    }
+    .tokenomics-title-opacity{
+        position: absolute;
+        font-size: 3.2rem;
+        opacity: 0.1;
+        top: 1rem;
+        left: 1rem;
+        font-weight: 200;
+        z-index: -1;
+        margin-left: 2.5rem;
+    }
+    .tokenomics-bullet-title{
+        font-size: 0.9rem;
+        font-weight: 700;
+        color:#8f54a0;
+    }
+    .tokenomics-content-container{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        padding: 5rem;
+        line-height: 2;
+        letter-spacing: 2px;
+        font-size: 0.55rem;
+        top: 0.8rem;
+        left: -2rem;
+    }
+    .tokenomics-list-heading-container{
+        width: 20rem;
+        text-align: center;
+        font-size: 0.55rem;
+    }
+    .tokenomics-list-container{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        line-height: 1.5;
+        width: 20rem;
+        text-align: center;
+        font-size: 0.50rem;
+    }
+    .fourth-box-slogan-headline-overlay{
+        position: relative;
+        opacity: 0.1;
+        z-index: 0;
+        top: 6.5rem;
+        right: -1rem;
+    }
+    .fourth-box-slogan-container{
+        position: absolute;
+        text-align: center;
+        width: 10rem;
+        height: 20rem;
+        display: flex;
+        flex-shrink: 1;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: left;
+        font-weight: 400;
+        font-size: 0.9rem;
+        letter-spacing: 1.2px;
+        line-height: 1.3;
+        color: white;
+        z-index: 1;
+        top: -3rem;
+        right: 5rem;
+    }
+
+    #security-section{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 100vh;
+    }
+    .left-side-of-security-section{
+        width: 50%;
+        height: 100vh;
+    }
+    .strongDonkey{
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        top: 5rem;
+        left: 5rem;
+        animation: logomove 4s linear infinite;
+    }
+    .blob3{
+        position: absolute;
+        z-index: -1;
+        bottom: 33rem;
+        right: 12rem;
+        top: -2rem;
+        left: -10rem;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .safe-secure-container{
+        width: 35rem;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 0.55rem;
+        margin-top: 10rem;
+        margin-right: 0rem;
+    }
+    .safe-secure-title{
+        font-size: 1.8rem;
+        font-weight: 550;
+        color:#8f54a0;
+        
+    }
+    .safe-secure-content-hugger{
+        width: 20rem;
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 2;
+        margin-right: 10rem;
+    }
+
+
+    #fifth-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .coming-soon-hugger{
+        width: 100vw;
+        height: 0;
+        position: absolute;
+        bottom: 35rem;
+    }
+    .casino-section-title{
+        color: white;
+        font-size: 1.7rem;
+        margin-left: 20px;
+    }
+    .casino-end-title{
+        position: absolute;
+        margin-top: 0.1rem;
+        font-size: 1.8rem;
+        width: 100%;
+        left: 0rem;
+    }
+    .video-hugger{
+        position: absolute;
+        width: 20rem;
+        height: 16rem;
+        top: 1.5rem;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(40, 40, 40);
+        z-index: 1;
+    }
+    .casino-vid{
+        width: 18rem;
+        height: 35rem;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .casino-link{
+        position:absolute;
+        top: 25rem;
+    }
+    .cardArt{
+        position: absolute;
+        width: 90rem;
+        height: 90rem;
+        bottom: -60rem;
+        right: 0rem;
+    }
+    .video-hugger{
+        position: absolute;
+        width: 20rem;
+        height: 16rem;
+        top: 1.5rem;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(40, 40, 40);
+        z-index: 1;
+    }
+    .casino-vid{
+        width: 18rem;
+        height: 35rem;
+        cursor: pointer;
+        z-index: 1;
+        display: none;
+    }
+    .casino-link{
+        position:absolute;
+        top: 13rem;
+        width: 120px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #9e64d1;
+        border:none;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px black;
+        font-size: 0.85rem;
+    }
+
+    #sixth-box{
+        height: 100vh;
+    }
+    .team-header-container{
+        width: 100%;
+        font-size: 1.0rem;
+        font-weight: 700;
+        color:white;
+        margin-left: 0.5rem;
+        opacity: 0.0;
+
+    }
+    .left-of-sixth-box{
+        position: absolute;
+        width: 80vw;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        position:absolute;
+        padding-right: 12rem;
+        top: 9rem;  
+
+    }
+    .profile-hugger{
+        margin-top: 1rem;
+        width: 16rem;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 8px;
+    }
+    .profile-pic-container{
+        width: 6rem;
+        height: 6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 50%;
+        background-color: rgb(57, 57, 57);
+    }
+    .dev-pics{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
+    .dev-content-container{
+        width: 12rem;
+        height: 100%;
+        display: flex;
+        font-size: 0.7rem;    
+        line-height: 1.2;
+        color: white;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(57, 57, 57);
+        z-index: 1;
+        margin-left: 38%;
+
+    }
+    .dev-content-container p{
+        padding-top: 2px;
+        font-size: 0.5rem;
+
+    }
+}
+
+@media only screen 
+and (max-width: 736px)
+and (orientation:landscape) {
+
+    .slogan-container{
+        width: 90%;
+        letter-spacing: 0.1rem;
+        line-height: 2.3rem;
+        margin-top: 7rem;
+        margin-left: 1.5rem;
+    }
+    .sub-slogan-container{
+        width: 100%;
+        color:#8f54a0;
+        letter-spacing: 0.02rem;
+        font-size: 0.65rem;
+        line-height: 1.2rem;
+        margin-left: 70px;
+    }
+    .quickgo-button-container{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-shrink: 0; 
+        margin-top: 0px;
+        margin-right: -2rem;
+    }
+    .quickgo-btn{
+        width: 95px;
+        height: 37px;
+        font-weight: 100;
+        color: white;
+        border-radius: 10px;
+        background-color: rgb(73, 73, 73);
+        box-shadow: inset -1px -1px 5px 8px rgba(255, 255, 255, 0.081);
+        cursor: pointer;
+        font-size: 0.72rem;
+    }
+    .social-link-container{
+        width: 70%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        padding: 10px;
+        box-shadow: 7px 7px 1px rgba(41, 41, 41, 0.341);
+        border-radius: 30px;
+        background-color: rgb(57, 57, 57);
+    }
+    .ace-logo{
+        position: absolute;
+        width: 20rem;
+        height: 20rem;
+        right: 3rem;
+        top: -0.9rem;
+        opacity: 0.1;
+        z-index: -2;
+    }
+    .donkey-logo{
+        position: absolute;
+        top: 3rem;
+        width: 13rem;
+        height: 13rem;
+        z-index: 1;
+        animation: logomove 3s linear infinite;
+    }
+    #second-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .poker-chips{
+        position: absolute;
+        width: 15rem;
+        height: 15rem;
+        opacity: 0.2;
+        z-index: 0;
+        top: 3rem;
+        right: 0rem;
+    }
+    .ticker-opacity{
+        position: absolute;
+        top: -6rem;
+        font-size: 6rem;
+        opacity: 0.2;
+    }
+    .why-donk{
+        position:absolute;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        bottom: 90px;
+        font-weight: 400;
+        font-size: 2.6rem;
+        top: -0.5rem;
+        left: 4.3rem;
+    }
+
+    #third-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #8962aa;;
+    }
+    .card-chips{
+        position: absolute;
+        width: 60rem;
+        height: 60rem;
+        opacity: 0.0;
+        bottom: 0.1rem;
+        left: 5.5rem;
+        z-index: -1;
+    }
+    .right-of-third-box{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 2rem;
+        z-index: 1;
+    }
+    .why-container{
+        position: absolute;
+        width: 9.5rem;
+        height: 35vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 20px;
+        background-color: rgb(57, 57, 57);
+        z-index: 1;
+        top: 1rem;
+        margin-bottom: 20rem;
+        display:none;
+    }
+    .right-of-third-box-value-container{
+        position:absolute;
+        top: 30rem;
+        left: -10rem;
+        text-align: center;
+        width: 40rem;;
+        height: 10rem;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        line-height: 1.3;
+        color: white;
+        z-index: 1;
+        font-size: 0.65rem;
+    }
+    .getSwap-btn{
+        position: absolute;
+        bottom: 5rem;
+        left: 19.5rem;
+        background: #753fa4;
+        padding: 10px 5px;
+        width: 140px;
+        border: none;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        color: white;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.396);
+        cursor: pointer;
+        z-index: 1;
+        font-weight: 200;
+    }
+    .headerOne{
+        position:absolute;
+        top: 26rem;
+        left: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    .headerTwo{
+        position:absolute;
+        top: 27.5rem;
+        font-size: 1.4rem;
+        left: 2rem;
+        width: 30rem;
+    }
+
+    #fourth-box{
+        position: relative;
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .blob2{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        width: 100%;
+        display: none;
+    }
+    .tokenomics-title{
+        position: absolute;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color:#8f54a0;
+        top: 0.5rem;
+        left: 0rem;
+    }
+    .tokenomics-title-opacity{
+        position: absolute;
+        font-size: 3.2rem;
+        opacity: 0.1;
+        top: 1rem;
+        left: 1rem;
+        font-weight: 200;
+        z-index: -1;
+        margin-left: 2.5rem;
+    }
+    .tokenomics-bullet-title{
+        font-size: 0.9rem;
+        font-weight: 700;
+        color:#8f54a0;
+    }
+    .tokenomics-content-container{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        padding: 5rem;
+        line-height: 2;
+        letter-spacing: 2px;
+        font-size: 0.55rem;
+        top: 0.8rem;
+        left: -2rem;
+    }
+    .tokenomics-list-heading-container{
+        width: 20rem;
+        text-align: center;
+        font-size: 0.55rem;
+    }
+    .tokenomics-list-container{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        line-height: 1.5;
+        width: 20rem;
+        text-align: center;
+        font-size: 0.50rem;
+    }
+    .fourth-box-slogan-headline-overlay{
+        position: relative;
+        opacity: 0.1;
+        z-index: 0;
+        top: 6.5rem;
+        right: -1rem;
+    }
+    .fourth-box-slogan-container{
+        position: absolute;
+        text-align: center;
+        width: 10rem;
+        height: 20rem;
+        display: flex;
+        flex-shrink: 1;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: left;
+        font-weight: 400;
+        font-size: 0.9rem;
+        letter-spacing: 1.2px;
+        line-height: 1.3;
+        color: white;
+        z-index: 1;
+        top: -3rem;
+        right: 5rem;
+    }
+
+    #security-section{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 100vh;
+    }
+    .left-side-of-security-section{
+        width: 50%;
+        height: 100vh;
+    }
+    .strongDonkey{
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        top: 5rem;
+        left: 5rem;
+        animation: logomove 4s linear infinite;
+    }
+    .blob3{
+        position: absolute;
+        z-index: -1;
+        bottom: 33rem;
+        right: 12rem;
+        top: -2rem;
+        left: -10rem;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .safe-secure-container{
+        width: 35rem;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 0.55rem;
+        margin-top: 10rem;
+        margin-right: 0rem;
+    }
+    .safe-secure-title{
+        font-size: 1.8rem;
+        font-weight: 550;
+        color:#8f54a0;
+        
+    }
+    .safe-secure-content-hugger{
+        width: 20rem;
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 2;
+        margin-right: 10rem;
+    }
+
+
+    #fifth-box{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:#8f54a0;
+        text-align: center;
+    }
+    .coming-soon-hugger{
+        width: 100vw;
+        height: 0;
+        position: absolute;
+        bottom: 35rem;
+    }
+    .casino-section-title{
+        color: white;
+        font-size: 1.7rem;
+        margin-left: 20px;
+    }
+    .casino-end-title{
+        position: absolute;
+        margin-top: 0.1rem;
+        font-size: 1.8rem;
+        width: 100%;
+        left: 0rem;
+    }
+    .video-hugger{
+        position: absolute;
+        width: 20rem;
+        height: 16rem;
+        top: 1.5rem;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(40, 40, 40);
+        z-index: 1;
+    }
+    .casino-vid{
+        width: 18rem;
+        height: 35rem;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .casino-link{
+        position:absolute;
+        top: 25rem;
+    }
+    .cardArt{
+        position: absolute;
+        width: 90rem;
+        height: 90rem;
+        bottom: -60rem;
+        right: 0rem;
+    }
+    .video-hugger{
+        position: absolute;
+        width: 20rem;
+        height: 16rem;
+        top: 1.5rem;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(40, 40, 40);
+        z-index: 1;
+    }
+    .casino-vid{
+        width: 18rem;
+        height: 35rem;
+        cursor: pointer;
+        z-index: 1;
+        display: none;
+    }
+    .casino-link{
+        position:absolute;
+        top: 13rem;
+        width: 120px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #9e64d1;
+        border:none;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px black;
+        font-size: 0.85rem;
+    }
+
+    #sixth-box{
+        height: 100vh;
+    }
+    .team-header-container{
+        width: 100%;
+        font-size: 1.0rem;
+        font-weight: 700;
+        color:white;
+        margin-left: 0.5rem;
+        opacity: 0.0;
+
+    }
+    .left-of-sixth-box{
+        position: absolute;
+        width: 80vw;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        position:absolute;
+        padding-right: 12rem;
+        top: 9rem;  
+
+    }
+    .profile-hugger{
+        margin-top: 1rem;
+        width: 16rem;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 8px;
+    }
+    .profile-pic-container{
+        width: 6rem;
+        height: 6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 50%;
+        background-color: rgb(57, 57, 57);
+    }
+    .dev-pics{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
+    .dev-content-container{
+        width: 12rem;
+        height: 100%;
+        display: flex;
+        font-size: 0.7rem;    
+        line-height: 1.2;
+        color: white;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.341);
+        border-radius: 10px;
+        background-color: rgb(57, 57, 57);
+        z-index: 1;
+        margin-left: 38%;
+
+    }
+    .dev-content-container p{
+        padding-top: 2px;
+        font-size: 0.5rem;
+
     }
 }
