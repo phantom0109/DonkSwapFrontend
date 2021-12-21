@@ -1,9 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import "./home.css";
-// import "./ipadPro.css";
-// import "./ipad.css";
-// import "./iphonePlus.css";
-// import "./iphoneX.css";
 import aceSVG from './images/Ace.svg'
 import pokerChips from './images/poker_chips.svg'
 import pokerChipsWithCard from './images/pokerchips_card.svg'
