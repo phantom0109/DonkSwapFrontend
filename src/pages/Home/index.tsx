@@ -1,9 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import "./home.css";
-import "./ipadPro.css";
-import "./ipad.css";
-import "./iphonePlus.css";
-import "./iphoneX.css";
 import aceSVG from './images/Ace.svg'
 import pokerChips from './images/poker_chips.svg'
 import pokerChipsWithCard from './images/pokerchips_card.svg'
@@ -317,8 +313,8 @@ const HomePage = (props) => {
                     <div className="safe-secure-container">
                         <div className="safe-secure-content-hugger">
                             <h3 className="safe-secure-title">Strong, Safe & Secure</h3>
-                            <p>The $DST smart contract has been fully audited by one of the top specialized teams and the LP (Liquidity Pool)
-                                tokens have been locked for one year. Locking the LP tokens eliminates many risks for our community!</p>
+                            <p>The $DST smart contract has been fully audited by one of the top specialized teams and our LP (Liquidity Pool) Tokens have been locked for one year.
+                                Locking the LP eliminates many risks to our community!</p>
                             <a href="https://github.com/Watchtower-WTW/Public_Audits/blob/main/DONKSWAP%20Smart%20Contract%20Security%20Audit%20(2).pdf">
                                 See our security audit here..
                             </a>

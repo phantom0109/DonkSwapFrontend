@@ -11,15 +11,15 @@ const Casino = (props) => {
   return (
     <div>
       <div className="vid-container">
-        <div className="vid-hugger">
-          <video loop autoPlay muted className="casino-vid"> 
+        <div className="youtube-hugger">
+          <video loop autoPlay muted className="casino-vid-tab"> 
             <source src={(casinoGameOne)} type="video/mp4" />
           </video>
           <a href="https://www.youtube.com/watch?v=GaUw4aCw3QU" target="_blank">See it on youtube..</a>
         </div>
 
-        <div className="vid-hugger">
-          <video loop autoPlay muted className="casino-vid">
+        <div className="youtube-hugger">
+          <video loop autoPlay muted className="casino-vid-tab">
             <source src={(casinoGameThree)} type="video/mp4" />
           </video>
           <a href="https://www.youtube.com/watch?v=nam7L4Z-hUc&t=3s" target="_blank">See it on youtube..</a>
