@@ -314,14 +314,14 @@
         position: absolute;
         bottom: 2.1rem;
         right: 14.5rem;
-        background: #944fd1;
+        background: #9e64d1;
         padding: 10px 5px;
         width: 140px;
         border: none;
         font-size: 0.8rem;
         border-radius: 20px;
         color: white;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.396);
+        box-shadow: 5px 5px 10px rgba(80, 79, 79, 0.396);
         cursor: pointer;
         z-index: 1;
     }

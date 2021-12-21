@@ -11,7 +11,7 @@
   background: linear-gradient(to right, #414345, #232526); 
   overflow: scroll;
 }
-.vid-hugger{
+.youtube-hugger{
   width: 25rem;
   height: 25rem;
   display: flex;
@@ -19,9 +19,11 @@
   justify-content: center;
   align-items: center;
 }
-.casino-vid{
-  width: 15rem;
-  height: 15rem;
+.casino-vid-tab{
+  width: 28rem;
+  height: 35rem;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .layered-wave-one{
@@ -38,8 +40,7 @@ z-index: 0;
 bottom: 0;
 }
 
-
-@media only screen and (max-width: 1024px) and (min-height: 667px) {
+@media only screen and (max-width: 500px) {
   .vid-container{
     width: 100vw;
     height: 100vh;
@@ -47,18 +48,25 @@ bottom: 0;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    overflow: scroll;
     background: #232526; 
     background: -webkit-linear-gradient(to right, #414345, #232526); 
     background: linear-gradient(to right, #414345, #232526); 
     overflow: scroll;
   }
-  .vid-hugger{
+  .youtube-hugger{
     width: 25rem;
     height: 15rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .casino-vid-tab{
+    width: 18rem;
+    height: 25rem;
+    cursor: pointer;
+    z-index: 1;
   }
 
 
