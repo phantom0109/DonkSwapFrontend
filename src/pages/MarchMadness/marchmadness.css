@@ -1,0 +1,157 @@
+#main-tournament-body{
+    overflow-x: scroll;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(70, 68, 68);
+}
+#tournament-header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#tournament-body{
+    width: 100%;
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    #tournament-left{
+        width: 50%;
+        height: 80vh;
+        display:flex;
+        flex-direction:row;
+    }
+    #tournament-right{
+        width: 50%;
+        height: 80vh;
+        display:flex;
+        flex-direction:row;
+    }
+    .round{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:150px;
+        list-style:none;
+        padding:0;
+    }
+        .round .spacer{ flex-grow:1; }
+        .round .spacer:first-child{ flex-grow:.5; }
+        .round .spacer:last-child{ flex-grow:.5; } 
+        .round .game-spacer{
+        flex-grow:1;
+    }
+
+    .round2{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:150px;
+        list-style:none;
+        padding:0;
+    }
+        .round2 .spacer2{ flex-grow:1; }
+        .round2 .spacer2:first-child{ flex-grow:.5; }
+        .round2 .spacer2:last-child{ flex-grow:.5; }
+        .round2 .game-spacer2{
+        transform: rotate(180deg);
+        flex-grow:1;
+    }
+
+
+
+    /*
+    *  General Styles
+    */
+    body{
+        font-family:sans-serif;
+        font-size:small;
+        padding:10px;
+        line-height:1.4em;
+    }
+    
+    li.game{
+        padding-left:20px;
+    }
+    li.game2{
+        padding-left:20px;
+    }
+    
+        li.game.winner{
+        font-weight:bold;
+        }
+        li.game span{
+        float:right;
+        margin-right:5px;
+        }
+        li.game2 span{
+            float:right;
+            margin-right:5px;
+            }
+    
+        li.game-top{  
+            padding: 5px;
+            border-bottom:1px solid #aaa; 
+        }
+        li.game-top4{  
+            width: 100px;
+            padding: 5px;
+            border-bottom:1px solid #aaa; 
+        }
+        li.game-top5{  
+            width: 100px;
+            padding: 5px;
+            margin-left: 50px;
+            border-bottom:1px solid #aaa; 
+        }
+    
+        li.game-spacer{ 
+        border-right:1px solid #aaa;
+        min-height:40px;
+        }
+        li.game-spacer2{ 
+            border-right:1px solid #aaa;
+            min-height:40px;
+        }
+    
+        li.game-bottom{ 
+            padding: 5px;
+        border-top:1px solid #aaa;
+        }
+
+
+        .donk-logo{
+            width: 12rem;
+            height: 12rem;
+            position: absolute;
+            top: 7rem;
+        }
+
+        #winner-box{
+            border: 2px solid #fdc921;
+            width: 220px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.204);
+        }
+
+        .slot-box{
+
+            width: 150px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            border: 1px solid rgba(170, 170, 170, 0.308);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.204);
+        }
