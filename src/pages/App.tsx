@@ -101,7 +101,7 @@ export default function App() {
           </Menu>
         </AppWrapper>
         <div className="copyrights">
-          <p className="col">Copyright &copy; 2021. All Rights Reserved: Donkey King Finance</p>
+          <p className="col">Copyright &copy; 2021. All Rights Reserved: Donkey King Finance | Contact: marketing@donkswap.com</p>
         </div>
       </HashRouter>
     </Suspense>

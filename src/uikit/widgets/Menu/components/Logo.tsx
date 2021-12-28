@@ -8,14 +8,15 @@ import '@szhsin/react-menu/dist/index.css'
 
 const MenuLinks = [
   ['Home', '#home'],
-  ['Swap', '#swap'],
+  ['DonkSwap', '#swap'],
   ['DonkSeal', '#donk-seal'],
   ['Donkey King Casino', '#casino'],
   // ['NFTs (soon)', '#soon'],
   // ['Pools', '#soon'],
   // ['Lottery', '#soon'],
   ['Donkey Mines', '#mine'],
-  ['March Madness', '#march-madness'],
+  ['More...', 'https://linktr.ee/DonkeyKingFinance'],
+  // ['March Madness', '#march-madness'],
 ]
 
 interface Props {
