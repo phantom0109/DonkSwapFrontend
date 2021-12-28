@@ -15,7 +15,7 @@ const MenuLinks = [
   // ['Pools', '#soon'],
   // ['Lottery', '#soon'],
   ['Donkey Mines', '#mine'],
-  ['LinkTree', 'https://linktr.ee/DonkeyKingFinance'],
+  ['March Madness', '#march-madness'],
 ]
 
 interface Props {

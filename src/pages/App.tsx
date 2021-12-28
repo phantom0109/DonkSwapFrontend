@@ -19,6 +19,8 @@ import useGetDocumentTitlePrice from '../hooks/useGetDocumentTitlePrice'
 import Casino from './ComingSoonCasino'
 import Mine from './ComingSoonMine'
 import HomePage from './Home'
+import MarchMadness from './MarchMadness'
+import MarchMadnessSubmit from './MarchMadness/submit'
 
 const AppWrapper = styled.div`
   display: flex;
@@ -79,6 +81,8 @@ export default function App() {
                   <Route exact path="/donk-seal" component={DonkSeal} />
                   <Route exact path="/casino" component={Casino} />
                   <Route exact path="/mine" component={Mine} />
+                  <Route exact path="/march-madness" component={MarchMadness} />
+                  <Route exact path="/march-madness-submit" component={MarchMadnessSubmit} />
                   <Route exact strict path="/swap" component={Swap} />
                   <Route exact strict path="/find" component={PoolFinder} />
                   <Route exact strict path="/pool" component={Pool} />
