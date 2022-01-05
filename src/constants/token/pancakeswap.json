@@ -73,13 +73,5 @@
       "decimals": 18,
       "logoURI": "https://donkswap.com/images/coins/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
     },
-    {
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "address": "0x55d398326f99059ff775485246999027b3197955",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://DONKSWAP.COM/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
-    }
- ]
+]
 }
