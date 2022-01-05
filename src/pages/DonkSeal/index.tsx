@@ -1,4 +1,5 @@
 import React from 'react'
+import './donkseal.css';
 import AppBody from '../AppBody'
 import { CardBody, Button } from '../../uikit'
 import { AutoColumn } from 'components/Column'
@@ -135,18 +136,18 @@ export default function DonkSeal() {
         }
       `}</style>
       <img src="/donk-seal.png" style={{ zIndex: 99, width: 'min-content', marginBottom: 26, marginTop: '-31px' }} />
-      <AppBody max>
-        <CardBody>
+      <AppBody max >
+        <CardBody >
           <AutoColumn gap="md">
-            <div style={{ maxWidth: '100%',overflow: 'scroll'}} >
+            <div style={{ maxWidth: '100%'}} className="donkseal-whole-container">
               <MaterialTable
                 components={{
-                  Container: (props) => <Paper {...props} elevation={0} />,
+                  Container: (props) => <Paper {...props} elevation={0} style={{width: '100%'}}/>,
                   Action: (props) => {
                     return (
                       <>
                         {!xs && props.data.coinName && (
-                          <Button onClick={(event?: any) => props.action.onClick(event, props.data)}>SWAP</Button>
+                          <Button onClick={(event?: any) => props.action.onClick(event, props.data)} style={{marginRight: '10px'}} className="partner-swap-button">SWAP</Button>
                         )}
                       </>
                     )
@@ -157,7 +158,7 @@ export default function DonkSeal() {
                     title: 'Name',
                     field: 'coinName',
                     render: (rD) => (
-                      <div
+                      <div className="partner-title"
                         style={{
                           display: 'flex',
                           flexDirection: 'row',
@@ -180,26 +181,26 @@ export default function DonkSeal() {
 
                     ),
                   },
-                  //   {
-                  //     title: 'Price',
-                  //     field: 'price',
-                  //     type: 'numeric',
-                  //     hidden: sm,
-                  //   },
-                  //   {
-                  //     title: 'Circulating Supply',
-                  //     field: 'csupply',
-                  //     type: 'numeric',
-                  //     render: (rowData) => <>{addComm(rowData.csupply)}</>,
-                  //     hidden: matches,
-                  //   },
+                    // {
+                    //   title: 'Price',
+                    //   field: 'price',
+                    //   type: 'numeric',
+                    //   hidden: sm,
+                    // },
+                    // {
+                    //   title: 'Circulating Supply',
+                    //   field: 'csupply',
+                    //   type: 'numeric',
+                    //   render: (rowData) => <>{addComm(rowData.csupply)}</>,
+                    //   hidden: matches,
+                    // },
 
 
                   {
                     title: 'Audit',
                     field: 'audit',
                     render: (rD) => (
-                      <div
+                      <div className="audit-img"
                         style={{
                           display: 'flex',
                           flexDirection: 'row',

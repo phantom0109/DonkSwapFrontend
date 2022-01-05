@@ -1,0 +1,41 @@
+@media only screen and (max-width: 500px)  { 
+
+    .partner-swap-button{
+        width: 65px;
+
+    }
+    .partner-title{
+        font-size: 8px;
+        text-align: left;
+    }
+    .partner-logo{
+        width: 2.5rem;
+    }
+    .audit-img{
+        width: 2.5rem;
+    }
+    .donkseal-whole-container{
+        padding-right: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .partner-swap-button{
+        width: 60px;
+        margin-right: 10px;
+
+    }
+    .partner-title{
+        font-size:8px;
+        text-align: left;
+    }
+    .partner-logo{
+        width: 2.2rem;
+    }
+    .audit-img{
+        width: 2.2rem;
+    }
+
+}
