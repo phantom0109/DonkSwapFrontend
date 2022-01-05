@@ -92,6 +92,26 @@ export default function DonkSeal() {
             auditFile: '',
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
           },
+          {
+            _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
+            coinName: 'SideKick Finance  (SK)',
+            coinAddress: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
+            coinLogo:
+              'https://i.ibb.co/R0YymBZ/photo1623793528-removebg-preview.png',
+            coinWebsite: 'https://sidekick.finance/',
+            auditFile: 'https://docs.sidekick.finance/sidekick-finance/',
+            auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
+          },
+          {
+            _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
+            coinName: 'Watchtower  (WTW)',
+            coinAddress: '0x1967ABfdc4ae7961C5a8A5395469222260C27c02',
+            coinLogo:
+              'https://i.ibb.co/R0YymBZ/photo1623793528-removebg-preview.png',
+            coinWebsite: '',
+            auditFile: '',
+            auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
+          },
         ])
       })
   }, [])
