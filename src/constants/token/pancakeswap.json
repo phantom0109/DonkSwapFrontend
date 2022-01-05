@@ -50,6 +50,14 @@
       "logoURI": "https://i.ibb.co/GHM8K8F/Cryogen.png"
     },
     {
+      "name": "Crypto Jackpot",
+      "symbol": "CJP",
+      "address": "0xeb78dfd268cee4d50cfa3228b4d112aba7c105bc",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/xjrYngM/Crypto-Jackpot-removebg-preview.png"
+    },
+    {
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
