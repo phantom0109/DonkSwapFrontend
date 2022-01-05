@@ -79,6 +79,16 @@ export default function DonkSeal() {
             coinLogo:
               'https://i.ibb.co/GHM8K8F/Cryogen.png',
             coinWebsite: 'https://cryogen.life/',
+            auditFile: 'https://cryogen.life/audit.pdf',
+            auditLogo: 'https://i.ibb.co/9rZRfTB/tuxpi-com-1641341635-removebg-preview.png',
+          },
+          {
+            _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
+            coinName: 'Crypto Jackpot  (CJP)',
+            coinAddress: '0xEB78DfD268cEE4d50cFA3228b4d112aBa7C105BC',
+            coinLogo:
+              'https://i.ibb.co/xjrYngM/Crypto-Jackpot-removebg-preview.png',
+            coinWebsite: 'https://crypto-jackpot.com/',
             auditFile: '',
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
           },
