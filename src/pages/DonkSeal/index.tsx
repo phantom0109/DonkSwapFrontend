@@ -83,7 +83,7 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/9rZRfTB/tuxpi-com-1641341635-removebg-preview.png',
           },
           {
-            _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
+            _id: '0xEB78DfD268cEE4d50cFA3228b4d112aBa7C105BC',
             coinName: 'Crypto Jackpot  (CJP)',
             coinAddress: '0xEB78DfD268cEE4d50cFA3228b4d112aBa7C105BC',
             coinLogo:
@@ -93,7 +93,7 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
           },
           {
-            _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
+            _id: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
             coinName: 'SideKick Finance  (SK)',
             coinAddress: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
             coinLogo:
@@ -103,14 +103,24 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
           },
           {
-            _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
+            _id: '0x1967ABfdc4ae7961C5a8A5395469222260C27c02',
             coinName: 'Watchtower  (WTW)',
             coinAddress: '0x1967ABfdc4ae7961C5a8A5395469222260C27c02',
             coinLogo:
               'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
-            coinWebsite: '',
+            coinWebsite: 'https://www.cryptowatchtower.io/',
             auditFile: '',
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
+          },
+          {
+            _id: '0x56aa0237244c67b9a854b4efe8479cca0b105289',
+            coinName: 'WalletNow  (WNOW)',
+            coinAddress: '0x56aa0237244c67b9a854b4efe8479cca0b105289',
+            coinLogo:
+              'https://i.ibb.co/WKf2H4F/avatar-1245426702-0-removebg-preview.png',
+            coinWebsite: 'https://walletnow.net/',
+            auditFile: 'https://github.com/Watchtower-WTW/Public_Audits/blob/main/Wallet%20Now%20Smart%20Contract%20Security%20Audit.pdf',
+            auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
           },
         ])
       })
