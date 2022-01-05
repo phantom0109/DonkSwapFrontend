@@ -107,7 +107,7 @@ export default function DonkSeal() {
             coinName: 'Watchtower  (WTW)',
             coinAddress: '0x1967ABfdc4ae7961C5a8A5395469222260C27c02',
             coinLogo:
-              'https://i.ibb.co/R0YymBZ/photo1623793528-removebg-preview.png',
+              'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
             coinWebsite: '',
             auditFile: '',
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
