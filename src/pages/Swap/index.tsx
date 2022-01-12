@@ -537,7 +537,7 @@ const Swap = () => {
             <AutoRow className={isMobile ? 'space-evenly' : 'space-between'} display='block'>
               <AutoColumn>
                 <AutoRow className='center bold mb-1' >
-                  {chartData ? (
+                  {chartData && chartData['ethereum'] && chartData['ethereum'].dexTrades ? (
                     <PriceChart chartData={chartData} />
                   ) :
                     <CustomLightSpinner src="/images/blue-loader.svg" alt="loader" size="25px" />}
