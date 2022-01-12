@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Chart from 'react-apexcharts'
 import useGetBnbPriceData from 'hooks/useGetBnbPriceData';
+import './style.css'
 
 export function PriceChart({ chartData }) {
     const [chartDataMapped, setChartDataMapped] = useState([]);
@@ -71,9 +72,10 @@ export function PriceChart({ chartData }) {
         tooltip: {
             enabled: true,
             style: {
-                fontSize: '10px',
+                fontSize: '8px',
                 fontFamily: 'Heebo,sans-serif'
             },
+            theme: 'dark',
             custom: function ({ seriesIndex, dataPointIndex, w }) {
                 const o = w.globals.seriesCandleO[seriesIndex][dataPointIndex]
                 const h = w.globals.seriesCandleH[seriesIndex][dataPointIndex]
