@@ -141,14 +141,6 @@ align-self: center;
 .relative {
 position:relative;
 }
-.connect {
-background: #b695d3;
-padding: 10px 5px;
-width: 180px;
-border: none;
-font-size: 14px;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.396);
-}
 .br-full {
 border-radius: 50rem;
 }
@@ -260,6 +252,16 @@ opacity: 0.85;
   -ms-transform: translateY(-1px);
   transform: translateY(-1px);
   box-shadow: none;
+}
+.connect {
+  background: #b695d3;
+  padding: 10px 5px;
+  width: 180px;
+  border: none;
+  font-size: 14px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.396);
+  justify-content: center;
+  color: white;
 }
 .code {
 font-family: "Ubuntu Mono", sans-serif;

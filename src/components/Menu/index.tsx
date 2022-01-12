@@ -17,7 +17,7 @@ const Menu: React.FC = (props) => {
   const { isDark, toggleTheme } = useTheme()
   const donkData = useGetDonkData();
 
-  console.log(donkData);
+  // console.log(donkData);
   const cakePriceUsd = undefined
   // const profile = useGetLocalProfile()
 

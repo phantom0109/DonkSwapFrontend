@@ -17,7 +17,7 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
       {account ? (
         <Button
           scale="sm"
-          className="max-h btn text-white rounded-full"
+          className="connect max-h btn text-white rounded-full"
           onClick={() => {
             onPresentAccountModal();
           }}
