@@ -15,7 +15,7 @@ const MenuLinks = [
   // ['Pools', '#soon'],
   // ['Lottery', '#soon'],
   ['Donkey Mines', '#mine'],
-  ['More...', 'https://linktr.ee/DonkeyKingFinance'],
+  ['More...', 'https://linktr.ee/DonkeyKingFinance','newtab'],
   // ['March Madness', '#march-madness'],
 ]
 
@@ -87,18 +87,33 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
       <FlexRow>
         <div className="md-up center pl-rem">
           {MenuLinks.map((d, x) => (
-            <a
-              href={d[1]}
-              key={x}
-              className="self-center font-bold ml-rem"
-              id={`menu-${x}`}
-              style={{
-                fontWeight: 'bolder',
-                color: 'rgb(140, 84, 187)',
-              }}
-            >
-              {d[0]}
-            </a>
+            d[2] && d[2] === 'newtab'?
+                <a
+                href={d[1]}
+                target='_blank'
+                key={x}
+                className="self-center font-bold ml-rem"
+                id={`menu-${x}`}
+                style={{
+                  fontWeight: 'bolder',
+                  color: 'rgb(140, 84, 187)',
+                }}
+              >
+                {d[0]}
+              </a>
+            :
+              <a
+                href={d[1]}
+                key={x}
+                className="self-center font-bold ml-rem"
+                id={`menu-${x}`}
+                style={{
+                  fontWeight: 'bolder',
+                  color: 'rgb(140, 84, 187)',
+                }}
+              >
+                {d[0]}
+              </a>
           ))}
         </div>
         <div className="md-down center">
@@ -106,9 +121,16 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
             {/* @ts-ignore */}
             {MenuLinks.map((d, x) => (
               <MenuItem key={x}>
-                <a href={d[1]} className="font-bold">
-                  {d[0]}
-                </a>
+                {
+                  d[2] && d[2] === 'newtab'?
+                    <a href={d[1]} target='_blank' className="font-bold">
+                      {d[0]}
+                    </a>
+                  :
+                    <a href={d[1]} className="font-bold">
+                      {d[0]}
+                    </a>
+                }
               </MenuItem>
             ))}
           </Menu>
