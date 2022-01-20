@@ -23,7 +23,7 @@ function Nav({ activeIndex = 0 }: { activeIndex?: number }) {
         <ButtonMenuItem
           id="pool-nav-link"
           as="a"
-          target="_new"
+          target="_blank"
           href="https://www.binance.org/en/bridge?utm_source=BinanceChain"
         >
           Bridge
