@@ -94,6 +94,16 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
           },
           {
+            _id: '0x80dc7bd1328f5e48e8e22884169ba46f9279201b',
+            coinName: 'Flappy Doge  (FLPD)',
+            coinAddress: '0x80dc7bd1328f5e48e8e22884169ba46f9279201b',
+            coinLogo:
+              'https://i.ibb.co/Th8D0Xf/photo1642553910-removebg-preview.png',
+            coinWebsite: 'https://flappydoge.org/',
+            auditFile: 'https://hazecrypto.net/audit/flpd',
+            auditLogo: 'https://i.ibb.co/bB5ByB3/Haze-Security-Audit-removebg-preview.png',
+          },
+          {
             _id: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
             coinName: 'SideKick Finance  (SK)',
             coinAddress: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
