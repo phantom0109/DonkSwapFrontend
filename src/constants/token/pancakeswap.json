@@ -58,6 +58,14 @@
       "logoURI": "https://i.ibb.co/xjrYngM/Crypto-Jackpot-removebg-preview.png"
     },
     {
+      "name": "Flappy Doge",
+      "symbol": "FLPD",
+      "address": "0x80dc7bd1328f5e48e8e22884169ba46f9279201b",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/Th8D0Xf/photo1642553910-removebg-preview.png"
+    },
+    {
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
