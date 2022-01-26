@@ -44,34 +44,14 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
           },
           {
-            _id: '0x4492cA0AFF6D603e18Aea5075B49A5ff76b9Ea06',
-            coinName: 'Farmageddon  (FG)',
-            coinAddress: '0x4492cA0AFF6D603e18Aea5075B49A5ff76b9Ea06',
+            _id: '0x7325B0881a0D4Bf297FEABBcafb56C9ED091A373',
+            coinName: 'Bellatrix Token  (BLTR)',
+            coinAddress: '0x7325B0881a0D4Bf297FEABBcafb56C9ED091A373',
             coinLogo:
-              'https://i.imgur.com/5AGI34Z.png',
-            coinWebsite: 'https://farmageddon.farm',
-            auditFile: 'https://8cbbe279-3c83-4cff-a3ee-23bb45499061.usrfiles.com/ugd/8cbbe2_311364b869d6495c9e1b4ae03c2d2618.pdf',
-            auditLogo: 'https://i.ibb.co/6WP1kML/flylogo.png',
-          },
-          {
-            _id: '0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48',
-            coinName: 'Fertilizer   (FRT)',
-            coinAddress: '0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48',
-            coinLogo:
-              'https://i.ibb.co/6NYCfDT/photo1633193176.jpg',
-            coinWebsite: 'https://farmageddon.farm',
-            auditFile: 'https://8cbbe279-3c83-4cff-a3ee-23bb45499061.usrfiles.com/ugd/8cbbe2_311364b869d6495c9e1b4ae03c2d2618.pdf',
-            auditLogo: 'https://i.ibb.co/6WP1kML/flylogo.png',
-          },
-          {
-            _id: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
-            coinName: 'InfiniteOne  (IF1)',
-            coinAddress: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
-            coinLogo:
-              'https://hosting.renderforestsites.com/13950379/628732/media/2090f945c1e38fd1d23fc19cf794db6c.png',
-            coinWebsite: 'https://infiniteone.io/',
-            auditFile: 'https://github.com/ScientificChickenSander/EggChainCertifiedAudits/blob/main/EggChainAudit-InfiniteOne-14092021.pdf',
-            auditLogo: 'https://i.ibb.co/9W1CdQm/Egg-C-Audit-Logo.png',
+              'https://i.ibb.co/y45pGc7/Bellatrix-Token.jpg',
+            coinWebsite: 'https://bellatrix.money/',
+            auditFile: '',
+            auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
           },
           {
             _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
@@ -94,6 +74,26 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
           },
           {
+            _id: '0x4492cA0AFF6D603e18Aea5075B49A5ff76b9Ea06',
+            coinName: 'Farmageddon  (FG)',
+            coinAddress: '0x4492cA0AFF6D603e18Aea5075B49A5ff76b9Ea06',
+            coinLogo:
+              'https://i.imgur.com/5AGI34Z.png',
+            coinWebsite: 'https://farmageddon.farm',
+            auditFile: 'https://8cbbe279-3c83-4cff-a3ee-23bb45499061.usrfiles.com/ugd/8cbbe2_311364b869d6495c9e1b4ae03c2d2618.pdf',
+            auditLogo: 'https://i.ibb.co/6WP1kML/flylogo.png',
+          },
+          {
+            _id: '0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48',
+            coinName: 'Fertilizer   (FRT)',
+            coinAddress: '0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48',
+            coinLogo:
+              'https://i.ibb.co/6NYCfDT/photo1633193176.jpg',
+            coinWebsite: 'https://farmageddon.farm',
+            auditFile: 'https://8cbbe279-3c83-4cff-a3ee-23bb45499061.usrfiles.com/ugd/8cbbe2_311364b869d6495c9e1b4ae03c2d2618.pdf',
+            auditLogo: 'https://i.ibb.co/6WP1kML/flylogo.png',
+          },
+          {
             _id: '0x80dc7bd1328f5e48e8e22884169ba46f9279201b',
             coinName: 'Flappy Doge  (FLPD)',
             coinAddress: '0x80dc7bd1328f5e48e8e22884169ba46f9279201b',
@@ -104,14 +104,14 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/bB5ByB3/Haze-Security-Audit-removebg-preview.png',
           },
           {
-            _id: '0x7325B0881a0D4Bf297FEABBcafb56C9ED091A373',
-            coinName: 'Bellatrix Token  (BLTR)',
-            coinAddress: '0x7325B0881a0D4Bf297FEABBcafb56C9ED091A373',
+            _id: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
+            coinName: 'InfiniteOne  (IF1)',
+            coinAddress: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
             coinLogo:
-              'https://i.ibb.co/y45pGc7/Bellatrix-Token.jpg',
-            coinWebsite: 'https://bellatrix.money/',
-            auditFile: '',
-            auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
+              'https://hosting.renderforestsites.com/13950379/628732/media/2090f945c1e38fd1d23fc19cf794db6c.png',
+            coinWebsite: 'https://infiniteone.io/',
+            auditFile: 'https://github.com/ScientificChickenSander/EggChainCertifiedAudits/blob/main/EggChainAudit-InfiniteOne-14092021.pdf',
+            auditLogo: 'https://i.ibb.co/9W1CdQm/Egg-C-Audit-Logo.png',
           },
           {
             _id: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
@@ -124,16 +124,6 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
           },
           {
-            _id: '0x1967ABfdc4ae7961C5a8A5395469222260C27c02',
-            coinName: 'Watchtower  (WTW)',
-            coinAddress: '0x1967ABfdc4ae7961C5a8A5395469222260C27c02',
-            coinLogo:
-              'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
-            coinWebsite: 'https://www.cryptowatchtower.io/',
-            auditFile: '',
-            auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
-          },
-          {
             _id: '0x56aa0237244c67b9a854b4efe8479cca0b105289',
             coinName: 'WalletNow  (WNOW)',
             coinAddress: '0x56aa0237244c67b9a854b4efe8479cca0b105289',
@@ -142,6 +132,16 @@ export default function DonkSeal() {
             coinWebsite: 'https://walletnow.net/',
             auditFile: 'https://github.com/Watchtower-WTW/Public_Audits/blob/main/Wallet%20Now%20Smart%20Contract%20Security%20Audit.pdf',
             auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
+          },
+          {
+            _id: '0x1967ABfdc4ae7961C5a8A5395469222260C27c02',
+            coinName: 'Watchtower  (WTW)',
+            coinAddress: '0x1967ABfdc4ae7961C5a8A5395469222260C27c02',
+            coinLogo:
+              'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
+            coinWebsite: 'https://www.cryptowatchtower.io/',
+            auditFile: '',
+            auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
           },
         ])
       })
