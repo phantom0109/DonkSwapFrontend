@@ -18,28 +18,12 @@
       "logoURI": "https://bscscan.com/token/images/donkeyking_32.png"
     },
     {
-      "name": "Farmageddon Token",
-      "symbol": "FG",
-      "address": "0x4492ca0aff6d603e18aea5075b49a5ff76b9ea06",
+      "name": "Bellatrix Token",
+      "symbol": "BLTR",
+      "address": "0x7325B0881a0D4Bf297FEABBcafb56C9ED091A373",
       "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://DONKSWAP.COM/images/coins/fg.png"
-    },
-    {
-      "name": "FERTILIZER TOKEN",
-      "symbol": "FRT",
-      "address": "0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://i.ibb.co/6NYCfDT/photo1633193176.jpg"
-    },
-    {
-      "name": "InfiniteOne Token",
-      "symbol": "IF1",
-      "address": "0xfcac1a3ede7b55cc51e3ebff2885a67fbfe01a1a",
-      "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://DONKSWAP.COM/images/coins/if1.png"
+      "decimals": 12,
+      "logoURI": "https://i.ibb.co/y45pGc7/Bellatrix-Token.jpg"
     },
     {
       "name": "CryoGen Token",
@@ -58,12 +42,36 @@
       "logoURI": "https://i.ibb.co/xjrYngM/Crypto-Jackpot-removebg-preview.png"
     },
     {
+      "name": "Farmageddon Token",
+      "symbol": "FG",
+      "address": "0x4492ca0aff6d603e18aea5075b49a5ff76b9ea06",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://DONKSWAP.COM/images/coins/fg.png"
+    },
+    {
+      "name": "FERTILIZER TOKEN",
+      "symbol": "FRT",
+      "address": "0xd51237a6f3219d186f0c8d8dd957b1bcb3ce5d48",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/6NYCfDT/photo1633193176.jpg"
+    },
+    {
       "name": "Flappy Doge",
       "symbol": "FLPD",
       "address": "0x80dc7bd1328f5e48e8e22884169ba46f9279201b",
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://i.ibb.co/Th8D0Xf/photo1642553910-removebg-preview.png"
+    },
+    {
+      "name": "InfiniteOne Token",
+      "symbol": "IF1",
+      "address": "0xfcac1a3ede7b55cc51e3ebff2885a67fbfe01a1a",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://DONKSWAP.COM/images/coins/if1.png"
     },
     {
       "name": "BUSD Token",
