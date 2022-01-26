@@ -104,6 +104,16 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/bB5ByB3/Haze-Security-Audit-removebg-preview.png',
           },
           {
+            _id: '0x7325B0881a0D4Bf297FEABBcafb56C9ED091A373',
+            coinName: 'Bellatrix Token  (BLTR)',
+            coinAddress: '0x7325B0881a0D4Bf297FEABBcafb56C9ED091A373',
+            coinLogo:
+              'https://i.ibb.co/y45pGc7/Bellatrix-Token.jpg',
+            coinWebsite: 'https://bellatrix.money/',
+            auditFile: '',
+            auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
+          },
+          {
             _id: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
             coinName: 'SideKick Finance  (SK)',
             coinAddress: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
