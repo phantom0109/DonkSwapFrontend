@@ -45,7 +45,7 @@ export default function DonkSeal() {
           },
           {
             _id: '0xf3b5a7093686d297b5b343f23fd901bda7d66cbc',
-            coinName: 'Bellatrix Token  (BLTR)',
+            coinName: 'Bellatrix Token  (BLTRX)',
             coinAddress: '0xf3b5a7093686d297b5b343f23fd901bda7d66cbc',
             coinLogo:
               'https://i.ibb.co/y45pGc7/Bellatrix-Token.jpg',
