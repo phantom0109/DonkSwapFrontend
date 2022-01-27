@@ -44,9 +44,9 @@ export default function DonkSeal() {
             auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
           },
           {
-            _id: '0x7a7b0e131bcde87695cf5a71a61f000df5b41530',
+            _id: '0xf3b5a7093686d297b5b343f23fd901bda7d66cbc',
             coinName: 'Bellatrix Token  (BLTR)',
-            coinAddress: '0x7a7b0e131bcde87695cf5a71a61f000df5b41530',
+            coinAddress: '0xf3b5a7093686d297b5b343f23fd901bda7d66cbc',
             coinLogo:
               'https://i.ibb.co/y45pGc7/Bellatrix-Token.jpg',
             coinWebsite: 'https://bellatrix.money/',
