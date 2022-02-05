@@ -1,0 +1,185 @@
+.floating-box{
+    width: 80%;
+    height: 57%;
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: inset 2px 1px 18px rgba(140, 76, 170, 0.279);
+}
+.stake-body-whole{
+    width: 100%; 
+    height: 80vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+}
+.stake-stat-second-level{
+    width: 80%; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stake-stats{
+    width: 800px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    text-align: center;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363738, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b3d3f, #232526);
+}
+.stake-stat-display{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: inset 2px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.balance-and-display-container{
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: inherit;  
+}
+.apy-stat-display{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: inset 2px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.apy-box{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.apy-box h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #8d6caa;
+}
+.apy-stat-display p {
+    font-size: 30px;
+    color: rgb(188, 188, 188);
+}
+.stake-stat-display p{
+    font-size: 18px;
+    color: rgb(188, 188, 188);
+}
+.stake-body{
+    width: 80%; 
+    height: 200px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+.stake-form{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+}
+.stake-title{
+    font-weight:500;
+    font-weight: 600;
+    color: #8d6caa;
+}
+.input-div{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.deposit-input{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background-color: none;
+    box-shadow: inset 2px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.withdrawal-input{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background-color: none;
+    box-shadow: inset 2px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.stake-btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    background-color: #753fa4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.178);
+}
+.stake-btn:hover{
+    cursor: pointer;
+    background-color: #8d6caa;
+    
+}
+.increment-div{
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.increment-plus{
+    width: 30px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: white;
+    background-color: #753fa4;
+}
+.increment-plus:hover{
+    cursor: pointer;
+    background-color: #8d6caa;
+}
+.increment-minus{
+    width: 30px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: white;
+    background-color: #753fa4;
+}
+.increment-minus:hover{
+    cursor: pointer;
+    background-color: #8d6caa;
+}
