@@ -169,7 +169,7 @@ export default function DonkSeal() {
             coinWebsite: 'https://www.cryptowatchtower.io/',
             auditFile: '',
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
-            summary: ''
+            summary: 'Watchtower was founded in 2021 to combat Scamming activity in the De-centralized Cryptocurrency exchange space. Watchtower was hired to audit the DonkSwap Token Smart Contract'
           },
         ])
       })
