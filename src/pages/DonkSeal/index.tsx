@@ -59,7 +59,7 @@ export default function DonkSeal() {
             coinWebsite: 'https://donk.finance',
             auditFile: 'https://github.com/Watchtower-WTW/Public_Audits/blob/main/DONKSWAP%20Smart%20Contract%20Security%20Audit%20(2).pdf',
             auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
-            summary:'DonkSwap is a global Binance Smart Chain (BSC) exchange with a vision to end rug-pulls and create a safe space to invest in BSC projects. DonkSwap Token ($DST) is the official currency of DonkSwap.'
+            summary:'DonkSwap is the official exchange of Donkey King Finance. The goal of DonkSwap is to bring back confidence to the crypto space as only rug-proof projects will be allowed to list. DonkSwap Token is the official currency of Donkey King Finance. $DST will provide financial support and stability to the project and each of its entities. To date, Donkey King Finance and their subsidiary, DonkSwap, have processed over $1 million in transactions since launching on September 1, 2021.'
           },
           {
             _id: '0xf3b5a7093686d297b5b343f23fd901bda7d66cbc',
@@ -136,7 +136,7 @@ export default function DonkSeal() {
             coinWebsite: 'https://infiniteone.io/',
             auditFile: 'https://github.com/ScientificChickenSander/EggChainCertifiedAudits/blob/main/EggChainAudit-InfiniteOne-14092021.pdf',
             auditLogo: 'https://i.ibb.co/9W1CdQm/Egg-C-Audit-Logo.png',
-            summary: ''
+            summary: 'InfiniteOne Token is the only token you truly need in your wallet. By holding IF1 you earn multiple rewards, from reflections to airdrops of other great tokens. The InfiniteOne Team thoroughly vets each project prior to airdropping the tokens to their loyal holders.  After passing the strenuous vetting process, InfiniteOne holders will acquire a wallet of tokens with the amount varying based upon how much IF1 they hold. Holders benefit by being able to learn about a new project they might not have heard of and partner projects benefit by increasing their holders.'
           },
           {
             _id: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
@@ -147,7 +147,7 @@ export default function DonkSeal() {
             coinWebsite: 'https://sidekick.finance/',
             auditFile: 'https://docs.sidekick.finance/sidekick-finance/',
             auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
-            summary: ''
+            summary: 'SideKick Finance is a community driven, cross-chain DeFi super network. They offer charting, data and volume feeds for DonkSwap Token.'
           },
           {
             _id: '0x56aa0237244c67b9a854b4efe8479cca0b105289',
@@ -158,7 +158,7 @@ export default function DonkSeal() {
             coinWebsite: 'https://walletnow.net/',
             auditFile: 'https://github.com/Watchtower-WTW/Public_Audits/blob/main/Wallet%20Now%20Smart%20Contract%20Security%20Audit.pdf',
             auditLogo: 'https://i.ibb.co/jHTbY4v/Watchtower.jpg',
-            summary: ''
+            summary: 'WalletNow is an advanced crypto portfolio monitoring solution. It aggregates all your DeFi & CeFi investments in a searchable table and actively monitors it with an integrated Telegram Bot. With detailed LP information, impermanent loss and yields calculation, it offers tools to keep your wallets under your control.'
           },
           {
             _id: '0x1967ABfdc4ae7961C5a8A5395469222260C27c02',
