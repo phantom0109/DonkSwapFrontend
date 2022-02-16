@@ -132,7 +132,7 @@ export default function DonkSeal() {
             coinName: 'InfiniteOne  (IF1)',
             coinAddress: '0xfCaC1a3eDE7b55Cc51e3eBff2885a67FBfE01a1A',
             coinLogo:
-              'https://hosting.renderforestsites.com/13950379/628732/media/2090f945c1e38fd1d23fc19cf794db6c.png',
+              'https://i.ibb.co/SQ0xWRh/IF1-black-on-purp.jpg',
             coinWebsite: 'https://infiniteone.io/',
             auditFile: 'https://github.com/ScientificChickenSander/EggChainCertifiedAudits/blob/main/EggChainAudit-InfiniteOne-14092021.pdf',
             auditLogo: 'https://i.ibb.co/9W1CdQm/Egg-C-Audit-Logo.png',
