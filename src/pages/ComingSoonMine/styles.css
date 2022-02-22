@@ -15,3 +15,30 @@
       display: block;
       text-align: center;
   } */
+
+  div.video-responsive{
+    aspect-ratio: 16/9;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.video-responsive iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 500px) {
+    div.video-responsive{
+      width: 80%;
+    }
+  }
+
+  @media only screen and (min-width: 501px) and (max-width: 1023px) {
+    div.video-responsive{
+      width: 75%;
+    }
+  }
