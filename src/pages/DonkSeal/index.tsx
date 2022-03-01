@@ -139,17 +139,6 @@ export default function DonkSeal() {
             summary: 'InfiniteOne Token is the only token you truly need in your wallet. By holding IF1 you earn multiple rewards, from reflections to airdrops of other great tokens. The InfiniteOne Team thoroughly vets each project prior to airdropping the tokens to their loyal holders.  After passing the strenuous vetting process, InfiniteOne holders will acquire a wallet of tokens with the amount varying based upon how much IF1 they hold. Holders benefit by being able to learn about a new project they might not have heard of and partner projects benefit by increasing their holders.'
           },
           {
-            _id: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
-            coinName: 'SideKick Finance  (SK)',
-            coinAddress: '0x5755E18D86c8a6d7a6E25296782cb84661E6c106',
-            coinLogo:
-              'https://i.ibb.co/R0YymBZ/photo1623793528-removebg-preview.png',
-            coinWebsite: 'https://sidekick.finance/',
-            auditFile: 'https://docs.sidekick.finance/sidekick-finance/',
-            auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
-            summary: 'SideKick Finance is a community driven, cross-chain DeFi super network. They offer charting, data and volume feeds for DonkSwap Token.'
-          },
-          {
             _id: '0x56aa0237244c67b9a854b4efe8479cca0b105289',
             coinName: 'WalletNow  (WNOW)',
             coinAddress: '0x56aa0237244c67b9a854b4efe8479cca0b105289',
