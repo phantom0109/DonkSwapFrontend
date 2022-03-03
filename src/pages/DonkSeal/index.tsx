@@ -73,6 +73,17 @@ export default function DonkSeal() {
             summary: 'The only utility coin that will help struggling college students with grants. The primary goal of $BLTRX is to assist low-income families with getting ahead of their school loan payments. Bellatrix is here to provide a necessary solution to students struggling to pay off their debt.'
           },
           {
+            _id: '0x7c1608C004F20c3520f70b924E2BfeF092dA0043',
+            coinName: 'CZodiac Token (CZF)',
+            coinAddress: '0x7c1608C004F20c3520f70b924E2BfeF092dA0043',
+            coinLogo:
+              'https://i.ibb.co/XJfSDMX/czf-logo.png',
+            coinWebsite: 'https://czodiac.com/',
+            auditFile: 'https://audits.finance/Audits/CZFarmAudit.pdf',
+            auditLogo: 'https://i.ibb.co/KV4FwCj/audit-finance.jpg',
+            summary: 'CZodiac's defi dapps empower the community to earn high interest with CZF (Chinese Zodiac Farming Token). These rates are created through a combination of defi game theory and protocol revenue generated from assets held by the protocol.'
+          },
+          {
             _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
             coinName: 'CryoGen  (CRYOGEN)',
             coinAddress: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
