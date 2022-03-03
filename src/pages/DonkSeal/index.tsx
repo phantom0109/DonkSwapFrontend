@@ -81,7 +81,7 @@ export default function DonkSeal() {
             coinWebsite: 'https://czodiac.com/',
             auditFile: 'https://audits.finance/Audits/CZFarmAudit.pdf',
             auditLogo: 'https://i.ibb.co/KV4FwCj/audit-finance.jpg',
-            summary: 'CZodiac's defi dapps empower the community to earn high interest with CZF (Chinese Zodiac Farming Token). These rates are created through a combination of defi game theory and protocol revenue generated from assets held by the protocol.'
+            summary: 'CZodiacs defi dapps empower the community to earn high interest with CZF (Chinese Zodiac Farming Token). These rates are created through a combination of defi game theory and protocol revenue generated from assets held by the protocol.'
           },
           {
             _id: '0x6a73a99fac60c265863307c5a40abf32f0a040ac',
