@@ -26,6 +26,14 @@
       "logoURI": "https://i.ibb.co/y45pGc7/Bellatrix-Token.jpg"
     },
     {
+      "name": "CZodiac Token",
+      "symbol": "CZF",
+      "address": "0x7c1608C004F20c3520f70b924E2BfeF092dA0043",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/XJfSDMX/czf-logo.png"
+    },
+    {
       "name": "CryoGen Token",
       "symbol": "CRYOGEN",
       "address": "0x6a73a99fac60c265863307c5a40abf32f0a040ac",
