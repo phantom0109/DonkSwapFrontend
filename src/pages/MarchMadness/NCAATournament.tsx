@@ -40,9 +40,21 @@ const NCAATournament = (props) => {
                     <h1>Prizes and Rewards</h1>
                 </div>
                 <div className='content'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Aliquam delectus perspiciatis fuga aliquid reiciendis, 
-                    rem eaque sint aspernatur recusandae cupiditate?
+                <ul>
+                    <li>Prize 1</li>
+                    <p>This is just a placeholder text</p>
+                    <li>Prize 2</li>
+                    <p>This is just a placeholder text</p>
+                    <li>Prize 3</li>
+                    <p>This is just a placeholder text</p>
+                    <li>Prize 4</li>
+                    <p>This is just a placeholder text</p>
+                    <li>Prize 5</li>
+                    <p>This is just a placeholder text</p>
+                    <li>Grand Prize</li>
+                    <p>This is just a placeholder text</p>
+                    
+                    </ul>
                 </div>
             </section>
 
