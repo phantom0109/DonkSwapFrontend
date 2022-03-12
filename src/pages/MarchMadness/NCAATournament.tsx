@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import bannerImg from './images/donk-seal.jpeg';
+import bannerImg from './images/MM Poster.jpg';
 import bracket from './images/photo_2022-03-11 07.27.05.jpeg'
 import "./NCAATournament.css";
 
