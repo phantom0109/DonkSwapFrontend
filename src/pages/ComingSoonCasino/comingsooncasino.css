@@ -21,7 +21,9 @@
 }
 .casino-vid-tab{
   width: 28rem;
-  height: 35rem;
+  /* height: 35rem; */
+  margin-top: auto;
+  margin-bottom: auto;
   cursor: pointer;
   z-index: 1;
 }
@@ -64,7 +66,9 @@ bottom: 0;
   }
   .casino-vid-tab{
     width: 18rem;
-    height: 25rem;
+    /* height: 25rem; */
+    margin-top: auto;
+    margin-bottom: auto;
     cursor: pointer;
     z-index: 1;
   }

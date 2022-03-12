@@ -231,8 +231,15 @@ const HomePage = (props) => {
                 <div className="left-of-third-box">
                     <img src={(pokerChipsWithCard)} alt="cardwchips" className="card-chips" />
                     <div className="why-container">
-                        <video autoPlay muted loop className="video-playback">
-                            <source src={video} type="video/mp4" />
+                        <video
+                        autoPlay={window.innerWidth > 850}
+                        controls={window.innerWidth <= 850}
+                        muted
+                        loop
+                        controlsList="nodownload"
+                        disablePictureInPicture
+                        className="video-playback">
+                            <source src={video} type="video/mp4"/>
                         </video>
                     </div>
                 </div>
@@ -331,7 +338,14 @@ const HomePage = (props) => {
                     <img src={(cardArt)} alt="cardart" className="cardArt" />
                     <div className="casino-vid-container">
                         <div className="video-hugger">
-                            <video className="casino-vid" autoPlay loop muted>
+                            <video
+                            autoPlay={window.innerWidth > 850}
+                            controls={window.innerWidth <= 850}
+                            muted
+                            loop
+                            controlsList="nodownload"
+                            disablePictureInPicture
+                            className="casino-vid">
                                 <source src={(casinoGameTwo)} type="video/mp4" />
                             </video>
                         </div>
