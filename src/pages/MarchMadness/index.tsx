@@ -8,7 +8,7 @@ const MarchMadness = (props) => {
         <div id="main-tournament-body">
             <div id='tournament-header'>
                 <h1>Donkey King Finance Presents:</h1>
-                <h1>The March Madness Charity Tournament</h1>
+                <h1>Rebecca Grant's Bracket Challenge</h1>
                 <img src={(logo)} alt="logo" className="donk-logo" />
             </div>
 
