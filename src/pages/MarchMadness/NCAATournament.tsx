@@ -48,17 +48,21 @@ const NCAATournament = (props) => {
                 <div className='content'>
                 <ul>
                     <li>Prize 1</li>
-                    <p>This is just a placeholder text</p>
+                    <p>Most Wins Round 1</p>
                     <li>Prize 2</li>
-                    <p>This is just a placeholder text</p>
+                    <p>Most Wins Round 2</p>
                     <li>Prize 3</li>
-                    <p>This is just a placeholder text</p>
+                    <p>Most Wins Round 3</p>
                     <li>Prize 4</li>
-                    <p>This is just a placeholder text</p>
+                    <p>Most Wins Round 4</p>
                     <li>Prize 5</li>
-                    <p>This is just a placeholder text</p>
+                    <p>Most Upsets - Rounds 1 & 2</p>
+                    <li>Prize 6</li>
+                    <p>Most Upsets - Rounds 3 & 4</p>
+                    <li>Prize 7</li>
+                    <p>Most Upsets at the End of the Tournament</p>
                     <li>Grand Prize</li>
-                    <p>This is just a placeholder text</p>
+                    <p>Most Win Overall - $10,000 in $BUSD</p>
                     
                     </ul>
                 </div>
