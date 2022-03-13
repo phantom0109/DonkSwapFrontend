@@ -754,7 +754,7 @@
 }
 .casino-vid{
     width: 35rem;
-    height: 35rem;
+    /* height: 35rem; */
     cursor: pointer;
     z-index: 1;
 }
@@ -1077,7 +1077,7 @@
     .right-of-third-box-hugger{
         position: absolute;
         width: 35rem;
-        height: 18rem;
+        height: 20rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -2557,7 +2557,7 @@
     }
     .casino-vid{
         width: 18rem;
-        height: 35rem;
+        /* height: 35rem; */
         cursor: pointer;
         z-index: 1;
     }
@@ -2588,7 +2588,7 @@
     }
     .casino-vid{
         width: 18rem;
-        height: 35rem;
+        /* height: 35rem; */
         cursor: pointer;
         z-index: 1;
         display: none;
@@ -3076,7 +3076,7 @@
     }
     .casino-vid{
         width: 18rem;
-        height: 35rem;
+        /* height: 35rem; */
         cursor: pointer;
         z-index: 1;
     }
@@ -3107,7 +3107,7 @@
     }
     .casino-vid{
         width: 18rem;
-        height: 35rem;
+        /* height: 35rem; */
         cursor: pointer;
         z-index: 1;
         display: none;
@@ -3568,7 +3568,7 @@ and (orientation:landscape) {
     }
     .casino-vid{
         width: 18rem;
-        height: 35rem;
+        /* height: 35rem; */
         cursor: pointer;
         z-index: 1;
     }
@@ -3599,7 +3599,7 @@ and (orientation:landscape) {
     }
     .casino-vid{
         width: 18rem;
-        height: 35rem;
+        /* height: 35rem; */
         cursor: pointer;
         z-index: 1;
         display: none;
@@ -4097,7 +4097,7 @@ and (orientation:landscape) {
     }
     .casino-vid{
         width: 18rem;
-        height: 35rem;
+        /* height: 35rem; */
         cursor: pointer;
         z-index: 1;
     }
@@ -4128,7 +4128,7 @@ and (orientation:landscape) {
     }
     .casino-vid{
         width: 18rem;
-        height: 35rem;
+        /* height: 35rem; */
         cursor: pointer;
         z-index: 1;
         display: none;
@@ -4627,7 +4627,7 @@ and (orientation:landscape) {
     }
     .casino-vid{
         width: 18rem;
-        height: 35rem;
+        /* height: 35rem; */
         cursor: pointer;
         z-index: 1;
     }
@@ -4658,7 +4658,7 @@ and (orientation:landscape) {
     }
     .casino-vid{
         width: 18rem;
-        height: 35rem;
+        /* height: 35rem; */
         cursor: pointer;
         z-index: 1;
         display: none;
