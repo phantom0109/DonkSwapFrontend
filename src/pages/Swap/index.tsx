@@ -531,22 +531,27 @@ const Swap = () => {
           </CardBody>
         </Wrapper>
       </AppBody>
-      <AppBody mt='10px' ht='fit-content'>
-        <Wrapper>
-          <CardBody className='padding-10'>
-            <AutoRow className={isMobile ? 'space-evenly' : 'space-between'} display='block'>
-              <AutoColumn>
-                <AutoRow className='center bold mb-1' >
-                  {chartData && chartData['ethereum'] && chartData['ethereum'].dexTrades ? (
-                    <PriceChart chartData={chartData} />
-                  ) :
-                    <CustomLightSpinner src="/images/blue-loader.svg" alt="loader" size="25px" />}
+      {
+        false?
+          <AppBody mt='10px' ht='fit-content'>
+            <Wrapper>
+              <CardBody className='padding-10'>
+                <AutoRow className={isMobile ? 'space-evenly' : 'space-between'} display='block'>
+                  <AutoColumn>
+                    <AutoRow className='center bold mb-1' >
+                      {chartData && chartData['ethereum'] && chartData['ethereum'].dexTrades ? (
+                        // <PriceChart chartData={chartData} />
+                        null
+                      ) :
+                        <CustomLightSpinner src="/images/blue-loader.svg" alt="loader" size="25px" />}
+                    </AutoRow>
+                  </AutoColumn>
                 </AutoRow>
-              </AutoColumn>
-            </AutoRow>
-          </CardBody>
-        </Wrapper>
-      </AppBody>
+              </CardBody>
+            </Wrapper>
+          </AppBody>
+        : null
+      }
       <AdvancedSwapDetailsDropdown trade={trade} />
     </>
   )
