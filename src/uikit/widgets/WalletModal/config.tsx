@@ -16,11 +16,6 @@ const connectors: Config[] = [
     connectorId: ConnectorNames.WalletConnect,
   },
   {
-    title: "TrustWallet",
-    icon: TrustWallet,
-    connectorId: ConnectorNames.Injected,
-  },
-  {
     title: "SafePal Wallet",
     icon: SafePalWallet,
     connectorId: ConnectorNames.Injected,
