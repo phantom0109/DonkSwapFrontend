@@ -1,6 +1,15 @@
+
+.coming-soon-title {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .vid-container{
   width: 100vw;
-  height: 100vh;
+  height: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

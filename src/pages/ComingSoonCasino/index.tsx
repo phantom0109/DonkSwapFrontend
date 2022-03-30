@@ -11,8 +11,8 @@ const Casino = (props) => {
 
   return (
     <div>
+        <h1 className="coming-soon-title">COMING SOON!</h1>
       <div className="vid-container">
-
       <div className="youtube-hugger">
           <video controls controlsList="nodownload" muted disablePictureInPicture className="casino-vid-tab"> 
             <source src={(comingSoonVid)} type="video/mp4" />
