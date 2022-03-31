@@ -1,6 +1,21 @@
+.headerPhoto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 500px;
+  border: none;
+  border-radius: 10px;;
+  box-shadow: inset 2px 1px 18px rgba(140, 76, 170, 0.279);
+  margin-left: 12.5%;
+}
+.headerPhoto {
+  width: 750px;
+  height: 450px;
+}
 .vid-container{
   width: 100vw;
-  height: 100vh;
+  height: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -12,12 +27,17 @@
   overflow: scroll;
 }
 .youtube-hugger{
-  width: 25rem;
-  height: 25rem;
+  width: 35rem;
+  height: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: none;
+  border-radius: 10px;;
+  box-shadow: inset 2px 1px 18px rgba(140, 76, 170, 0.279);
+  margin-top: 25px;
+  padding-bottom: 20px;
 }
 .casino-vid-tab{
   width: 28rem;
@@ -43,6 +63,10 @@ bottom: 0;
 }
 
 @media only screen and (max-width: 500px) {
+  .headerPhoto {
+    width: 325px;
+    height: 250px;
+  }
   .vid-container{
     width: 100vw;
     height: 100vh;
