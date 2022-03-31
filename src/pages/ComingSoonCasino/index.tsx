@@ -1,7 +1,7 @@
 import "./comingsooncasino.css";
 import casinoGameOne from './video/Casino_Slots1.mp4'
 import casinoGameThree from './video/Casino _Slots3.mp4'
-import headerPhoto from './images/photo_2022-03-30 19.48.13.jpeg'
+import headerPhoto from './images/673EA23D-3E7E-4882-861F-D0C64129511F.jpeg
 
 
 
