@@ -42,7 +42,7 @@ const Casino = (props) => {
       </div>
 
       <div className="disclaimer">
-          Welcome Donkey King Casino!
+          Welcome to Donkey King Casino!
 
           After long discussions between our team, our group of casino investors and the gaming company that developed our casino,
           we decided that the safest way to launch is to start with a free play version. This free play version will allow us to test
