@@ -6,6 +6,7 @@ import headerPhoto from './images/welcome_logo.png';
 
 
 
+
 const Casino = (props) => {
 
   return (
