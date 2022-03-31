@@ -3,10 +3,6 @@ import casinoGameOne from './video/Casino_Slots1.mp4';
 import casinoGameThree from './video/Casino _Slots3.mp4';
 import headerPhoto from './images/welcome_logo.png';
 
-
-
-
-
 const Casino = (props) => {
 
   return (
@@ -14,6 +10,19 @@ const Casino = (props) => {
       <div className="headerPhoto-container">
         <img className="headerPhoto" src={headerPhoto} alt="" />
       </div>
+
+      {/* <iframe src="https://donkswap.com/#/src/pages/ComingSoonCasino/game/index.html"
+      frameBorder="0"
+      name="Donkey King Casino"
+      scrolling="no"
+      allowFullScreen={true}
+      allowTransparency={true}
+      marginHeight={0}
+      marginWidth={320}
+      height="540px"
+      width="960px">
+      </iframe> */}
+
       <div className="vid-container">
         <div className="youtube-hugger">
           <video controls controlsList="nodownload" muted disablePictureInPicture className="casino-vid-tab"> 
