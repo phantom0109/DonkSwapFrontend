@@ -13,8 +13,7 @@ const Casino = (props) => {
 
       <div className="gameContainer">
         <iframe
-        src="http://solutionsify.com/casino/CasinoBuild/"
-        //src="https://donkcasino.netlify.app/"
+        src="https://donkcasino.netlify.app/"
         frameBorder="0"
         name="Donkey King Casino"
         scrolling="no"
