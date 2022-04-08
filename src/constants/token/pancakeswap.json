@@ -18,14 +18,6 @@
       "logoURI": "https://bscscan.com/token/images/donkeyking_32.png"
     },
     {
-      "name": "Bellatrix Token",
-      "symbol": "BLTRX",
-      "address": "0xf3b5a7093686d297b5b343f23fd901bda7d66cbc",
-      "chainId": 56,
-      "decimals": 12,
-      "logoURI": "https://i.ibb.co/y45pGc7/Bellatrix-Token.jpg"
-    },
-    {
       "name": "CZodiac Token",
       "symbol": "CZF",
       "address": "0x7c1608C004F20c3520f70b924E2BfeF092dA0043",
