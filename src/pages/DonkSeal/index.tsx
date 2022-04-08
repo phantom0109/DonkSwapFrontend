@@ -62,17 +62,6 @@ export default function DonkSeal() {
             summary:'DonkSwap is the official exchange of Donkey King Finance. The goal of DonkSwap is to bring back confidence to the crypto space as only rug-proof projects will be allowed to list. DonkSwap Token is the official currency of Donkey King Finance. $DST will provide financial support and stability to the project and each of its entities. To date, Donkey King Finance and their subsidiary, DonkSwap, have processed over $1 million in transactions since launching on September 1, 2021.'
           },
           {
-            _id: '0xf3b5a7093686d297b5b343f23fd901bda7d66cbc',
-            coinName: 'Bellatrix Token  (BLTRX)',
-            coinAddress: '0xf3b5a7093686d297b5b343f23fd901bda7d66cbc',
-            coinLogo:
-              'https://i.ibb.co/y45pGc7/Bellatrix-Token.jpg',
-            coinWebsite: 'https://bellatrix.money/',
-            auditFile: '',
-            auditLogo: 'https://i.ibb.co/QnRJ1wP/coming-soon-modified.png',
-            summary: 'The only utility coin that will help struggling college students with grants. The primary goal of $BLTRX is to assist low-income families with getting ahead of their school loan payments. Bellatrix is here to provide a necessary solution to students struggling to pay off their debt.'
-          },
-          {
             _id: '0x7c1608C004F20c3520f70b924E2BfeF092dA0043',
             coinName: 'CZodiac Token (CZF)',
             coinAddress: '0x7c1608C004F20c3520f70b924E2BfeF092dA0043',
