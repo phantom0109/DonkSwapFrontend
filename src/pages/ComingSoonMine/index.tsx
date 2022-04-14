@@ -101,7 +101,7 @@ export default function Mine() {
         </form>
 
         <form className="stake-form">
-          <h3 className="stake-title">Withdrawal your $DST earned</h3>
+          <h3 className="stake-title">Withdraw Earned $DST</h3>
           <div className="input-div">
             <input onChange={withdrawalInput} value={withdrawalinputamount} type="number" placeholder="0.0" className="withdrawal-input" />
             <div className="increment-div">
