@@ -89,7 +89,7 @@ export default function Mine() {
 
       < div className="stake-body">
         <form className="stake-form">
-          <h3 className="stake-title">Stake your $DST</h3>
+          <h3 className="stake-title">Stake DONK-LP</h3>
           <div className="input-div">
             <input onChange={depositInput} value={depositinputamount} type="number" placeholder="0.0" className="deposit-input" />
             <div className="increment-div">
@@ -109,7 +109,7 @@ export default function Mine() {
               <button onClick={decrementWithdrawalDown} className="increment-minus">-</button>
             </div>
           </div>
-          <button className='stake-btn'>Widthdraw</button>
+          <button className='stake-btn'>Withdraw</button>
         </form>
       </div>
     </div>
