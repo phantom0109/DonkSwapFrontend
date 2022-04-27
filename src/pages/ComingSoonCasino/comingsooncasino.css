@@ -78,13 +78,29 @@ bottom: 0;
 }
 
 .gameContainer{
+  position: relative;
   margin: 20px auto;
-  height: 642px;
+  height: 642px; /*606?*/
 }
 
 .gameIframe{
   height: 100%;
   width: 100%;
+}
+
+.casinoSelectButton{
+  width: 10rem;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: none !important;
+  border: 2px solid #232526 !important;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.casinoSelectButton:hover{
+  opacity: 70%;
+  transform: scale(1.03);
 }
 
 @media only screen and (max-width: 500px) {

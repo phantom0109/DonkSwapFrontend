@@ -2,8 +2,11 @@ import "./comingsooncasino.css";
 import casinoGameOne from './video/Casino_Slots1.mp4';
 import casinoGameThree from './video/Casino _Slots3.mp4';
 import headerPhoto from './images/welcome_logo.png';
+import { useState } from "react";
 
 const Casino = (props) => {
+  const [displayBlackJack, setDisplayBlackJack] = useState(false)
+  const [displaySlots, setDisplaySlots] = useState(false)
 
   return (
     <div>
@@ -11,14 +14,33 @@ const Casino = (props) => {
         <img className="headerPhoto" src={headerPhoto} alt="" />
       </div>
 
-      <div className="gameContainer">
+      <div id="selectionContainer" style={displayBlackJack || displaySlots?{display:"none"}:{display:"flex",alignItems:"center",flexFlow:"column",margin:"10px 0px"}}>
+        <h2 style={{marginBottom:"20px",fontSize:"1.3rem"}}>What would you like to play?</h2>
+        <button onClick={() => setDisplayBlackJack(true)} className="primary-g casinoSelectButton">BlackJack</button>
+        <button onClick={() => setDisplaySlots(true)} className="primary-g casinoSelectButton">Slots</button>
+      </div>
+
+      <div className="gameContainer" style={displayBlackJack?{display:"block"}:{display:"none"}}>
         <iframe
         src="https://solutionsify.com/casinoServer/CasinoBuild/"
         frameBorder="0"
-        name="Donkey King Casino"
+        name="Donkey King Casino Blackjack"
         scrolling="no"
         className="gameIframe"
-        allowFullScreen={true}
+        allow="fullscreen"
+        allowTransparency={true}
+        >
+        </iframe>
+      </div>
+
+      <div className="gameContainer" style={displaySlots?{display:"block"}:{display:"none"}}>
+        <iframe
+        src="https://solutionsify.com/casino/SlotsBuild/"
+        frameBorder="0"
+        name="Donkey King Casino Slots"
+        scrolling="no"
+        className="gameIframe"
+        allow="fullscreen"
         allowTransparency={true}
         >
         </iframe>
