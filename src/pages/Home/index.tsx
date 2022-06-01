@@ -376,7 +376,7 @@ const HomePage = (props) => {
                                 </a>
                             </span>
                             <p>
-                                Aaron Reading, Chief Executive Officer of Donkey King Finance, took over for the original founders after
+                                Aaron Reading, Chief Executive Officer of Donkey King Entertainment Group, took over for the original founders after
                                 they stepped down for personal reasons. He came with over 10 years of experience building successful businesses
                                 and sales teams. Additionally, he has more than 3 years of experience investing in crypto currency projects.
                                 His drive to succeed stems from his passion to help as many people as possible reach success.
@@ -395,8 +395,8 @@ const HomePage = (props) => {
                                 </a>
                             </span>
                             <p>
-                                Michael Cope is the Chief Operating Officer of Donkey King Finance. He has over 10 years of experience in sales,
-                                marketing and managing teams. Michael was an integral part of the takeover that kept Donkey King Finance afloat.
+                                Michael Cope is the Chief Operating Officer of Donkey King Entertainment Group. He has over 10 years of experience in sales,
+                                marketing and managing teams. Michael was an integral part of the takeover that kept Donkey King Entertainment Group afloat.
                                 He strongly believes in providing a safe place to invest in defi crypto projects as well as preserving the integrity of the space.
                                 With nearly 15 years of investing experience, Michael strongly believes he has the knowledge to help grow this project to greater heights.
                             </p>
@@ -414,8 +414,8 @@ const HomePage = (props) => {
                                 </a>
                             </span>
                             <p>
-                                Raden, one of the lead developers of Donkey King Finance, is excited to utilize his Software Development, Digital Marketing, and 8 plus years of professional experience to continue
-                                to develop & design the vision of <b>Donkey King Finance.</b>  His keen eye for design, development, and passion for solving problems
+                                Raden, one of the lead developers of Donkey King Entertainment Group, is excited to utilize his Software Development, Digital Marketing, and 8 plus years of professional experience to continue
+                                to develop & design the vision of <b>Donkey King Entertainment Group.</b>  His keen eye for design, development, and passion for solving problems
                                 creates the perfect combination that this project needs to continue its' effort to grow. Raden is proud to be a part of this amazing project, team, community and looks forward to seeing it thrive to higher levels.
                             </p>
                         </div>
