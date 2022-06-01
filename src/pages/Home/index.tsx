@@ -150,7 +150,7 @@ const HomePage = (props) => {
             <section id="first-box">
                 <div className="left-of-first-box">
                     <div className="slogan-container">
-                        <h4>Be in the <span style={{ color: '#fdc921' }}>Money</span> with Donkey King Finance!</h4>
+                        <h4>Be in the <span style={{ color: '#fdc921' }}>Money</span> with Donkey King Entertainment Group!</h4>
                     </div>
                     <div className="sub-slogan-container">
                         <p><b>DonkSwap </b>
@@ -181,7 +181,7 @@ const HomePage = (props) => {
                                 </a>
                             </span>
                             <span className="social-link-hugger" ref={twitRef} onMouseOver={twitshadowup} onMouseOut={twitshadowdown}>
-                                <a href="https://twitter.com/donkfinance" target="_blank">
+                                <a href="https://twitter.com/donkeykingeg?s=21&t=x6SQQwG_hKf0X9rmDAsMnQ" target="_blank">
                                     <img src={(twitterLogo)} alt="telegram" className="twitter" />
                                 </a>
                             </span>
