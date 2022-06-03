@@ -96,7 +96,7 @@
     border-radius: 10px;
 }
 .stake-form{
-    width: 500px;
+    width: 450px;
     height: 200px;
     display: flex;
     justify-content: space-evenly;
@@ -143,6 +143,10 @@
     color: white;
     background-color: #753fa4;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.178);
+}
+.btn-disabled {
+    pointer-events: none;
+    background-color:#414345;
 }
 .stake-btn:hover{
     cursor: pointer;

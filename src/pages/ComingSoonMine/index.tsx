@@ -1,17 +1,41 @@
 import "./stake.css";
 import React, { useState, useRef, useEffect, } from 'react'
 import EmbedMine from "./embedMine";
+import useStaking from "../../hooks/useStaking";
+import { ethers } from "ethers"
+import useERC20 from "../../hooks/useERC20";
 
 export default function Mine() {
-  const [depositinputamount, setDepositInputAmount] = useState(null);
-  const [withdrawalinputamount, setWithdrawalInputAmount] = useState(null);
+  const [depositinputamount, setDepositInputAmount] = useState(undefined);
+  const [withdrawalinputamount, setWithdrawalInputAmount] = useState(undefined);
+  const [claiminputamount, setClaimInputAmount] = useState(undefined);
   const [errormessage, setErrorMessage] = useState('')
-  const [stakedbalance, setStakedBalance] = useState(0);
-  const [earnedbalance, setEarnedBalance] = useState(0);
+  const { stakedbalance, earnedBalance, apy, totalStakedBlalnce, totalRewards,  stake,restake, withdraw, claimReward } = useStaking();
+  const { allowance, approve } = useERC20();
 
-/*======================= DEPOSIT ===================================*/
-/*======================= DEPOSIT ===================================*/
-/*======================= DEPOSIT ===================================*/
+  /*======================= ClaimReward ===================================*/
+  /*======================= ClaimReward ===================================*/
+  /*======================= ClaimReward ===================================*/
+
+  const ClaimInput = (e) => {
+    setClaimInputAmount(e.target.value);
+    console.log(claiminputamount);
+  }
+  const incrementClaimUp = () => {
+    setClaimInputAmount(claiminputamount + 1);
+    console.log(claiminputamount);
+  }
+  const decrementClaimDown = () => {
+    setClaimInputAmount(claiminputamount - 1);
+    console.log(claiminputamount);
+  }
+
+  const handleClickClaim = () => {
+    claimReward(ethers.utils.parseEther(claiminputamount.toString()))
+  }
+  /*======================= DEPOSIT ===================================*/
+  /*======================= DEPOSIT ===================================*/
+  /*======================= DEPOSIT ===================================*/
 
   const depositInput = (e) => {
     setDepositInputAmount(parseFloat(e.target.value));
@@ -29,9 +53,9 @@ export default function Mine() {
     console.log(depositinputamount);
   }
 
-/*======================= WITHDRAWAL===================================*/
-/*======================= WITHDRAWAL===================================*/
-/*======================= WITHDRAWAL===================================*/
+  /*======================= WITHDRAWAL===================================*/
+  /*======================= WITHDRAWAL===================================*/
+  /*======================= WITHDRAWAL===================================*/
 
   const withdrawalInput = (e) => {
     setWithdrawalInputAmount(parseFloat(e.target.value));
@@ -48,10 +72,23 @@ export default function Mine() {
     }
     console.log(withdrawalinputamount);
   }
-
+  const handleClickWithdraw = () => {
+    withdraw(withdrawalinputamount.toString())
+  }
   /*==========================================================*/
   /*==========================================================*/
 
+  const handleClickApprove = () => {
+    approve()
+  }
+
+  const handleClickStake = () => {
+    stake(ethers.utils.parseEther(depositinputamount.toString()))
+  }
+
+  const handleClickReStake = () => {
+    restake()
+  }
 
   return (
     <div className="stake-body-whole">
@@ -60,12 +97,19 @@ export default function Mine() {
         <div>
           <h3>Staking Stats</h3>
         </div>
-
+        
         <div className="stake-stat-second-level">
+          <div className="balance-and-display-container">
+            <h3 className="stake-title">Total Balance</h3>
+            <div className="stake-stat-display">
+              <p>{totalStakedBlalnce ? ethers.utils.formatEther(totalStakedBlalnce) : 0}</p>
+            </div>
+          </div>
+          
           <div className="balance-and-display-container">
             <h3 className="stake-title">Staked Balance</h3>
             <div className="stake-stat-display">
-              <p>$0</p>
+            <p>{stakedbalance ? ethers.utils.formatEther(stakedbalance).slice(0, ethers.utils.formatEther(stakedbalance).indexOf(".")+3) : 0}</p>
             </div>
           </div>
 
@@ -73,7 +117,7 @@ export default function Mine() {
             <div className="apy-stat-display">
               <div className='apy-box'>
                 <h3 className="stake-title">Current APY</h3>
-                <p>200%</p>
+                <p>{apy ? apy.toString() : 0}%</p>
               </div>
             </div>
           </div>
@@ -81,7 +125,14 @@ export default function Mine() {
           <div className="balance-and-display-container">
             <h3 className="stake-title">Earned $DST</h3>
             <div className="stake-stat-display">
-              <p>$0</p>
+              <p>{earnedBalance ? ethers.utils.formatEther(earnedBalance).slice(0, ethers.utils.formatEther(earnedBalance).indexOf(".")+3) : 0}</p>
+            </div>
+          </div>
+
+          <div className="balance-and-display-container">
+            <h3 className="stake-title">totalRewards</h3>
+            <div className="stake-stat-display">
+              <p>{totalRewards ? ethers.utils.formatEther(totalRewards).slice(0, ethers.utils.formatEther(totalRewards).indexOf(".")+3) : 0}</p>
             </div>
           </div>
         </div>
@@ -97,19 +148,36 @@ export default function Mine() {
               <button onClick={decrementDepositDown} className="increment-minus">-</button>
             </div>
           </div>
-          <button className='stake-btn'>Stake</button>
+          {allowance !== '0' ? 
+          <div>
+            <button className='stake-btn' onClick={handleClickStake}>Stake</button>
+            <button className='stake-btn' onClick={handleClickReStake}>ReStake</button>
+          </div>
+            : <button className="stake-btn" onClick={handleClickApprove}>Approve</button>}
         </form>
 
         <form className="stake-form">
-          <h3 className="stake-title">Withdraw Earned $DST</h3>
+          <h3 className="stake-title">Withdraw Staked LP</h3>
           <div className="input-div">
-            <input onChange={withdrawalInput} value={withdrawalinputamount} type="number" placeholder="0.0" className="withdrawal-input" />
+            <input onChange={withdrawalInput} value={withdrawalinputamount} type="number" placeholder="place input withdrawal %" className="withdrawal-input" />
             <div className="increment-div">
               <button onClick={incrementWithdrwalUp} className="increment-plus">+</button>
               <button onClick={decrementWithdrawalDown} className="increment-minus">-</button>
             </div>
           </div>
-          <button className='stake-btn'>Withdraw</button>
+          <button className={`stake-btn ${stakedbalance?.toString() === '0' && 'btn-disabled'}`} onClick={handleClickWithdraw}>Withdraw</button>
+        </form>
+
+        <form className="stake-form">
+          <h3 className="stake-title">Claim Earned $DST</h3>
+          <div className="input-div">
+            <input onChange={ClaimInput} value={claiminputamount} type="number" placeholder="place input number" className="withdrawal-input" />
+            <div className="increment-div">
+              <button onClick={incrementClaimUp} className="increment-plus">+</button>
+              <button onClick={decrementClaimDown} className="increment-minus">-</button>
+            </div>
+          </div>
+          <button className={`stake-btn ${earnedBalance?.toString() === '0' && 'btn-disabled'}`} onClick={handleClickClaim}>Claim</button>
         </form>
       </div>
     </div>

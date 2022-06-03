@@ -10,6 +10,7 @@ import WETH_ABI from '../constants/abis/weth.json'
 import { MULTICALL_ABI, MULTICALL_NETWORKS } from '../constants/multicall'
 import { getContract } from '../utils'
 import { useActiveWeb3React } from './index'
+import STAKING_ABI from "../abis/Staking.json"
 
 // returns null on errors
 function useContract(address: string | undefined, ABI: any, withSignerIfPossible = true): Contract | null {
@@ -17,6 +18,7 @@ function useContract(address: string | undefined, ABI: any, withSignerIfPossible
 
   return useMemo(() => {
     if (!address || !ABI || !library) return null
+    console.log("account===========", withSignerIfPossible, account ? account : undefined)
     try {
       return getContract(address, ABI, library, withSignerIfPossible && account ? account : undefined)
     } catch (error) {
@@ -62,4 +64,11 @@ export function usePairContract(pairAddress?: string, withSignerIfPossible?: boo
 export function useMulticallContract(): Contract | null {
   const { chainId } = useActiveWeb3React()
   return useContract(chainId && MULTICALL_NETWORKS[chainId], MULTICALL_ABI, false)
+}
+
+export function useStakingContract(stakingAddress?: string): Contract | null {
+  return useContract(stakingAddress, STAKING_ABI, true)
+}
+export function useERC20Contract(erc20Address?: string): Contract | null {
+  return useContract(erc20Address, ERC20_ABI, true)
 }
