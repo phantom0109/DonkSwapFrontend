@@ -165,7 +165,7 @@ export default function Mine() {
               <button onClick={decrementWithdrawalDown} className="increment-minus">-</button>
             </div>
           </div>
-          <button className={`stake-btn ${stakedbalance?.toString() === '0' && 'btn-disabled'}`} onClick={handleClickWithdraw}>Withdraw</button>
+          <button className={`stake-btn ${stakedbalance?.toString() === '0' ? 'btn-disabled':''}`} onClick={handleClickWithdraw}>Withdraw</button>
         </form>
 
         <form className="stake-form">
@@ -177,7 +177,7 @@ export default function Mine() {
               <button onClick={decrementClaimDown} className="increment-minus">-</button>
             </div>
           </div>
-          <button className={`stake-btn ${earnedBalance?.toString() === '0' && 'btn-disabled'}`} onClick={handleClickClaim}>Claim</button>
+          <button className={`stake-btn ${earnedBalance?.toString() === '0' ? 'btn-disabled':''}`} onClick={handleClickClaim}>Claim</button>
         </form>
       </div>
     </div>
