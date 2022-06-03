@@ -99,40 +99,44 @@ export default function Mine() {
         </div>
         
         <div className="stake-stat-second-level">
-          <div className="balance-and-display-container">
-            <h3 className="stake-title">Total Balance</h3>
-            <div className="stake-stat-display">
-              <p>{totalStakedBlalnce ? ethers.utils.formatEther(totalStakedBlalnce) : 0}</p>
+          <div className="left-display">
+            <div className="balance-and-display-container">
+              <h3 className="stake-title">Total Balance</h3>
+              <div className="stake-stat-display">
+                <p>{totalStakedBlalnce ? ethers.utils.formatEther(totalStakedBlalnce) : 0}</p>
+              </div>
             </div>
-          </div>
-          
-          <div className="balance-and-display-container">
-            <h3 className="stake-title">Staked Balance</h3>
-            <div className="stake-stat-display">
-            <p>{stakedbalance ? ethers.utils.formatEther(stakedbalance).slice(0, ethers.utils.formatEther(stakedbalance).indexOf(".")+3) : 0}</p>
+            
+            <div className="balance-and-display-container">
+              <h3 className="stake-title">Staked Balance</h3>
+              <div className="stake-stat-display">
+              <p>{stakedbalance ? ethers.utils.formatEther(stakedbalance).slice(0, ethers.utils.formatEther(stakedbalance).indexOf(".")+3) : 0}</p>
+              </div>
             </div>
           </div>
 
-          <div>
+          <div className="apy-stat-display-container">
             <div className="apy-stat-display">
               <div className='apy-box'>
-                <h3 className="stake-title">Current APY</h3>
+                <h3 className="stake-title">APY</h3>
                 <p>{apy ? apy.toString() : 0}%</p>
               </div>
             </div>
           </div>
 
-          <div className="balance-and-display-container">
-            <h3 className="stake-title">Earned $DST</h3>
-            <div className="stake-stat-display">
-              <p>{earnedBalance ? ethers.utils.formatEther(earnedBalance).slice(0, ethers.utils.formatEther(earnedBalance).indexOf(".")+3) : 0}</p>
+          <div className="right-display">
+            <div className="balance-and-display-container">
+              <h3 className="stake-title">Earned $DST</h3>
+              <div className="stake-stat-display">
+                <p>{earnedBalance ? ethers.utils.formatEther(earnedBalance).slice(0, ethers.utils.formatEther(earnedBalance).indexOf(".")+3) : 0}</p>
+              </div>
             </div>
-          </div>
 
-          <div className="balance-and-display-container">
-            <h3 className="stake-title">totalRewards</h3>
-            <div className="stake-stat-display">
-              <p>{totalRewards ? ethers.utils.formatEther(totalRewards).slice(0, ethers.utils.formatEther(totalRewards).indexOf(".")+3) : 0}</p>
+            <div className="balance-and-display-container">
+              <h3 className="stake-title">totalRewards</h3>
+              <div className="stake-stat-display">
+                <p>{totalRewards ? ethers.utils.formatEther(totalRewards).slice(0, ethers.utils.formatEther(totalRewards).indexOf(".")+3) : 0}</p>
+              </div>
             </div>
           </div>
         </div>
