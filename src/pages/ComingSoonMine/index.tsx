@@ -118,7 +118,7 @@ export default function Mine() {
           <div className="apy-stat-display-container">
             <div className="apy-stat-display">
               <div className='apy-box'>
-                <h3 className="stake-title">APY</h3>
+                <h3 className="stake-title">APR</h3>
                 <p>{apy ? apy.toString() : 0}%</p>
               </div>
             </div>
