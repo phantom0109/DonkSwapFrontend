@@ -128,7 +128,7 @@ export default function Mine() {
           <div>
             <div className="apy-stat-display">
               <div className='apy-box'>
-                <h3 className="stake-title">Current APY</h3>
+                <h3 className="stake-title">APR</h3>
                 <p>{apr ? apr.toString() : 0}%</p>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function Mine() {
           </div>
 
           <div className="balance-and-display-container">
-            <h3 className="stake-title">totalRewards</h3>
+            <h3 className="stake-title">Total Rewards</h3>
             <div className="stake-stat-display">
               <p>{totalRewards ? ethers.utils.formatEther(totalRewards).slice(0, ethers.utils.formatEther(totalRewards).indexOf(".")+3) : 0}</p>
             </div>
