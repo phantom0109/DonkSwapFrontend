@@ -3,16 +3,22 @@ import React, { useState, useRef, useEffect, } from 'react'
 import EmbedMine from "./embedMine";
 import useStaking from "../../hooks/useStaking";
 import { ethers } from "ethers"
-import useERC20 from "../../hooks/useERC20";
+import useERC20 from "hooks/useERC20";
 
 export default function Mine() {
-  const [depositinputamount, setDepositInputAmount] = useState(undefined);
-  const [withdrawalinputamount, setWithdrawalInputAmount] = useState(undefined);
-  const [claiminputamount, setClaimInputAmount] = useState(undefined);
+  const [depositinputamount, setDepositInputAmount] = useState(0);
+  const [withdrawalinputamount, setWithdrawalInputAmount] = useState(0);
+  const [claiminputamount, setClaimInputAmount] = useState(0);
   const [errormessage, setErrorMessage] = useState('')
-  const { stakedbalance, earnedBalance, apy, totalStakedBlalnce, totalRewards,  stake,restake, withdraw, claimReward } = useStaking();
-  const { allowance, approve } = useERC20();
-
+  const { stakedbalance, earnedBalance, totalStakedBalance, totalRewards, rewardRate, stake,restake, withdraw, claimReward } = useStaking();
+  const { allowance, approve, balance } = useERC20();
+  const total = Number(ethers.utils.formatEther(totalStakedBalance));
+  const rate = Number(ethers.utils.formatEther(rewardRate));
+  const apr = total?(rate * (3600 * 24 * 365) / total).toFixed(0):total;
+  
+  console.log("rewardRatetemp---->", rate);
+  console.log("total------>", total);
+  console.log("result---->", apr);
   /*======================= ClaimReward ===================================*/
   /*======================= ClaimReward ===================================*/
   /*======================= ClaimReward ===================================*/
@@ -90,6 +96,12 @@ export default function Mine() {
     restake()
   }
 
+  const handleClickMax = () => {
+    setDepositInputAmount(Number(ethers.utils.formatEther(balance).slice(0, ethers.utils.formatEther(balance).indexOf(".")+3)));
+    
+    console.log(depositinputamount);
+  }
+
   return (
     <div className="stake-body-whole">
       <div className="floating-box"></div>
@@ -99,44 +111,40 @@ export default function Mine() {
         </div>
         
         <div className="stake-stat-second-level">
-          <div className="left-display">
-            <div className="balance-and-display-container">
-              <h3 className="stake-title">Total Balance</h3>
-              <div className="stake-stat-display">
-                <p>{totalStakedBlalnce ? ethers.utils.formatEther(totalStakedBlalnce) : 0}</p>
-              </div>
+          <div className="balance-and-display-container">
+            <h3 className="stake-title">Total Balance</h3>
+            <div className="stake-stat-display">
+              <p>{totalStakedBalance ? ethers.utils.formatEther(totalStakedBalance) : 0}</p>
             </div>
-            
-            <div className="balance-and-display-container">
-              <h3 className="stake-title">Staked Balance</h3>
-              <div className="stake-stat-display">
-              <p>{stakedbalance ? ethers.utils.formatEther(stakedbalance).slice(0, ethers.utils.formatEther(stakedbalance).indexOf(".")+3) : 0}</p>
-              </div>
+          </div>
+          
+          <div className="balance-and-display-container">
+            <h3 className="stake-title">Staked Balance</h3>
+            <div className="stake-stat-display">
+            <p>{stakedbalance ? ethers.utils.formatEther(stakedbalance).slice(0, ethers.utils.formatEther(stakedbalance).indexOf(".")+3) : 0}</p>
             </div>
           </div>
 
-          <div className="apy-stat-display-container">
+          <div>
             <div className="apy-stat-display">
               <div className='apy-box'>
-                <h3 className="stake-title">APY</h3>
-                <p>{apy ? apy.toString() : 0}%</p>
+                <h3 className="stake-title">Current APY</h3>
+                <p>{apr ? apr.toString() : 0}%</p>
               </div>
             </div>
           </div>
 
-          <div className="right-display">
-            <div className="balance-and-display-container">
-              <h3 className="stake-title">Earned $DST</h3>
-              <div className="stake-stat-display">
-                <p>{earnedBalance ? ethers.utils.formatEther(earnedBalance).slice(0, ethers.utils.formatEther(earnedBalance).indexOf(".")+3) : 0}</p>
-              </div>
+          <div className="balance-and-display-container">
+            <h3 className="stake-title">Earned $DST</h3>
+            <div className="stake-stat-display">
+              <p>{earnedBalance ? ethers.utils.formatEther(earnedBalance).slice(0, ethers.utils.formatEther(earnedBalance).indexOf(".")+3) : 0}</p>
             </div>
+          </div>
 
-            <div className="balance-and-display-container">
-              <h3 className="stake-title">totalRewards</h3>
-              <div className="stake-stat-display">
-                <p>{totalRewards ? ethers.utils.formatEther(totalRewards).slice(0, ethers.utils.formatEther(totalRewards).indexOf(".")+3) : 0}</p>
-              </div>
+          <div className="balance-and-display-container">
+            <h3 className="stake-title">totalRewards</h3>
+            <div className="stake-stat-display">
+              <p>{totalRewards ? ethers.utils.formatEther(totalRewards).slice(0, ethers.utils.formatEther(totalRewards).indexOf(".")+3) : 0}</p>
             </div>
           </div>
         </div>
@@ -146,11 +154,16 @@ export default function Mine() {
         <form className="stake-form">
           <h3 className="stake-title">Stake DONK-LP</h3>
           <div className="input-div">
-            <input onChange={depositInput} value={depositinputamount} type="number" placeholder="0.0" className="deposit-input" />
+            <input onChange={depositInput} value={depositinputamount} type="number" placeholder='0.0' className="deposit-input" />
             <div className="increment-div">
               <button onClick={incrementDepositUp} className="increment-plus">+</button>
               <button onClick={decrementDepositDown} className="increment-minus">-</button>
             </div>
+          </div>
+          <div>
+            <h6 className = {`max-value ${allowance === '0' ? 'pointer-disabled':''}`} onClick={handleClickMax}>
+              Max:{balance ? ethers.utils.formatEther(balance).slice(0, ethers.utils.formatEther(balance).indexOf(".")+3) : 0}
+            </h6>
           </div>
           {allowance !== '0' ? 
           <div>

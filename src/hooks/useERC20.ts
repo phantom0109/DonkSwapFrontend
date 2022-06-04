@@ -10,13 +10,16 @@ const useERC20 = () => {
     const { account } = useActiveWeb3React()
 
     const erc20Contract = useERC20Contract(contractAddress)
-    
+    console.log("erc20----->", erc20Contract);
+
     const allowance: BigNumber = useSingleCallResult(erc20Contract, 'allowance', [account, stakingAddress])?.result?.[0];
     const approve = async () => {
         const ret = await erc20Contract.approve(stakingAddress, ethers.constants.MaxUint256)
     }
-    console.log("ERC20 CONTRACT", allowance?.toString())
-    return { allowance:allowance ? allowance.toString() : '0', approve };
+    console.log("ERC20 CONTRACT allowance => ", allowance?.toString())
+    const balance : BigNumber = useSingleCallResult(erc20Contract, 'balanceOf',[account])?.result?.[0];
+    console.log("balance => ", balance);
+    return { allowance:allowance ? allowance.toString() : '0', approve, balance};
 };
 
 export default useERC20;
