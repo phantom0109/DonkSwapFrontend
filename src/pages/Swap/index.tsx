@@ -279,7 +279,7 @@ const Swap = () => {
           style={{ width: '120px', height: '120px', position: 'absolute', right: '5rem', top: -30, transform: 'scaleX(-1)' }}
         />
       </div>
-      <h3 id="dex-title-under-logo" style={{ fontSize: '30px' }}>Donkey King Finance</h3>
+      <h3 id="dex-title-under-logo" style={{ fontSize: '30px' }}>Donkey King Entertainment Group</h3>
       <div className="relative h-full w-swap" id="donkLogo">
         <img
           src="/Strong+DonkeySwap.webp"
