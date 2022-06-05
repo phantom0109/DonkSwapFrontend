@@ -12,8 +12,8 @@ export default function Mine() {
   const [errormessage, setErrorMessage] = useState('')
   const { stakedbalance, earnedBalance, totalStakedBalance, totalRewards, rewardRate, stake,restake, withdraw, claimReward } = useStaking();
   const { allowance, approve, balance } = useERC20();
-  const total = Number(ethers.utils.formatEther(totalStakedBalance));
-  const rate = Number(ethers.utils.formatEther(rewardRate));
+  const total = Number(ethers.utils.formatEther(totalStakedBalance?totalStakedBalance:0));
+  const rate = Number(ethers.utils.formatEther(rewardRate?rewardRate:0));
   const apr = total?(rate * (3600 * 24 * 365) / total).toFixed(0):total;
   
   console.log("rewardRatetemp---->", rate);
@@ -111,21 +111,23 @@ export default function Mine() {
         </div>
         
         <div className="stake-stat-second-level">
-          <div className="balance-and-display-container">
-            <h3 className="stake-title">Total Balance</h3>
-            <div className="stake-stat-display">
-              <p>{totalStakedBalance ? ethers.utils.formatEther(totalStakedBalance) : 0}</p>
+          <div className="left-display">
+            <div className="balance-and-display-container">
+              <h3 className="stake-title">Total Balance</h3>
+              <div className="stake-stat-display">
+                <p>{totalStakedBalance ? ethers.utils.formatEther(totalStakedBalance) : 0}</p>
+              </div>
             </div>
-          </div>
-          
-          <div className="balance-and-display-container">
-            <h3 className="stake-title">Staked Balance</h3>
-            <div className="stake-stat-display">
-            <p>{stakedbalance ? ethers.utils.formatEther(stakedbalance).slice(0, ethers.utils.formatEther(stakedbalance).indexOf(".")+3) : 0}</p>
+            
+            <div className="balance-and-display-container">
+              <h3 className="stake-title">Staked Balance</h3>
+              <div className="stake-stat-display">
+              <p>{stakedbalance ? ethers.utils.formatEther(stakedbalance).slice(0, ethers.utils.formatEther(stakedbalance).indexOf(".")+3) : 0}</p>
+              </div>
             </div>
           </div>
 
-          <div>
+          <div className="apy-stat-display-container">
             <div className="apy-stat-display">
               <div className='apy-box'>
                 <h3 className="stake-title">APR</h3>
@@ -134,17 +136,19 @@ export default function Mine() {
             </div>
           </div>
 
-          <div className="balance-and-display-container">
-            <h3 className="stake-title">Earned $DST</h3>
-            <div className="stake-stat-display">
-              <p>{earnedBalance ? ethers.utils.formatEther(earnedBalance).slice(0, ethers.utils.formatEther(earnedBalance).indexOf(".")+3) : 0}</p>
+          <div className="right-display">
+            <div className="balance-and-display-container">
+              <h3 className="stake-title">Earned $DST</h3>
+              <div className="stake-stat-display">
+                <p>{earnedBalance ? ethers.utils.formatEther(earnedBalance).slice(0, ethers.utils.formatEther(earnedBalance).indexOf(".")+3) : 0}</p>
+              </div>
             </div>
-          </div>
 
-          <div className="balance-and-display-container">
-            <h3 className="stake-title">Total Rewards</h3>
-            <div className="stake-stat-display">
-              <p>{totalRewards ? ethers.utils.formatEther(totalRewards).slice(0, ethers.utils.formatEther(totalRewards).indexOf(".")+3) : 0}</p>
+            <div className="balance-and-display-container">
+              <h3 className="stake-title">Total Rewards</h3>
+              <div className="stake-stat-display">
+                <p>{totalRewards ? ethers.utils.formatEther(totalRewards).slice(0, ethers.utils.formatEther(totalRewards).indexOf(".")+3) : 0}</p>
+              </div>
             </div>
           </div>
         </div>
