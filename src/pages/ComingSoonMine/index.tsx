@@ -4,8 +4,10 @@ import EmbedMine from "./embedMine";
 import useStaking from "../../hooks/useStaking";
 import { ethers } from "ethers"
 import useERC20 from "hooks/useERC20";
+import { useActiveWeb3React } from '../../hooks/index';
 
 export default function Mine() {
+  const { account } = useActiveWeb3React();
   const [depositinputamount, setDepositInputAmount] = useState(0);
   const [withdrawalinputamount, setWithdrawalInputAmount] = useState(0);
   const [claiminputamount, setClaimInputAmount] = useState(0);
@@ -158,47 +160,47 @@ export default function Mine() {
         <form className="stake-form">
           <h3 className="stake-title">Stake DONK-LP</h3>
           <div className="input-div">
-            <input onChange={depositInput} value={depositinputamount} type="number" placeholder='0.0' className="deposit-input" />
+            <input disabled={!account} onChange={depositInput} value={depositinputamount} type="number" placeholder='0.0' className="deposit-input" />
             <div className="increment-div">
-              <button onClick={incrementDepositUp} className="increment-plus">+</button>
-              <button onClick={decrementDepositDown} className="increment-minus">-</button>
+              <button disabled={!account} onClick={incrementDepositUp} className="increment-plus">+</button>
+              <button disabled={!account} onClick={decrementDepositDown} className="increment-minus">-</button>
             </div>
           </div>
           <div>
-            <h6 className = {`max-value ${allowance === '0' ? 'pointer-disabled':''}`} onClick={handleClickMax}>
+            <h6 className = {`max-value ${allowance === '0' ? 'pointer-disabled':''}`} onClick={() => account? handleClickMax:null}>
               Max:{balance ? ethers.utils.formatEther(balance).slice(0, ethers.utils.formatEther(balance).indexOf(".")+3) : 0}
             </h6>
           </div>
           {allowance !== '0' ? 
           <div>
-            <button className='stake-btn' onClick={handleClickStake}>Stake</button>
-            <button className='stake-btn' onClick={handleClickReStake}>ReStake</button>
+            <button className='stake-btn' disabled={!account} onClick={handleClickStake}>Stake</button>
+            <button className='stake-btn' disabled={!account} onClick={handleClickReStake}>ReStake</button>
           </div>
-            : <button className="stake-btn" onClick={handleClickApprove}>Approve</button>}
+            : <button className="stake-btn" disabled={!account} onClick={handleClickApprove}>Approve</button>}
         </form>
 
         <form className="stake-form">
           <h3 className="stake-title">Withdraw Staked LP</h3>
           <div className="input-div">
-            <input onChange={withdrawalInput} value={withdrawalinputamount} type="number" placeholder="place input withdrawal %" className="withdrawal-input" />
+            <input disabled={!account} onChange={withdrawalInput} value={withdrawalinputamount} type="number" placeholder="place input withdrawal %" className="withdrawal-input" />
             <div className="increment-div">
-              <button onClick={incrementWithdrwalUp} className="increment-plus">+</button>
-              <button onClick={decrementWithdrawalDown} className="increment-minus">-</button>
+              <button disabled={!account} onClick={incrementWithdrwalUp} className="increment-plus">+</button>
+              <button disabled={!account} onClick={decrementWithdrawalDown} className="increment-minus">-</button>
             </div>
           </div>
-          <button className={`stake-btn ${stakedbalance?.toString() === '0' ? 'btn-disabled':''}`} onClick={handleClickWithdraw}>Withdraw</button>
+          <button className={`stake-btn ${stakedbalance?.toString() === '0' ? 'btn-disabled':''}`} disabled={!account || stakedbalance?.toString() === '0'} onClick={handleClickWithdraw}>Withdraw</button>
         </form>
 
         <form className="stake-form">
           <h3 className="stake-title">Claim Earned $DST</h3>
           <div className="input-div">
-            <input onChange={ClaimInput} value={claiminputamount} type="number" placeholder="place input number" className="withdrawal-input" />
+            <input disabled={!account} onChange={ClaimInput} value={claiminputamount} type="number" placeholder="place input number" className="withdrawal-input" />
             <div className="increment-div">
-              <button onClick={incrementClaimUp} className="increment-plus">+</button>
-              <button onClick={decrementClaimDown} className="increment-minus">-</button>
+              <button disabled={!account} onClick={incrementClaimUp} className="increment-plus">+</button>
+              <button disabled={!account} onClick={decrementClaimDown} className="increment-minus">-</button>
             </div>
           </div>
-          <button className={`stake-btn ${earnedBalance?.toString() === '0' ? 'btn-disabled':''}`} onClick={handleClickClaim}>Claim</button>
+          <button className={`stake-btn ${earnedBalance?.toString() === '0' ? 'btn-disabled':''}`} disabled={!account || earnedBalance?.toString() === '0'} onClick={handleClickClaim}>Claim</button>
         </form>
       </div>
     </div>

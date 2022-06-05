@@ -156,15 +156,15 @@
     background-color: #753fa4;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.178);
 }
-.btn-disabled {
-    pointer-events: none;
+.btn-disabled, button:disabled {
+    cursor: not-allowed !important;
     background-color:#414345;
 }
-.stake-btn:hover{
+.stake-btn:hover:enabled{
     cursor: pointer;
     background-color: #8d6caa;
-    
 }
+
 .increment-div{
     height: 45px;
     display: flex;
@@ -181,7 +181,7 @@
     color: white;
     background-color: #753fa4;
 }
-.increment-plus:hover{
+.increment-plus:hover:enabled{
     cursor: pointer;
     background-color: #8d6caa;
 }
@@ -195,7 +195,7 @@
     color: white;
     background-color: #753fa4;
 }
-.increment-minus:hover{
+.increment-minus:hover:enabled{
     cursor: pointer;
     background-color: #8d6caa;
 }
