@@ -16,7 +16,7 @@ export default function Mine() {
   const { allowance, approve, balance } = useERC20();
   const total = Number(ethers.utils.formatEther(totalStakedBalance?totalStakedBalance:0));
   const rate = Number(ethers.utils.formatUnits(rewardRate?rewardRate:0,9));
-  const apr = total?(rate * (3600 * 24 * 365) / total).toFixed(0):total;
+  const apr = total?(rate * (3600 * 24 * 365 * 100) / total).toFixed(0):total;
   
   console.log("rewardRatetemp---->", rate);
   console.log("total------>", total);
