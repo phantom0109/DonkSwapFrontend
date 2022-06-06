@@ -366,6 +366,7 @@ border-radius: 10px;
 color: rgb(202, 202, 202);
 }
 #dex-title-under-logo{
+text-align: center;
 font-weight: 800;
 font-shadow: 5px 5px 100px rgba(0, 0, 0, 0.396);
 margin-top: 95px;
