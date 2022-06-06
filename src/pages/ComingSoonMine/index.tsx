@@ -109,7 +109,7 @@ export default function Mine() {
       <div className="floating-box"></div>
       <div className="stake-stats">
         <div>
-          <h3>Staking Stats</h3>
+          <h3 className="header">Staking Stats</h3>
         </div>
         
         <div className="stake-stat-second-level">
@@ -122,7 +122,7 @@ export default function Mine() {
             </div>
             
             <div className="balance-and-display-container">
-              <h3 className="stake-title">Staked Balance</h3>
+              <h3 className="stake-title">My Staked Balance</h3>
               <div className="stake-stat-display">
               <p>{stakedbalance ? ethers.utils.formatEther(stakedbalance).slice(0, ethers.utils.formatEther(stakedbalance).indexOf(".")+3) : 0}</p>
               </div>
@@ -140,7 +140,7 @@ export default function Mine() {
 
           <div className="right-display">
             <div className="balance-and-display-container">
-              <h3 className="stake-title">Earned $DST</h3>
+              <h3 className="stake-title">My Earned $DST</h3>
               <div className="stake-stat-display">
                 <p>{earnedBalance ? ethers.utils.formatEther(earnedBalance).slice(0, ethers.utils.formatEther(earnedBalance).indexOf(".")+3) : 0}</p>
               </div>
@@ -182,7 +182,8 @@ export default function Mine() {
         <form className="stake-form">
           <h3 className="stake-title">Withdraw Staked LP</h3>
           <div className="input-div">
-            <input disabled={!account} onChange={withdrawalInput} value={withdrawalinputamount} type="number" placeholder="place input withdrawal %" className="withdrawal-input" />
+            <input disabled={!account} onChange={withdrawalInput} value={withdrawalinputamount} type="number" min={0} max={100} placeholder="place input withdrawal %" className="withdrawal-input" />
+            <span className="percent-symbol">%</span>
             <div className="increment-div">
               <button disabled={!account} onClick={incrementWithdrwalUp} className="increment-plus">+</button>
               <button disabled={!account} onClick={decrementWithdrawalDown} className="increment-minus">-</button>
